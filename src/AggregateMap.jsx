@@ -1,8 +1,8 @@
 import React, { useState, useMemo, useEffect } from "react";
 
-const NAVY = "#1F3864";
-const GOLD = "#B08D57";
-const CREAM = "#FAF8F4";
+const NAVY = "#2B2B2E"; // steel/charcoal — industrial, replaces navy-blue corporate feel
+const GOLD = "#F7830F"; // Turner Mining Group brand orange
+const CREAM = "#F2F0EC"; // cooler, more neutral industrial grey (was warm cream)
 const INK = "#2A2A28";
 
 const TREND_COLOR = {
@@ -158,8 +158,22 @@ function clusterSites(list) {
 
 function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS }) {
   const COMPANIES = useMemo(() => Array.from(new Set(SITES.map((s) => s.company))).sort(), [SITES]);
-  const [activeCompanies, setActiveCompanies] = useState(new Set(COMPANIES));
-  const [intentMode, setIntentMode] = useState(false);
+  const companiesWithSignal = useMemo(() => {
+    const set = new Set();
+    SITES.forEach((s) => {
+      if (s.news && s.news.length) set.add(s.company);
+    });
+    return set;
+  }, [SITES]);
+
+  // Site starts in intent-signal mode by default, showing every company that
+  // currently has a finding. hasManualIntentPick tracks whether the user has
+  // clicked a specific company yet: the FIRST click while still in the
+  // default "show every signal company" state isolates to just that one
+  // company; every click after that behaves as a normal add/remove toggle.
+  const [activeCompanies, setActiveCompanies] = useState(() => new Set(companiesWithSignal));
+  const [intentMode, setIntentMode] = useState(true);
+  const [hasManualIntentPick, setHasManualIntentPick] = useState(false);
   const [selectedSite, setSelectedSite] = useState(null);
   const [hoverSite, setHoverSite] = useState(null);
   const [showAllContacts, setShowAllContacts] = useState(false);
@@ -254,26 +268,19 @@ function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS }) {
   // throwing errors while the connector was broken. Not auto-running it
   // means the map never makes an unrequested network call on open.
 
-  const companiesWithSignal = useMemo(() => {
-    const set = new Set();
-    SITES.forEach((s) => {
-      if (s.news && s.news.length) set.add(s.company);
-    });
-    return set;
-  }, []);
-
   const signalCountByCompany = useMemo(() => {
     const m = {};
     SITES.forEach((s) => {
       if (s.news && s.news.length) m[s.company] = (m[s.company] || 0) + 1;
     });
     return m;
-  }, []);
+  }, [SITES]);
 
   function toggleIntentMode() {
     setIntentMode((prev) => {
       const next = !prev;
       setActiveCompanies(new Set(next ? companiesWithSignal : COMPANIES));
+      setHasManualIntentPick(false);
       return next;
     });
     setSelectedSite(null);
@@ -321,17 +328,28 @@ function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS }) {
   }, [rawVisibleSites, visibleSites]);
 
   function toggleCompany(c) {
-    setActiveCompanies((prev) => {
-      const next = new Set(prev);
-      if (next.has(c)) next.delete(c);
-      else next.add(c);
-      return next;
-    });
+    if (intentMode && !hasManualIntentPick) {
+      // First click while still showing the full default signal set: isolate
+      // to just this company.
+      setActiveCompanies(new Set([c]));
+      setHasManualIntentPick(true);
+    } else {
+      // Every click after that (or any click outside intent mode) is a
+      // normal one-at-a-time add/remove toggle.
+      setActiveCompanies((prev) => {
+        const next = new Set(prev);
+        if (next.has(c)) next.delete(c);
+        else next.add(c);
+        return next;
+      });
+      if (intentMode) setHasManualIntentPick(true);
+    }
     setSelectedSite(null);
     setShowAllContacts(false);
   }
   function toggleAll() {
     setActiveCompanies(activeCompanies.size === COMPANIES.length ? new Set() : new Set(COMPANIES));
+    if (intentMode) setHasManualIntentPick(true);
     setSelectedSite(null);
     setShowAllContacts(false);
   }
@@ -340,9 +358,14 @@ function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS }) {
 
   return (
     <div style={{ fontFamily: "'Georgia', 'Times New Roman', serif", background: CREAM, minHeight: "100%", color: INK, display: "flex", flexDirection: "column" }}>
-      <div style={{ padding: "20px 24px 14px", borderBottom: `1px solid #E4DFD3` }}>
-        <div style={{ fontSize: 22, fontWeight: 700, color: NAVY, letterSpacing: 0.2 }}>
-          TMG Aggregate Intelligence Map
+      <div style={{ padding: "16px 24px 14px", borderBottom: `3px solid ${GOLD}`, background: "#FFFFFF" }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 14, marginBottom: 2 }}>
+          <img src="/logo.png" alt="Turner Mining Group" style={{ height: 34, width: "auto", display: "block" }} />
+          <div style={{ borderLeft: "2px solid #D8D7D2", paddingLeft: 14, fontFamily: "system-ui, sans-serif" }}>
+            <div style={{ fontSize: 15, fontWeight: 700, color: NAVY, letterSpacing: 1, textTransform: "uppercase" }}>
+              Aggregate Intelligence Map
+            </div>
+          </div>
         </div>
         <div style={{ fontFamily: "system-ui, sans-serif", fontSize: 13, color: "#6B655A", marginTop: 4 }}>
           {intentMode
@@ -368,7 +391,7 @@ function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS }) {
 
       <div style={{ display: "flex", flex: 1, minHeight: 0 }}>
         {/* Left: company filters */}
-        <div style={{ width: 220, borderRight: "1px solid #E4DFD3", padding: "16px 14px", overflowY: "auto", fontFamily: "system-ui, sans-serif" }}>
+        <div style={{ width: 220, borderRight: "1px solid #D8D7D2", padding: "16px 14px", overflowY: "auto", fontFamily: "system-ui, sans-serif" }}>
           <div
             onClick={toggleAll}
             style={{ cursor: "pointer", fontSize: 12, fontWeight: 600, color: GOLD, marginBottom: 10, userSelect: "none" }}
@@ -386,7 +409,7 @@ function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS }) {
               marginBottom: 14,
               borderRadius: 4,
               cursor: "pointer",
-              background: intentMode ? NAVY : "#EFEAE0",
+              background: intentMode ? NAVY : "#E4E3DF",
               color: intentMode ? "#FFFFFF" : INK,
               fontSize: 12.5,
               fontWeight: 600,
@@ -400,6 +423,7 @@ function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS }) {
             const on = activeCompanies.has(c);
             const n = intentMode ? signalCountByCompany[c] || 0 : SITES.filter((s) => s.company === c).length;
             const dim = intentMode && n === 0;
+            const manuallyPicked = intentMode && hasManualIntentPick && on;
             return (
               <div
                 key={c}
@@ -412,13 +436,14 @@ function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS }) {
                   marginBottom: 2,
                   borderRadius: 4,
                   cursor: "pointer",
-                  background: on && !dim ? "#EFEAE0" : "transparent",
-                  color: dim ? "#C9C2B2" : on ? INK : "#A39C8C",
+                  background: manuallyPicked ? GOLD : on && !dim ? "#E4E3DF" : "transparent",
+                  color: manuallyPicked ? "#FFFFFF" : dim ? "#C9C2B2" : on ? INK : "#A39C8C",
+                  fontWeight: manuallyPicked ? 700 : 400,
                   fontSize: 13,
                 }}
               >
                 <span>{c}</span>
-                <span style={{ fontSize: 11, color: dim ? "#D8D3C8" : "#9A9382" }}>{n}</span>
+                <span style={{ fontSize: 11, color: manuallyPicked ? "#FFFFFF" : dim ? "#D8D3C8" : "#9A9382" }}>{n}</span>
               </div>
             );
           })}
@@ -441,13 +466,13 @@ function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS }) {
         {/* Center: map */}
         <div style={{ flex: 1, position: "relative", padding: 12, minWidth: 0 }}>
           <svg viewBox={`0 0 ${W} ${H}`} style={{ width: "100%", height: "auto", display: "block", boxShadow: "0 1px 4px rgba(31,56,100,0.10)", borderRadius: 3 }}>
-            <rect x={0} y={0} width={W} height={H} fill="#F5F2EA" stroke="#D8D0BE" strokeWidth={1.2} />
+            <rect x={0} y={0} width={W} height={H} fill="#EAEAE7" stroke="#C7C6C1" strokeWidth={1.2} />
             {Object.entries(STATE_PATHS).map(([abbr, d]) => (
               <path
                 key={abbr}
                 d={d}
-                fill={(stateSiteCounts[abbr] || 0) > 0 ? "#FBFAF6" : "#F0EDE3"}
-                stroke="#D3CBB8"
+                fill={(stateSiteCounts[abbr] || 0) > 0 ? "#F5F5F3" : "#E4E3DF"}
+                stroke="#BFBEB9"
                 strokeWidth={0.7}
               />
             ))}
@@ -460,7 +485,7 @@ function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS }) {
                   y={y}
                   fontSize={9}
                   fontFamily="system-ui, sans-serif"
-                  fill={n > 0 ? "#B3AB96" : "#D3CBB8"}
+                  fill={n > 0 ? "#B3AB96" : "#BFBEB9"}
                   textAnchor="middle"
                   style={{ pointerEvents: "none" }}
                 >
@@ -509,7 +534,7 @@ function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS }) {
         </div>
 
         {/* Right: detail panel */}
-        <div style={{ width: 320, borderLeft: "1px solid #E4DFD3", padding: "16px 16px", overflowY: "auto", fontFamily: "system-ui, sans-serif" }}>
+        <div style={{ width: 320, borderLeft: "1px solid #D8D7D2", padding: "16px 16px", overflowY: "auto", fontFamily: "system-ui, sans-serif" }}>
           {!displaySite && (
             <div style={{ fontSize: 13, color: "#9A9382", marginTop: 40, textAlign: "center" }}>
               Click a site on the map to see its detail and nearby contacts.
@@ -562,7 +587,7 @@ function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS }) {
                 </>
               )}
 
-              <div style={{ marginTop: 20, fontSize: 12, fontWeight: 600, color: NAVY, borderTop: "1px solid #E4DFD3", paddingTop: 12 }}>
+              <div style={{ marginTop: 20, fontSize: 12, fontWeight: 600, color: NAVY, borderTop: "1px solid #D8D7D2", paddingTop: 12 }}>
                 Contacts near {displaySite.isCluster ? Array.from(new Set(displaySite.members.map((m) => m.state))).join("/") : displaySite.state} ({selectedSite ? selectedStateContacts.length : "click to load"})
               </div>
               <div style={{ fontSize: 10.5, color: "#9A9382", marginTop: 2 }}>
