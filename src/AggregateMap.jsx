@@ -88,10 +88,17 @@ function hopDistance(origin, target) {
   }
   return 3;
 }
-function matchScore(contact, siteStates) {
+function matchScore(contact, siteStates, ownerCompanies) {
   const geoScore = Math.max(...siteStates.map((s) => 3 - hopDistance(s, contact.state)));
   const tierScore = contact.tier === "Tier 1" ? 1 : 3;
-  return geoScore + tierScore + titleSignal(contact.title);
+  // Dominant factor: does this contact actually work for the company that
+  // owns this site? A +100 bonus means any same-company contact outranks
+  // every cross-company contact regardless of geography or title, no
+  // matter how close or senior the cross-company person is. Cross-company
+  // contacts should only ever appear as a rare fallback when the owner
+  // has too few contacts in reach on their own.
+  const ownerBonus = ownerCompanies.has(contact.company) ? 100 : 0;
+  return ownerBonus + geoScore + tierScore + titleSignal(contact.title);
 }
 
 // Rough equirectangular projection tuned to the continental US bounding box.
@@ -156,7 +163,7 @@ function clusterSites(list) {
   });
 }
 
-function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS }) {
+function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS, COMPANY_NEWS }) {
   const COMPANIES = useMemo(() => Array.from(new Set(SITES.map((s) => s.company))).sort(), [SITES]);
   const companiesWithSignal = useMemo(() => {
     const set = new Set();
@@ -177,6 +184,7 @@ function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS }) {
   const [selectedSite, setSelectedSite] = useState(null);
   const [hoverSite, setHoverSite] = useState(null);
   const [showAllContacts, setShowAllContacts] = useState(false);
+  const [openCompanyNews, setOpenCompanyNews] = useState(null);
   const [sfStatus, setSfStatus] = useState({}); // email -> { stage, outbound, source, last_activity }
   const [sfSync, setSfSync] = useState({ state: "idle", synced: 0, total: 0, error: null });
 
@@ -313,10 +321,13 @@ function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS }) {
     const siteStates = selectedSite.isCluster
       ? Array.from(new Set(selectedSite.members.map((m) => m.state)))
       : [selectedSite.state];
+    const ownerCompanies = selectedSite.isCluster
+      ? new Set(selectedSite.members.map((m) => m.company))
+      : new Set([selectedSite.company]);
     return CONTACTS.filter(
       (c) => c.state && activeCompanies.has(c.company) && contactReachesStates(c, siteStates)
     )
-      .map((c) => ({ ...c, _score: matchScore(c, siteStates) }))
+      .map((c) => ({ ...c, _score: matchScore(c, siteStates, ownerCompanies), _isOwner: ownerCompanies.has(c.company) }))
       .sort((a, b) => b._score - a._score);
   }, [selectedSite, activeCompanies]);
 
@@ -528,8 +539,69 @@ function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS }) {
               );
             })}
           </svg>
-          <div style={{ position: "absolute", bottom: 20, left: 24, fontFamily: "system-ui, sans-serif", fontSize: 11, color: "#B3AC9C" }}>
+          <div style={{ position: "absolute", top: 20, right: 24, fontFamily: "system-ui, sans-serif", fontSize: 11, color: "#B3AC9C" }}>
             Dot size ≈ site headcount · continental US only (1 Puerto Rico site not shown)
+          </div>
+          <div
+            style={{
+              position: "absolute",
+              bottom: 20,
+              left: 24,
+              width: 230,
+              maxHeight: "min(340px, calc(100% - 40px))",
+              overflowY: "auto",
+              background: "#FFFFFF",
+              border: "1px solid #D8D7D2",
+              borderRadius: 4,
+              boxShadow: "0 2px 8px rgba(0,0,0,0.10)",
+              fontFamily: "system-ui, sans-serif",
+            }}
+          >
+            <div style={{ padding: "8px 12px", borderBottom: "1px solid #E4E3DF", fontSize: 11, fontWeight: 700, color: NAVY, textTransform: "uppercase", letterSpacing: 0.4 }}>
+              Company Insights
+            </div>
+            {COMPANIES.map((c) => {
+              const items = (COMPANY_NEWS && COMPANY_NEWS[c]) || [];
+              const isOpen = openCompanyNews === c;
+              return (
+                <div key={c} style={{ borderBottom: "1px solid #F0EEE9" }}>
+                  <div
+                    onClick={() => items.length > 0 && setOpenCompanyNews(isOpen ? null : c)}
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                      padding: "6px 12px",
+                      cursor: items.length > 0 ? "pointer" : "default",
+                      background: isOpen ? "#F7F5EE" : "transparent",
+                    }}
+                  >
+                    <span style={{ fontSize: 12, color: items.length > 0 ? INK : "#A39C8C" }}>{c}</span>
+                    <span
+                      style={{
+                        fontSize: 10.5,
+                        fontWeight: 700,
+                        minWidth: 16,
+                        textAlign: "center",
+                        color: items.length > 0 ? "#FFFFFF" : "#B3AC9C",
+                        background: items.length > 0 ? GOLD : "#EFEDE7",
+                        borderRadius: 8,
+                        padding: "1px 6px",
+                      }}
+                    >
+                      {items.length}
+                    </span>
+                  </div>
+                  {isOpen && (
+                    <div style={{ padding: "0 12px 10px" }}>
+                      {items.map((n, i) => (
+                        <NewsCard key={i} news={n} compact />
+                      ))}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </div>
 
@@ -677,18 +749,22 @@ function NewsCard({ news, compact }) {
       {expanded && (
         <>
           <div style={{ fontSize: 12, color: "#4A453B", marginTop: 6, lineHeight: 1.45 }}>{news.summary}</div>
-          <div style={{ fontSize: 11.5, color: "#8A6D2E", marginTop: 8, fontStyle: "italic" }}>
-            {news.sales_angle}
-          </div>
-          <a
-            href={news.source}
-            target="_blank"
-            rel="noreferrer"
-            onClick={(e) => e.stopPropagation()}
-            style={{ fontSize: 11, color: "#8A6D2E", marginTop: 6, display: "inline-block", textDecoration: "underline" }}
-          >
-            Read the source article →
-          </a>
+          {news.sales_angle && (
+            <div style={{ fontSize: 11.5, color: "#8A6D2E", marginTop: 8, fontStyle: "italic" }}>
+              {news.sales_angle}
+            </div>
+          )}
+          {news.source && (
+            <a
+              href={news.source}
+              target="_blank"
+              rel="noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              style={{ fontSize: 11, color: "#8A6D2E", marginTop: 6, display: "inline-block", textDecoration: "underline" }}
+            >
+              Read the source article →
+            </a>
+          )}
         </>
       )}
     </div>
@@ -708,6 +784,11 @@ function ContactRow({ c, sf }) {
           <span style={{ fontSize: 9, fontWeight: 700, color: "#8A6D2E", background: "#F0E9D6", borderRadius: 3, padding: "1px 4px" }}>
             {c.tier === "Tier 1" ? "T1" : c.tier === "Tier 2" ? "T2" : "T3"}
           </span>
+          {c._isOwner === false && (
+            <span style={{ fontSize: 9, fontWeight: 700, color: "#B0453E", background: "#F5E4E1", borderRadius: 3, padding: "1px 4px" }}>
+              Not site owner
+            </span>
+          )}
         </div>
         {hasDetail && <div style={{ fontSize: 10, color: GOLD }}>{open ? "\u2212" : "+"}</div>}
       </div>
@@ -818,10 +899,14 @@ export default function AggregateMap() {
         if (!r.ok) throw new Error(`state-paths.json: ${r.status}`);
         return r.json();
       }),
+      fetch("/data/company-news.json").then((r) => {
+        if (!r.ok) throw new Error(`company-news.json: ${r.status}`);
+        return r.json();
+      }),
     ])
-      .then(([sites, contacts, centroids, paths]) => {
+      .then(([sites, contacts, centroids, paths, companyNews]) => {
         if (cancelled) return;
-        setData({ SITES: sites, CONTACTS: contacts, STATE_CENTROIDS: centroids, STATE_PATHS: paths });
+        setData({ SITES: sites, CONTACTS: contacts, STATE_CENTROIDS: centroids, STATE_PATHS: paths, COMPANY_NEWS: companyNews });
       })
       .catch((err) => {
         if (!cancelled) setError(String(err && err.message ? err.message : err));
@@ -851,6 +936,7 @@ export default function AggregateMap() {
       CONTACTS={data.CONTACTS}
       STATE_CENTROIDS={data.STATE_CENTROIDS}
       STATE_PATHS={data.STATE_PATHS}
+      COMPANY_NEWS={data.COMPANY_NEWS}
     />
   );
 }
