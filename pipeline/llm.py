@@ -15,7 +15,7 @@ _gemini_client = None
 
 
 def provider():
-    return os.environ.get("LLM_PROVIDER", "gemini").lower()
+    return (os.environ.get("LLM_PROVIDER") or "gemini").lower()
 
 
 def available(grounded=False):

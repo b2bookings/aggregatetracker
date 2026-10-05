@@ -52,7 +52,7 @@ def run():
 
     contacts = load_json(config.CONTACTS_FILE, [])
     emails = sorted({c["email"].lower() for c in contacts if c.get("email")})
-    custom = [f.strip() for f in os.environ.get("SF_CONTACT_FIELDS", DEFAULT_CUSTOM_FIELDS).split(",") if f.strip()]
+    custom = [f.strip() for f in (os.environ.get("SF_CONTACT_FIELDS") or DEFAULT_CUSTOM_FIELDS).split(",") if f.strip()]
     token, instance = _token()
 
     found = {}

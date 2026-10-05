@@ -70,7 +70,7 @@ def run(mode="new"):
     msg["To"] = os.environ["DIGEST_TO"]
     msg.set_content("This digest is HTML - open it in a mail client that shows HTML.")
     msg.add_alternative("".join(body), subtype="html")
-    with smtplib.SMTP(os.environ["SMTP_HOST"], int(os.environ.get("SMTP_PORT", "587"))) as smtp:
+    with smtplib.SMTP(os.environ["SMTP_HOST"], int(os.environ.get("SMTP_PORT") or "587")) as smtp:
         smtp.starttls()
         smtp.login(os.environ["SMTP_USER"], os.environ["SMTP_PASSWORD"])
         smtp.send_message(msg)
