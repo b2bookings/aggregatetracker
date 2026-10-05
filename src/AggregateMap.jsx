@@ -696,16 +696,24 @@ function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS, COMPANY_NEWS
 // Salesforce credentials server-side. The browser only keeps a shared access
 // key (set once per browser) so random visitors can't write to Salesforce.
 const KEY_STORAGE = "trackerAccessKey";
+// Kept in memory as well, so the key still works for this visit when the
+// browser blocks storage (private windows, embedded browsers).
+let memoryKey = null;
 function getTrackerKey(ask) {
-  let key = null;
-  try { key = localStorage.getItem(KEY_STORAGE); } catch {}
+  let key = memoryKey;
+  try { key = key || localStorage.getItem(KEY_STORAGE); } catch {}
   if (!key && ask) {
-    key = window.prompt("Enter the tracker access key to connect Salesforce:");
+    key = (window.prompt("Enter the tracker access key:") || "").trim();
     if (key) {
-      try { localStorage.setItem(KEY_STORAGE, key.trim()); } catch {}
+      memoryKey = key;
+      try { localStorage.setItem(KEY_STORAGE, key); } catch {}
     }
   }
   return key ? key.trim() : null;
+}
+function forgetTrackerKey() {
+  memoryKey = null;
+  try { localStorage.removeItem(KEY_STORAGE); } catch {}
 }
 const salesforceCall = (body) => trackerCall("salesforce", body);
 async function trackerCall(fn, body) {
@@ -718,8 +726,8 @@ async function trackerCall(fn, body) {
   });
   const data = await res.json().catch(() => ({}));
   if (res.status === 401) {
-    try { localStorage.removeItem(KEY_STORAGE); } catch {}
-    throw new Error("Access key rejected");
+    forgetTrackerKey();
+    throw new Error("That access key was rejected. Check it matches TRACKER_ACCESS_KEY in Vercel exactly, and that the site was redeployed after the key was set.");
   }
   if (!res.ok || data.ok === false) throw new Error(data.error || `Request failed (${res.status})`);
   return data;
@@ -905,6 +913,7 @@ function TaskList({ people, byEmail, onFocusSite }) {
     return (
       <div style={{ fontSize: 12.5, color: "#6B655A", marginTop: 16 }}>
         The task list is shared across the team, so it needs the tracker access key.
+        {error && <div style={{ color: "#B0453E", marginTop: 8 }}>{error}</div>}
         <div onClick={load} style={{ color: GOLD, fontWeight: 600, cursor: "pointer", marginTop: 8 }}>Enter access key</div>
       </div>
     );
