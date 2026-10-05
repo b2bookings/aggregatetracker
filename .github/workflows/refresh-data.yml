@@ -1,0 +1,87 @@
+name: Refresh tracker data
+
+# News, Salesforce engagement and the priority queue refresh four times each
+# weekday; MSHA site data refreshes weekly (MSHA republishes on Fridays).
+# Every run commits changed data files, which triggers a Netlify redeploy.
+on:
+  schedule:
+    - cron: "0 11 * * 1-5"   # 7am ET  - also sends the morning summary
+    - cron: "0 15,19,23 * * 1-5"  # 11am, 3pm, 7pm ET
+    - cron: "0 12 * * 6"     # Saturday - weekly MSHA refresh
+  workflow_dispatch:
+    inputs:
+      steps:
+        description: "Steps to run"
+        default: "msha,news,salesforce,priority,digest"
+      digest:
+        description: "Digest mode (new or summary)"
+        default: "new"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+
+      - run: pip install -r pipeline/requirements.txt
+
+      - name: Pick steps
+        id: plan
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "steps=${{ inputs.steps }}" >> "$GITHUB_OUTPUT"
+            echo "digest=${{ inputs.digest }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "0 12 * * 6" ]; then
+            echo "steps=msha,priority" >> "$GITHUB_OUTPUT"
+            echo "digest=new" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "0 11 * * 1-5" ]; then
+            echo "steps=news,salesforce,priority,digest" >> "$GITHUB_OUTPUT"
+            echo "digest=summary" >> "$GITHUB_OUTPUT"
+          else
+            echo "steps=news,salesforce,priority,digest" >> "$GITHUB_OUTPUT"
+            echo "digest=new" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          SF_LOGIN_URL: ${{ secrets.SF_LOGIN_URL }}
+          SF_CLIENT_ID: ${{ secrets.SF_CLIENT_ID }}
+          SF_CLIENT_SECRET: ${{ secrets.SF_CLIENT_SECRET }}
+          SF_CONTACT_FIELDS: ${{ vars.SF_CONTACT_FIELDS }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          DIGEST_TO: ${{ secrets.DIGEST_TO }}
+          DIGEST_FROM: ${{ secrets.DIGEST_FROM }}
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: python pipeline/run.py --steps "${{ steps.plan.outputs.steps }}" --digest "${{ steps.plan.outputs.digest }}"
+
+      - name: Commit data changes
+        run: |
+          git config user.name "tracker-bot"
+          git config user.email "tracker-bot@users.noreply.github.com"
+          git add public/data pipeline/state
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "Data refresh: ${{ steps.plan.outputs.steps }}"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push
+          fi
