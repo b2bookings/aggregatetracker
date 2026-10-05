@@ -194,7 +194,7 @@ function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS, COMPANY_NEWS
   const [showAllContacts, setShowAllContacts] = useState(false);
   const [openCompanyNews, setOpenCompanyNews] = useState(null);
   // Salesforce status per contact email: seeded from the last pipeline sync
-  // (contacts.json "sf" field), then refreshed live through the Netlify
+  // (contacts.json "sf" field), then refreshed live through the Vercel
   // function when an access key is saved in this browser.
   const [sfStatus, setSfStatus] = useState(() => {
     const m = {};
@@ -692,7 +692,7 @@ function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS, COMPANY_NEWS
 }
 
 // ---- Salesforce access ---------------------------------------------------
-// Salesforce calls go through /.netlify/functions/salesforce, which holds the
+// Salesforce calls go through /api/salesforce (a Vercel function), which holds the
 // Salesforce credentials server-side. The browser only keeps a shared access
 // key (set once per browser) so random visitors can't write to Salesforce.
 const KEY_STORAGE = "trackerAccessKey";
@@ -711,7 +711,7 @@ const salesforceCall = (body) => trackerCall("salesforce", body);
 async function trackerCall(fn, body) {
   const key = getTrackerKey(true);
   if (!key) throw new Error("No access key");
-  const res = await fetch(`/.netlify/functions/${fn}`, {
+  const res = await fetch(`/api/${fn}`, {
     method: "POST",
     headers: { "Content-Type": "application/json", "x-tracker-key": key },
     body: JSON.stringify(body),
@@ -829,7 +829,7 @@ function ContactActions({ contact, sf, reasonText }) {
 
 // ---- Outreach task list --------------------------------------------------
 // The priority contacts as a to-do list. Marking one done ("DM sent on
-// LinkedIn") is stored server-side (Netlify Blobs via the tasks function) so
+// LinkedIn") is stored server-side (Upstash Redis via /api/tasks) so
 // the whole team sees the same list. A contact comes back to the open list
 // if a new signal arrives after they were contacted.
 const NAME_STORAGE = "trackerUserName";

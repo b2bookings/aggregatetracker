@@ -1,14 +1,7 @@
-// Salesforce actions for the tracker, served at /.netlify/functions/salesforce.
-//
-// Credentials stay server-side (Netlify environment variables):
-//   SF_LOGIN_URL, SF_CLIENT_ID, SF_CLIENT_SECRET  - connected app, client-credentials flow
-//   TRACKER_ACCESS_KEY                            - shared key the browser must send
-//   SF_CONTACT_FIELDS (optional)                  - extra Contact fields to read
-//
-// POST body shapes:
-//   { action: "lookup", emails: [...] }
-//   { action: "task", email, subject, description, dueDate }        -> Task on the Contact (or Lead)
-//   { action: "lead", contact: { first_name, last_name, title, company, email, mobile, state } }
+// Salesforce REST helpers shared by api/salesforce.js and api/tasks.js.
+// Credentials come from Vercel environment variables:
+//   SF_LOGIN_URL, SF_CLIENT_ID, SF_CLIENT_SECRET (connected app, client-credentials flow)
+//   SF_CONTACT_FIELDS (optional) extra Contact fields to read
 
 const API = "v61.0";
 const STANDARD_FIELDS = ["Id", "Email", "AccountId", "Account.Name", "Owner.Name", "LastActivityDate"];
@@ -51,7 +44,7 @@ async function sf(path, init = {}) {
 const quote = (s) => "'" + String(s).replace(/\\/g, "\\\\").replace(/'/g, "\\'") + "'";
 const pick = (rec, dotted) => dotted.split(".").reduce((cur, k) => (cur == null ? cur : cur[k]), rec);
 
-async function lookup(emails) {
+export async function lookup(emails) {
   const custom = (process.env.SF_CONTACT_FIELDS || "Outbound_Contact__c,Account.Engagement_Stage__c")
     .split(",").map((f) => f.trim()).filter(Boolean);
   let fields = [...STANDARD_FIELDS, ...custom];
@@ -104,7 +97,7 @@ export async function createTask({ email, subject, description, dueDate, status 
   return { ok: true, id: created.id, who };
 }
 
-async function createLead(c) {
+export async function createLead(c) {
   if (c.email) {
     const existing = await findPerson(c.email);
     if (existing) return { ok: true, id: existing.id, existing: true, type: existing.type };
@@ -121,28 +114,3 @@ async function createLead(c) {
 
 export const salesforceConfigured = () =>
   Boolean(process.env.SF_LOGIN_URL && process.env.SF_CLIENT_ID && process.env.SF_CLIENT_SECRET);
-
-export default async (req) => {
-  const json = (body, status = 200) => new Response(JSON.stringify(body), { status, headers: { "Content-Type": "application/json" } });
-  if (req.method !== "POST") return json({ error: "POST only" }, 405);
-  if (!process.env.TRACKER_ACCESS_KEY || req.headers.get("x-tracker-key") !== process.env.TRACKER_ACCESS_KEY) {
-    return json({ error: "Unauthorized" }, 401);
-  }
-  if (!process.env.SF_LOGIN_URL || !process.env.SF_CLIENT_ID || !process.env.SF_CLIENT_SECRET) {
-    return json({ error: "Salesforce is not configured on the server" }, 503);
-  }
-  let body;
-  try {
-    body = await req.json();
-  } catch {
-    return json({ error: "Invalid JSON" }, 400);
-  }
-  try {
-    if (body.action === "lookup") return json({ ok: true, contacts: await lookup((body.emails || []).map((e) => String(e).toLowerCase())) });
-    if (body.action === "task") return json(await createTask(body));
-    if (body.action === "lead") return json(await createLead(body.contact || {}));
-    return json({ error: "Unknown action" }, 400);
-  } catch (err) {
-    return json({ ok: false, error: err.message }, 502);
-  }
-};

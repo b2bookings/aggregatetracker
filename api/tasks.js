@@ -1,30 +1,30 @@
-// Shared outreach task status, served at /.netlify/functions/tasks.
+// Shared outreach task status, served at /api/tasks.
 //
-// Completion marks live in Netlify Blobs (store "outreach-tasks", one blob
-// per contact email) so everyone using the tracker sees the same list.
-// Same TRACKER_ACCESS_KEY as the Salesforce function. When Salesforce is
-// configured, marking a task done also logs a completed Task there.
+// Completion marks live in Upstash Redis (added to the Vercel project from
+// the Marketplace; credentials arrive as UPSTASH_REDIS_REST_URL/TOKEN or
+// KV_REST_API_URL/TOKEN) in one hash, field = contact email, so everyone
+// using the tracker sees the same list. When Salesforce is configured,
+// marking a task done also logs a completed Task there.
 //
 // POST body shapes:
 //   { action: "list" }
 //   { action: "complete", email, name, company, by, channel, note, signalAt }
 //   { action: "reopen", email }
 
-import { getStore } from "@netlify/blobs";
-import { createTask, salesforceConfigured } from "./salesforce.mjs";
+import { Redis } from "@upstash/redis";
+import { authorize, json } from "./_lib/http.js";
+import { createTask, salesforceConfigured } from "./_lib/salesforce.js";
 
+const HASH = "outreach-tasks";
 const CHANNEL_LABEL = { linkedin_dm: "LinkedIn DM", email: "Email", call: "Call" };
 
-const store = () => getStore({ name: "outreach-tasks", consistency: "strong" });
-const keyFor = (email) => encodeURIComponent(String(email || "").trim().toLowerCase());
+let redis = null;
+const db = () => (redis ??= Redis.fromEnv());
 
 async function list() {
-  const s = store();
-  const { blobs } = await s.list();
-  const records = await Promise.all(blobs.map((b) => s.get(b.key, { type: "json" })));
-  const out = {};
-  records.forEach((r) => { if (r && r.email) out[r.email] = r; });
-  return out;
+  const all = (await db().hgetall(HASH)) || {};
+  // The client parses JSON values automatically; tolerate raw strings too.
+  return Object.fromEntries(Object.entries(all).map(([k, v]) => [k, typeof v === "string" ? JSON.parse(v) : v]));
 }
 
 async function complete(body) {
@@ -40,7 +40,6 @@ async function complete(body) {
     done_at: new Date().toISOString(),
     signal_at: body.signalAt || null,
   };
-  await store().setJSON(keyFor(email), record);
 
   // Best effort: mirror into Salesforce so activity history stays complete.
   if (salesforceConfigured()) {
@@ -57,30 +56,25 @@ async function complete(body) {
       record.salesforce = `not logged: ${err.message}`;
     }
   }
+  await db().hset(HASH, { [email]: JSON.stringify(record) });
   return { ok: true, record };
 }
 
-export default async (req) => {
-  const json = (body, status = 200) => new Response(JSON.stringify(body), { status, headers: { "Content-Type": "application/json" } });
-  if (req.method !== "POST") return json({ error: "POST only" }, 405);
-  if (!process.env.TRACKER_ACCESS_KEY || req.headers.get("x-tracker-key") !== process.env.TRACKER_ACCESS_KEY) {
-    return json({ error: "Unauthorized" }, 401);
-  }
-  let body;
-  try {
-    body = await req.json();
-  } catch {
-    return json({ error: "Invalid JSON" }, 400);
-  }
+export async function POST(request) {
+  const { body, error } = await authorize(request);
+  if (error) return error;
   try {
     if (body.action === "list") return json({ ok: true, completions: await list() });
     if (body.action === "complete") return json(await complete(body));
     if (body.action === "reopen") {
-      await store().delete(keyFor(body.email));
+      await db().hdel(HASH, String(body.email || "").trim().toLowerCase());
       return json({ ok: true });
     }
     return json({ error: "Unknown action" }, 400);
   } catch (err) {
-    return json({ ok: false, error: err.message }, 502);
+    const msg = /Unable to find environment variable/.test(err.message)
+      ? "Task storage isn't connected yet - add Upstash Redis to the Vercel project"
+      : err.message;
+    return json({ ok: false, error: msg }, 502);
   }
-};
+}

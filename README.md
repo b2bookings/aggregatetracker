@@ -7,11 +7,12 @@ accounts and contacts to work right now.
 ## How it fits together
 
 ```
-GitHub Actions (scheduled)            Netlify
+GitHub Actions (scheduled)            Vercel
 ┌──────────────────────────┐   push   ┌─────────────────────────────────┐
 │ pipeline/run.py          │ ───────▶ │ static site (public/data/*.json)│
-│  msha       weekly       │          │ /.netlify/functions/salesforce  │──▶ Salesforce
-│  news       4x weekdays  │          └─────────────────────────────────┘
+│  msha       weekly       │          │ /api/salesforce                 │──▶ Salesforce
+│  news       4x weekdays  │          │ /api/tasks ──▶ Upstash Redis    │
+│                          │          └─────────────────────────────────┘
 │  research   Mondays      │
 │  salesforce 4x weekdays  │
 │  priority   every run    │ ──▶ email digest (new flags + 7am summary)
@@ -26,8 +27,9 @@ GitHub Actions (scheduled)            Netlify
 - `pipeline/`: the refresh pipeline (Python). `pipeline/state/` holds its
   memory between runs (events seen, articles seen, flag history) and is
   committed so each run picks up where the last left off.
-- `netlify/functions/salesforce.mjs`: server-side Salesforce actions
-  (lookup, log follow-up task, create lead).
+- `api/`: Vercel functions. `salesforce.js` (lookup, log follow-up task,
+  create lead) and `tasks.js` (shared "DM sent" status for the Tasks tab,
+  stored in Upstash Redis). Shared helpers live in `api/_lib/`.
 
 ### Pipeline steps
 
@@ -76,12 +78,16 @@ optionally `SF_CONTACT_FIELDS` (default
 Any step whose secrets are missing is skipped; the rest still run. Run it
 by hand from the Actions tab → **Refresh tracker data** → Run workflow.
 
-### 2. Netlify environment variables
+### 2. Vercel project settings
 
-Site settings → Environment variables: `SF_LOGIN_URL`, `SF_CLIENT_ID`,
-`SF_CLIENT_SECRET`, `TRACKER_ACCESS_KEY` (any long random string; each
-person enters it once in their browser via **Connect Salesforce**), and
-optionally `SF_CONTACT_FIELDS`.
+- **Environment variables** (Project → Settings → Environment Variables):
+  `TRACKER_ACCESS_KEY` (any long random string; each person enters it once
+  in their browser), plus `SF_LOGIN_URL`, `SF_CLIENT_ID`, `SF_CLIENT_SECRET`
+  and optionally `SF_CONTACT_FIELDS` once Salesforce is set up.
+- **Task storage**: Project → Storage → add **Upstash for Redis** from the
+  Marketplace (free tier is plenty) and connect it to this project. Vercel
+  adds its credentials as environment variables automatically.
+- Redeploy after changing environment variables.
 
 ### 3. Salesforce connected app
 
