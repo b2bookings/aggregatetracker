@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-05T15:14:01+00:00",
+ "generated_at": "2026-10-05T21:43:17+00:00",
  "accounts": [
   {
    "company": "Vulcan Materials",
-   "score": 156.1,
+   "score": 105.0,
    "flagged_site_count": 20,
    "sites": [
     {
@@ -138,35 +138,15 @@
      "source": "https://www.aggbusiness.com/vulcan-materials-acquires-kentucky-quarry-from-greystone-client-hilltop-stone/",
      "sales_angle": "Reach out to Vulcan's regional leadership to pitch contract mining, pit development, and overburden stripping support during their operational integration of the new site.",
      "first_flagged": "2026-10-05T15:14:01+00:00"
-    },
-    {
-     "id": "cnews:https://www.indexbox.io/blog/vulcan-materials-acquires-butler-quarry-in-kentucky-from-hilltop-stone/",
-     "type": "company_news",
-     "text": "Vulcan Materials Acquires Butler Quarry in Northern Kentucky",
-     "date": "2026-09-30",
-     "points": 27.1,
-     "source": "https://www.indexbox.io/blog/vulcan-materials-acquires-butler-quarry-in-kentucky-from-hilltop-stone/",
-     "sales_angle": "Engage Vulcan's regional operations team to provide contract stripping, mine planning, or supplemental load-and-haul capacity as they integrate the newly acquired quarry.",
-     "first_flagged": "2026-10-05T15:14:01+00:00"
-    },
-    {
-     "id": "cnews:https://www.pitandquarry.com/vulcan-materials-acquires-kentucky-quarry/",
-     "type": "company_news",
-     "text": "Vulcan Materials Acquires Butler Quarry in Kentucky from Hilltop Stone",
-     "date": "2026-10-05",
-     "points": 24.0,
-     "source": "https://www.pitandquarry.com/vulcan-materials-acquires-kentucky-quarry/",
-     "sales_angle": "Reach out to Vulcan's Mideast division leadership to offer contract drilling, loading, hauling, and stripping services during the quarry integration.",
-     "first_flagged": "2026-10-05T15:14:01+00:00"
     }
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-05T15:14:01+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Rogers Group",
-   "score": 108.5,
+   "score": 100.5,
    "flagged_site_count": 7,
    "sites": [
     {
@@ -294,7 +274,7 @@
      "type": "company_news",
      "text": "Rogers Group pursues rezoning and annexation for 542-acre mine in North Carolina",
      "date": "2026-10-06",
-     "points": 32.0,
+     "points": 24.0,
      "source": "https://www.newlondonnc.org/",
      "sales_angle": "Contact Rogers Group greenfield project managers to introduce Turner Mining Group for site development, initial overburden removal, and pioneering services.",
      "first_flagged": "2026-10-05T15:14:01+00:00"
@@ -312,7 +292,7 @@
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-05T15:14:01+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Amrize",
@@ -477,7 +457,7 @@
    "company_news": [],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-05T15:14:01+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "CRH/Oldcastle",
@@ -943,11 +923,11 @@
    "company_news": [],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-05T15:14:01+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Quikrete",
-   "score": 44.1,
+   "score": 37.5,
    "flagged_site_count": 1,
    "sites": [
     {
@@ -976,7 +956,7 @@
      "type": "company_news",
      "text": "Missouri DNR issues open-pit limestone permit for Quikrete's Jasper Quarry #15",
      "date": "2026-09-29",
-     "points": 19.7,
+     "points": 13.1,
      "source": "https://gis-modnr.opendata.arcgis.com/datasets/modnr::permit-boundary/explore?showTable=true",
      "sales_angle": "Connect with Midwest Minerals and Quikrete operational leads to offer contract overburden removal, drilling, and blasting support under the newly active quarry permit.",
      "first_flagged": "2026-10-05T15:14:01+00:00"
@@ -984,7 +964,7 @@
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-05T15:14:01+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Eagle Materials",
@@ -1198,7 +1178,7 @@
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-05T15:14:01+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Carmeuse",
@@ -1983,7 +1963,7 @@
    ],
    "first_flagged": "2026-10-05T15:14:01+00:00",
    "latest_signal_at": "2026-10-05T15:14:01+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "email": "jose.armenta@apac.com",
