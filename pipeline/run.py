@@ -2,6 +2,7 @@
 
   python pipeline/run.py                     # news + salesforce + priority + digest
   python pipeline/run.py --steps msha,priority
+  python pipeline/run.py --steps research,priority   # weekly deep research
   python pipeline/run.py --digest summary    # morning summary instead of new-only
 
 Each step merges what it reports into public/data/meta.json so the tracker
@@ -16,7 +17,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import config  # noqa: E402
 from util import load_json, save_json  # noqa: E402
 
-ALL_STEPS = ["msha", "news", "salesforce", "priority", "digest"]
+ALL_STEPS = ["msha", "news", "research", "salesforce", "priority", "digest"]
 
 
 def main():
@@ -37,6 +38,9 @@ def main():
         elif step == "news":
             import news
             meta.update(news.run())
+        elif step == "research":
+            import research
+            meta.update(research.run())
         elif step == "salesforce":
             import salesforce
             meta.update(salesforce.run())

@@ -12,6 +12,7 @@ GitHub Actions (scheduled)            Netlify
 │ pipeline/run.py          │ ───────▶ │ static site (public/data/*.json)│
 │  msha       weekly       │          │ /.netlify/functions/salesforce  │──▶ Salesforce
 │  news       4x weekdays  │          └─────────────────────────────────┘
+│  research   Mondays      │
 │  salesforce 4x weekdays  │
 │  priority   every run    │ ──▶ email digest (new flags + 7am summary)
 └──────────────────────────┘
@@ -33,7 +34,8 @@ GitHub Actions (scheduled)            Netlify
 | Step | Source | What it does |
 |---|---|---|
 | `msha` | MSHA open data (Mines.zip, MinesProdQuarterly.zip) | Rebuilds every site under a target controller, recomputes headcount/hours trends, drops abandoned mines, records dated events: new sites, ownership changes, status changes, ramp-ups, slowdowns |
-| `news` | Serper (Google News), past week | Company queries + 40 rotating site queries per run; Claude keeps only genuine operational signals, matches them to a site, scores strength 1-5 and writes a sales angle |
+| `news` | Serper (Google News), past week | Company queries + 40 rotating site queries per run. Gemini triages each new snippet (relevant? which site? strength 1-5, sales angle); anything scoring 3+ is re-checked against the full article before it's stored |
+| `research` | Gemini + Google Search, last 14 days | Weekly per-company research for permits, rezoning and planning agendas, earnings-call site mentions and other signals news search misses. Links that don't exist are dropped; findings then go through the same triage and full-article check |
 | `salesforce` | Salesforce REST API | Pulls owner, last activity and engagement fields for every tracked contact |
 | `priority` | everything above | Scores sites, accounts and contacts with time decay, marks flags carrying never-seen signals as new |
 | `digest` | priority.json | Emails new flags above the score threshold; the 7am run sends a full summary |
@@ -43,7 +45,7 @@ quarters vs. the same 3 quarters a year earlier (seasonality cancels out);
 **Off peak** is trailing-4-quarter hours vs. the best stretch since 2010.
 
 Tuning lives in `pipeline/config.py` (companies, controller names, news
-terms, thresholds) and the point values at the top of `pipeline/priority.py`.
+terms, thresholds, model ids: `TRIAGE_MODEL`, `RESEARCH_MODEL`) and the point values at the top of `pipeline/priority.py`.
 
 ## Setup
 
@@ -53,8 +55,9 @@ Repo → Settings → Secrets and variables → Actions.
 
 | Secret | Needed for |
 |---|---|
-| `ANTHROPIC_API_KEY` | news classification |
+| `GEMINI_API_KEY` | news triage, full-article checks, weekly research (Google AI Studio → Get API key; enable billing for paid-tier limits) |
 | `SERPER_API_KEY` | news search (serper.dev) |
+| `ANTHROPIC_API_KEY` | optional: only if the `LLM_PROVIDER` variable is set to `anthropic` |
 | `SF_LOGIN_URL`, `SF_CLIENT_ID`, `SF_CLIENT_SECRET` | Salesforce sync (connected app with client-credentials flow; e.g. `https://yourorg.my.salesforce.com`) |
 | `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD`, `DIGEST_TO`, `DIGEST_FROM` | email digest (Google Workspace: `smtp.gmail.com`, port 587, an app password) |
 

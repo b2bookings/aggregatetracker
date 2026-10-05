@@ -956,7 +956,11 @@ function NewsCard({ news, compact }) {
       }}
     >
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
-        <div style={{ fontSize: 10, color: "#9A9382" }}>{news.date}</div>
+        <div style={{ fontSize: 10, color: "#9A9382" }}>
+          {news.date}
+          {news.verified && <span style={{ color: "#3E7A4C", fontWeight: 600 }}> · Verified from full article</span>}
+          {news.found_by === "research" && <span> · Weekly research</span>}
+        </div>
         {compact && (
           <div style={{ fontSize: 10, color: "#8A6D2E" }}>{expanded ? "Collapse \u2212" : "Expand +"}</div>
         )}

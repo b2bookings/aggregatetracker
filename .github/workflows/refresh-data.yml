@@ -1,18 +1,20 @@
 name: Refresh tracker data
 
 # News, Salesforce engagement and the priority queue refresh four times each
-# weekday; MSHA site data refreshes weekly (MSHA republishes on Fridays).
+# weekday; Gemini deep research runs Monday mornings before the 7am summary;
+# MSHA site data refreshes weekly (MSHA republishes on Fridays).
 # Every run commits changed data files, which triggers a Netlify redeploy.
 on:
   schedule:
     - cron: "0 11 * * 1-5"   # 7am ET  - also sends the morning summary
     - cron: "0 15,19,23 * * 1-5"  # 11am, 3pm, 7pm ET
+    - cron: "0 10 * * 1"     # Monday 6am ET - weekly deep research
     - cron: "0 12 * * 6"     # Saturday - weekly MSHA refresh
   workflow_dispatch:
     inputs:
       steps:
         description: "Steps to run"
-        default: "msha,news,salesforce,priority,digest"
+        default: "msha,news,research,salesforce,priority,digest"
       digest:
         description: "Digest mode (new or summary)"
         default: "new"
@@ -45,6 +47,9 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "steps=${{ inputs.steps }}" >> "$GITHUB_OUTPUT"
             echo "digest=${{ inputs.digest }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "0 10 * * 1" ]; then
+            echo "steps=research,priority" >> "$GITHUB_OUTPUT"
+            echo "digest=new" >> "$GITHUB_OUTPUT"
           elif [ "${{ github.event.schedule }}" = "0 12 * * 6" ]; then
             echo "steps=msha,priority" >> "$GITHUB_OUTPUT"
             echo "digest=new" >> "$GITHUB_OUTPUT"
@@ -57,7 +62,10 @@ jobs:
           fi
 
       - name: Run pipeline
+        timeout-minutes: 25
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
           SF_LOGIN_URL: ${{ secrets.SF_LOGIN_URL }}

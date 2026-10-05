@@ -1,1 +1,2 @@
-anthropic>=0.70
+google-genai>=1.47
+anthropic>=0.70  # only used when LLM_PROVIDER=anthropic

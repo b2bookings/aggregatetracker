@@ -50,7 +50,17 @@ TREND_DECLINING = -10.0
 # so every site is covered over time without hammering the news feed.
 SITE_QUERIES_PER_RUN = 40
 
+# Models. Gemini is the default provider (see pipeline/llm.py); Claude is
+# used only when LLM_PROVIDER=anthropic.
+TRIAGE_MODEL = "gemini-3.8-flash"     # sorts search snippets: relevant or not
+RESEARCH_MODEL = "gemini-3.8-flash"   # weekly deep research + full-article checks
 CLAUDE_MODEL = "claude-opus-5-5"
+
+# Weekly research looks back this many days per company.
+RESEARCH_LOOKBACK_DAYS = 14
+# Triaged items at or above this strength get a full-article check before
+# they reach the queue or the digest.
+VERIFY_MIN_STRENGTH = 3
 
 # Priority engine knobs.
 PRIORITY_TOP_N = 40
