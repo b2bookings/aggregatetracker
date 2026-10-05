@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-05T14:49:00+00:00",
+ "generated_at": "2026-10-05T15:14:01+00:00",
  "accounts": [
   {
    "company": "Vulcan Materials",
-   "score": 77.9,
+   "score": 156.1,
    "flagged_site_count": 20,
    "sites": [
     {
@@ -128,14 +128,45 @@
      ]
     }
    ],
-   "company_news": [],
+   "company_news": [
+    {
+     "id": "cnews:https://www.aggbusiness.com/vulcan-materials-acquires-kentucky-quarry-from-greystone-client-hilltop-stone/",
+     "type": "company_news",
+     "text": "Vulcan Materials acquires Butler Quarry in Pendleton County, Kentucky",
+     "date": "2026-09-30",
+     "points": 27.1,
+     "source": "https://www.aggbusiness.com/vulcan-materials-acquires-kentucky-quarry-from-greystone-client-hilltop-stone/",
+     "sales_angle": "Reach out to Vulcan's regional leadership to pitch contract mining, pit development, and overburden stripping support during their operational integration of the new site.",
+     "first_flagged": "2026-10-05T15:14:01+00:00"
+    },
+    {
+     "id": "cnews:https://www.indexbox.io/blog/vulcan-materials-acquires-butler-quarry-in-kentucky-from-hilltop-stone/",
+     "type": "company_news",
+     "text": "Vulcan Materials Acquires Butler Quarry in Northern Kentucky",
+     "date": "2026-09-30",
+     "points": 27.1,
+     "source": "https://www.indexbox.io/blog/vulcan-materials-acquires-butler-quarry-in-kentucky-from-hilltop-stone/",
+     "sales_angle": "Engage Vulcan's regional operations team to provide contract stripping, mine planning, or supplemental load-and-haul capacity as they integrate the newly acquired quarry.",
+     "first_flagged": "2026-10-05T15:14:01+00:00"
+    },
+    {
+     "id": "cnews:https://www.pitandquarry.com/vulcan-materials-acquires-kentucky-quarry/",
+     "type": "company_news",
+     "text": "Vulcan Materials Acquires Butler Quarry in Kentucky from Hilltop Stone",
+     "date": "2026-10-05",
+     "points": 24.0,
+     "source": "https://www.pitandquarry.com/vulcan-materials-acquires-kentucky-quarry/",
+     "sales_angle": "Reach out to Vulcan's Mideast division leadership to offer contract drilling, loading, hauling, and stripping services during the quarry integration.",
+     "first_flagged": "2026-10-05T15:14:01+00:00"
+    }
+   ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
+   "latest_signal_at": "2026-10-05T15:14:01+00:00",
+   "is_new": true
   },
   {
    "company": "Rogers Group",
-   "score": 76.5,
+   "score": 108.5,
    "flagged_site_count": 7,
    "sites": [
     {
@@ -259,6 +290,16 @@
    ],
    "company_news": [
     {
+     "id": "cnews:https://www.newlondonnc.org/",
+     "type": "company_news",
+     "text": "Rogers Group pursues rezoning and annexation for 542-acre mine in North Carolina",
+     "date": "2026-10-06",
+     "points": 32.0,
+     "source": "https://www.newlondonnc.org/",
+     "sales_angle": "Contact Rogers Group greenfield project managers to introduce Turner Mining Group for site development, initial overburden removal, and pioneering services.",
+     "first_flagged": "2026-10-05T15:14:01+00:00"
+    },
+    {
      "id": "cnews:Rockydale Quarries acquisition — 13th deal in two years",
      "type": "company_news",
      "text": "Rockydale Quarries acquisition — 13th deal in two years",
@@ -270,13 +311,13 @@
     }
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
+   "latest_signal_at": "2026-10-05T15:14:01+00:00",
+   "is_new": true
   },
   {
    "company": "Amrize",
-   "score": 70.5,
-   "flagged_site_count": 5,
+   "score": 70.8,
+   "flagged_site_count": 6,
    "sites": [
     {
      "mine_id": "2100080",
@@ -400,39 +441,43 @@
      ]
     },
     {
-     "mine_id": "203282",
-     "name": "Amrize Hassayampa Wash Plant",
+     "mine_id": "2003423",
+     "name": "Amrize Manchester Sand and Gravel",
      "company": "Amrize",
-     "state": "AZ",
-     "county": "Maricopa",
-     "score": 26.8,
+     "state": "MI",
+     "county": "Washtenaw",
+     "score": 27.9,
      "reasons": [
       {
-       "id": "ramp:203282:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +27% year over year (23 employees)",
-       "date": "2026-06-30",
-       "points": 22.7,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
+       "id": "news:https://themanchestermirror.com/2026/09/28/public-notice-sharon-township-17/",
+       "type": "news",
+       "text": "Amrize seeks special land use permit for 122-acre gravel expansion in Sharon Township",
+       "date": "2026-09-28",
+       "points": 23.8,
+       "source": "https://themanchestermirror.com/2026/09/28/public-notice-sharon-township-17/",
+       "sales_angle": "Contact Amrize's Michigan aggregate leadership to track the permit approval process and position contract overburden stripping and site development services.",
+       "first_flagged": "2026-10-05T15:14:01+00:00"
       },
       {
-       "id": "controller:203282:2026-04-15",
+       "id": "controller:2003423:2026-04-15",
        "type": "controller_change",
        "text": "Ownership changed - controller now Amrize Ltd",
        "date": "2026-04-15",
        "points": 4.1,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
+       "first_flagged": "2026-10-05T15:14:01+00:00"
       }
      ],
      "contacts": [
-      "peter.sanguineti@amrize.com"
+      "keith.childress@amrize.com",
+      "jaime.hill@amrize.com",
+      "michael.welhouse@amrize.com"
      ]
     }
    ],
    "company_news": [],
    "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
+   "latest_signal_at": "2026-10-05T15:14:01+00:00",
+   "is_new": true
   },
   {
    "company": "CRH/Oldcastle",
@@ -808,6 +853,140 @@
    "is_new": false
   },
   {
+   "company": "Cemex",
+   "score": 45.3,
+   "flagged_site_count": 3,
+   "sites": [
+    {
+     "mine_id": "401897",
+     "name": "Rockfield Plant",
+     "company": "Cemex",
+     "state": "CA",
+     "county": "Fresno",
+     "score": 32.2,
+     "reasons": [
+      {
+       "id": "news:https://files.ceqanet.lci.ca.gov/262313-4/attachment/s7Y1DIoZWYubZpj6-owdEE86SFaWtW-PYEpOQmtR1LdE01jerIInErhHvKo0Uvb-Gf-XIZiGP_1Hpaw_0",
+       "type": "news",
+       "text": "Fresno County releases Final EIR for CEMEX Rockfield Quarry expansion",
+       "date": "2026-09-28",
+       "points": 31.7,
+       "source": "https://files.ceqanet.lci.ca.gov/262313-4/attachment/s7Y1DIoZWYubZpj6-owdEE86SFaWtW-PYEpOQmtR1LdE01jerIInErhHvKo0Uvb-Gf-XIZiGP_1Hpaw_0",
+       "sales_angle": "Reach out to CEMEX California leadership now, as transitioning to deep hard rock extraction will require drilling, blasting, and heavy earthmoving support once permits are approved.",
+       "first_flagged": "2026-10-05T15:14:01+00:00"
+      },
+      {
+       "id": "news:https://fresnochamber.com/news/planning-commission-gives-cemex-another-year/",
+       "type": "news",
+       "text": "Contested 100-year deep-rock expansion; permit extended amid legislative pushback",
+       "date": "2026-06-11",
+       "points": 0.5,
+       "source": "https://fresnochamber.com/news/planning-commission-gives-cemex-another-year/",
+       "sales_angle": "One of the most contested single-site fights in Cemex's whole portfolio — a state legislative bill was written specifically to stop this project. High visibility, high stakes, and the company has publicly signaled it's stretched trying to keep current operations running while fighting for the expansion.",
+       "first_flagged": "2026-10-05T15:14:01+00:00"
+      }
+     ],
+     "contacts": []
+    },
+    {
+     "mine_id": "801436",
+     "name": "Immokalee Sand Mine",
+     "company": "Cemex",
+     "state": "FL",
+     "county": "Collier",
+     "score": 27.9,
+     "reasons": [
+      {
+       "id": "ramp:801436:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +79% year over year (22 employees)",
+       "date": "2026-06-30",
+       "points": 27.9,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": [
+      "gilberto.gonzalezg@cemex.com",
+      "chad.hustedde@cemex.com"
+     ]
+    },
+    {
+     "mine_id": "203544",
+     "name": "CEMEX-Buckeye Ranch",
+     "company": "Cemex",
+     "state": "AZ",
+     "county": "Maricopa",
+     "score": 15.7,
+     "reasons": [
+      {
+       "id": "controller:203544:2026-06-11",
+       "type": "controller_change",
+       "text": "Ownership changed - controller now Cemex S A",
+       "date": "2026-06-11",
+       "points": 7.9,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      },
+      {
+       "id": "status:203544:NonProducing:2026-09-14",
+       "type": "status_change",
+       "text": "MSHA status changed to NonProducing",
+       "date": "2026-09-14",
+       "points": 7.8,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": [
+      "gregg.monger@cemex.com"
+     ]
+    }
+   ],
+   "company_news": [],
+   "first_flagged": "2026-10-05T14:13:10+00:00",
+   "latest_signal_at": "2026-10-05T15:14:01+00:00",
+   "is_new": true
+  },
+  {
+   "company": "Quikrete",
+   "score": 44.1,
+   "flagged_site_count": 1,
+   "sites": [
+    {
+     "mine_id": "3800305",
+     "name": "HARLEYVILLE MINE & PLANT",
+     "company": "Quikrete",
+     "state": "SC",
+     "county": "Dorchester",
+     "score": 24.4,
+     "reasons": [
+      {
+       "id": "ramp:3800305:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +44% year over year (131 employees)",
+       "date": "2026-06-30",
+       "points": 24.4,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": []
+    }
+   ],
+   "company_news": [
+    {
+     "id": "cnews:https://gis-modnr.opendata.arcgis.com/datasets/modnr::permit-boundary/explore?showTable=true",
+     "type": "company_news",
+     "text": "Missouri DNR issues open-pit limestone permit for Quikrete's Jasper Quarry #15",
+     "date": "2026-09-29",
+     "points": 19.7,
+     "source": "https://gis-modnr.opendata.arcgis.com/datasets/modnr::permit-boundary/explore?showTable=true",
+     "sales_angle": "Connect with Midwest Minerals and Quikrete operational leads to offer contract overburden removal, drilling, and blasting support under the newly active quarry permit.",
+     "first_flagged": "2026-10-05T15:14:01+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-05T14:13:10+00:00",
+   "latest_signal_at": "2026-10-05T15:14:01+00:00",
+   "is_new": true
+  },
+  {
    "company": "Eagle Materials",
    "score": 37.2,
    "flagged_site_count": 2,
@@ -922,71 +1101,9 @@
    "is_new": false
   },
   {
-   "company": "Cemex",
-   "score": 32.6,
-   "flagged_site_count": 2,
-   "sites": [
-    {
-     "mine_id": "801436",
-     "name": "Immokalee Sand Mine",
-     "company": "Cemex",
-     "state": "FL",
-     "county": "Collier",
-     "score": 27.9,
-     "reasons": [
-      {
-       "id": "ramp:801436:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +79% year over year (22 employees)",
-       "date": "2026-06-30",
-       "points": 27.9,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": [
-      "gilberto.gonzalezg@cemex.com",
-      "chad.hustedde@cemex.com"
-     ]
-    },
-    {
-     "mine_id": "203544",
-     "name": "CEMEX-Buckeye Ranch",
-     "company": "Cemex",
-     "state": "AZ",
-     "county": "Maricopa",
-     "score": 15.7,
-     "reasons": [
-      {
-       "id": "controller:203544:2026-06-11",
-       "type": "controller_change",
-       "text": "Ownership changed - controller now Cemex S A",
-       "date": "2026-06-11",
-       "points": 7.9,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      },
-      {
-       "id": "status:203544:NonProducing:2026-09-14",
-       "type": "status_change",
-       "text": "MSHA status changed to NonProducing",
-       "date": "2026-09-14",
-       "points": 7.8,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": [
-      "gregg.monger@cemex.com"
-     ]
-    }
-   ],
-   "company_news": [],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
-  },
-  {
    "company": "CalPortland",
-   "score": 26.0,
-   "flagged_site_count": 1,
+   "score": 31.7,
+   "flagged_site_count": 2,
    "sites": [
     {
      "mine_id": "405907",
@@ -1030,6 +1147,41 @@
       "moregan@calportland.com",
       "mstratford@calportland.com"
      ]
+    },
+    {
+     "mine_id": "4503334",
+     "name": "Dupont Pit",
+     "company": "CalPortland",
+     "state": "WA",
+     "county": "Pierce",
+     "score": 19.0,
+     "reasons": [
+      {
+       "id": "news:https://pierceprairiepost.com/2026/10/02/how-much-is-our-aquifer-worth-can-we-give-it-away/",
+       "type": "news",
+       "text": "Legal appeal against CalPortland DuPont gravel mine expansion proceeds in court",
+       "date": "2026-10-02",
+       "points": 18.1,
+       "source": "https://pierceprairiepost.com/2026/10/02/how-much-is-our-aquifer-worth-can-we-give-it-away/",
+       "sales_angle": "Track the DuPont permit appeal to position pit development, overburden removal, and dewatering earthwork support once environmental challenges are resolved.",
+       "first_flagged": "2026-10-05T15:14:01+00:00"
+      },
+      {
+       "id": "news:https://hoodline.com/2026/07/dupont-showdown-hearing-backs-gravel-mine-push-into-beloved-woods/",
+       "type": "news",
+       "text": "Pioneer Aggregates expansion approved, then appealed",
+       "date": "2026-06-26",
+       "points": 0.9,
+       "source": "https://hoodline.com/2026/07/dupont-showdown-hearing-backs-gravel-mine-push-into-beloved-woods/",
+       "sales_angle": "A contested, high-scrutiny expansion that's adding scope without adding headcount — exactly the strain TMG's staffing model addresses.",
+       "first_flagged": "2026-10-05T15:14:01+00:00"
+      }
+     ],
+     "contacts": [
+      "aware@calportland.com",
+      "danderson@calportland.com",
+      "ktanase@calportland.com"
+     ]
     }
    ],
    "company_news": [
@@ -1045,38 +1197,8 @@
     }
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
-  },
-  {
-   "company": "Quikrete",
-   "score": 24.4,
-   "flagged_site_count": 1,
-   "sites": [
-    {
-     "mine_id": "3800305",
-     "name": "HARLEYVILLE MINE & PLANT",
-     "company": "Quikrete",
-     "state": "SC",
-     "county": "Dorchester",
-     "score": 24.4,
-     "reasons": [
-      {
-       "id": "ramp:3800305:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +44% year over year (131 employees)",
-       "date": "2026-06-30",
-       "points": 24.4,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": []
-    }
-   ],
-   "company_news": [],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
+   "latest_signal_at": "2026-10-05T15:14:01+00:00",
+   "is_new": true
   },
   {
    "company": "Carmeuse",
@@ -1839,6 +1961,31 @@
    "is_new": false
   },
   {
+   "email": "keith.childress@amrize.com",
+   "name": "Keith Childress",
+   "title": "Regional Director of Quality & Product Performance",
+   "company": "Amrize",
+   "tier": "Tier 2",
+   "state": "MI",
+   "linkedin": "http://www.linkedin.com/in/keith-childress-213a0b94",
+   "sf_id": null,
+   "linked_site": "2003423",
+   "score": 13.9,
+   "reasons": [
+    {
+     "id": "site:keith.childress@amrize.com:2003423",
+     "type": "site_signal",
+     "text": "Best-placed contact for Amrize Manchester Sand and Gravel (MI) - Amrize seeks special land use permit for 122-acre gravel expansion in Sharon Township",
+     "date": "2026-09-28",
+     "points": 13.9,
+     "first_flagged": "2026-10-05T15:14:01+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-05T15:14:01+00:00",
+   "latest_signal_at": "2026-10-05T15:14:01+00:00",
+   "is_new": true
+  },
+  {
    "email": "jose.armenta@apac.com",
    "name": "Jose Armenta",
    "title": "Vice President of Materials, Gulf Coast",
@@ -2079,31 +2226,6 @@
      "id": "site:heather.dupree@crh.com:3100557",
      "type": "site_signal",
      "text": "Best-placed contact for Dillsboro Quarry (NC) - Hours up +45% year over year (22 employees)",
-     "date": "2026-06-30",
-     "points": 12.2,
-     "first_flagged": "2026-10-05T14:13:10+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
-  },
-  {
-   "email": "michaelm@vmcmail.com",
-   "name": "Michael Mills",
-   "title": "President, Southeast Division",
-   "company": "Vulcan Materials",
-   "tier": "Tier 1",
-   "state": "GA",
-   "linkedin": "http://www.linkedin.com/in/michael-r-mills-648948a",
-   "sf_id": null,
-   "linked_site": "900487",
-   "score": 12.2,
-   "reasons": [
-    {
-     "id": "site:michaelm@vmcmail.com:900487",
-     "type": "site_signal",
-     "text": "Best-placed contact for La Grange Quarry (GA) - Hours up +43% year over year (29 employees)",
      "date": "2026-06-30",
      "points": 12.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
