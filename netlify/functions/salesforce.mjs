@@ -87,7 +87,7 @@ async function findPerson(email) {
   return null;
 }
 
-async function createTask({ email, subject, description, dueDate }) {
+export async function createTask({ email, subject, description, dueDate, status }) {
   const who = await findPerson(email);
   if (!who) return { ok: false, error: "No Salesforce Contact or Lead with that email - create a lead first." };
   const created = await sf("/sobjects/Task", {
@@ -97,7 +97,7 @@ async function createTask({ email, subject, description, dueDate }) {
       Subject: (subject || "Follow up - aggregate tracker signal").slice(0, 255),
       Description: description || "",
       ActivityDate: dueDate || new Date(Date.now() + 2 * 864e5).toISOString().slice(0, 10),
-      Status: "Not Started",
+      Status: status || "Not Started",
       Priority: "High",
     }),
   });
@@ -118,6 +118,9 @@ async function createLead(c) {
   });
   return { ok: true, id: created.id, existing: false, type: "Lead" };
 }
+
+export const salesforceConfigured = () =>
+  Boolean(process.env.SF_LOGIN_URL && process.env.SF_CLIENT_ID && process.env.SF_CLIENT_SECRET);
 
 export default async (req) => {
   const json = (body, status = 200) => new Response(JSON.stringify(body), { status, headers: { "Content-Type": "application/json" } });

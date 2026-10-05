@@ -707,10 +707,11 @@ function getTrackerKey(ask) {
   }
   return key ? key.trim() : null;
 }
-async function salesforceCall(body) {
+const salesforceCall = (body) => trackerCall("salesforce", body);
+async function trackerCall(fn, body) {
   const key = getTrackerKey(true);
   if (!key) throw new Error("No access key");
-  const res = await fetch("/.netlify/functions/salesforce", {
+  const res = await fetch(`/.netlify/functions/${fn}`, {
     method: "POST",
     headers: { "Content-Type": "application/json", "x-tracker-key": key },
     body: JSON.stringify(body),
@@ -826,6 +827,176 @@ function ContactActions({ contact, sf, reasonText }) {
   );
 }
 
+// ---- Outreach task list --------------------------------------------------
+// The priority contacts as a to-do list. Marking one done ("DM sent on
+// LinkedIn") is stored server-side (Netlify Blobs via the tasks function) so
+// the whole team sees the same list. A contact comes back to the open list
+// if a new signal arrives after they were contacted.
+const NAME_STORAGE = "trackerUserName";
+function getUserName() {
+  let name = null;
+  try { name = localStorage.getItem(NAME_STORAGE); } catch {}
+  if (!name) {
+    name = (window.prompt("Your name (shown next to tasks you complete):") || "").trim();
+    if (name) {
+      try { localStorage.setItem(NAME_STORAGE, name); } catch {}
+    }
+  }
+  return name || null;
+}
+const shortDate = (iso) => new Date(iso).toLocaleDateString(undefined, { month: "short", day: "numeric" });
+
+function TaskList({ people, byEmail, onFocusSite }) {
+  const [completions, setCompletions] = useState({});
+  const [status, setStatus] = useState(getTrackerKey(false) ? "loading" : "needs-key");
+  const [error, setError] = useState(null);
+  const [busy, setBusy] = useState(null);
+  const [showDone, setShowDone] = useState(false);
+
+  async function load() {
+    if (!getTrackerKey(true)) return;
+    setStatus("loading");
+    try {
+      const res = await trackerCall("tasks", { action: "list" });
+      setCompletions(res.completions || {});
+      setStatus("ready");
+      setError(null);
+    } catch (e) {
+      setStatus(getTrackerKey(false) ? "error" : "needs-key");
+      setError(e.message);
+    }
+  }
+  useEffect(() => {
+    if (status === "loading") load();
+  }, []);
+
+  async function markDone(p) {
+    const by = getUserName();
+    if (!by) return;
+    const email = (p.email || "").toLowerCase();
+    setBusy(email);
+    try {
+      const res = await trackerCall("tasks", {
+        action: "complete", email, name: p.name, company: p.company, by, channel: "linkedin_dm", signalAt: p.latest_signal_at,
+      });
+      setCompletions((prev) => ({ ...prev, [email]: res.record }));
+      setError(null);
+    } catch (e) {
+      setError(e.message);
+    }
+    setBusy(null);
+  }
+  async function reopen(email) {
+    setBusy(email);
+    try {
+      await trackerCall("tasks", { action: "reopen", email });
+      setCompletions((prev) => {
+        const next = { ...prev };
+        delete next[email];
+        return next;
+      });
+    } catch (e) {
+      setError(e.message);
+    }
+    setBusy(null);
+  }
+
+  if (status === "needs-key") {
+    return (
+      <div style={{ fontSize: 12.5, color: "#6B655A", marginTop: 16 }}>
+        The task list is shared across the team, so it needs the tracker access key.
+        <div onClick={load} style={{ color: GOLD, fontWeight: 600, cursor: "pointer", marginTop: 8 }}>Enter access key</div>
+      </div>
+    );
+  }
+  if (status === "loading") return <div style={{ fontSize: 12, color: "#9A9382", marginTop: 16 }}>Loading tasks…</div>;
+
+  const recFor = (p) => completions[(p.email || "").toLowerCase()];
+  // Reopen when something new happened after the DM went out.
+  const isOpen = (p) => {
+    const rec = recFor(p);
+    return !rec || (p.latest_signal_at && p.latest_signal_at > rec.done_at);
+  };
+  const open = people.filter((p) => p.email && isOpen(p));
+  const done = people
+    .filter((p) => p.email && !isOpen(p))
+    .sort((a, b) => (recFor(b).done_at > recFor(a).done_at ? 1 : -1));
+  const btn = { fontSize: 11, fontWeight: 600, borderRadius: 3, padding: "4px 8px", cursor: "pointer" };
+
+  return (
+    <div>
+      <div style={{ fontSize: 11, color: "#9A9382", marginTop: 8 }}>
+        {open.length} to contact · {done.length} done · shared with everyone using the tracker
+      </div>
+      {status === "error" && <div style={{ fontSize: 11, color: "#B0453E", marginTop: 6 }}>Couldn't load task status ({error}). <span onClick={load} style={{ color: GOLD, cursor: "pointer" }}>Retry</span></div>}
+      {status === "ready" && error && <div style={{ fontSize: 11, color: "#B0453E", marginTop: 6 }}>{error}</div>}
+
+      {open.map((p, i) => {
+        const c = byEmail[(p.email || "").toLowerCase()] || p;
+        const rec = recFor(p);
+        const email = (p.email || "").toLowerCase();
+        return (
+          <div key={p.email} style={{ display: "flex", gap: 10, padding: "10px 0", borderBottom: "1px solid #F0EDE5" }}>
+            <div style={{ fontSize: 12, fontWeight: 700, color: GOLD, minWidth: 18, paddingTop: 1 }}>{i + 1}</div>
+            <div style={{ flex: 1, minWidth: 0 }}>
+              <div style={{ fontSize: 13, fontWeight: 700, color: NAVY, display: "flex", alignItems: "center", gap: 6 }}>
+                {p.name} {isNewSinceVisit(p) && <NewPill />}
+              </div>
+              <div style={{ fontSize: 11.5, color: "#6B655A" }}>{p.title}</div>
+              <div style={{ fontSize: 11, color: "#9A9382" }}>{p.company} · {p.state}</div>
+              <div style={{ fontSize: 11.5, color: "#4A453B", marginTop: 4 }}>
+                <span style={{ color: "#8A6D2E" }}>Why now:</span> {p.reasons[0].text}
+              </div>
+              {rec && (
+                <div style={{ fontSize: 10.5, color: "#B06A1E", marginTop: 3 }}>
+                  New signal since {rec.done_by} messaged them on {shortDate(rec.done_at)}
+                </div>
+              )}
+              <div style={{ display: "flex", gap: 6, marginTop: 6, flexWrap: "wrap", alignItems: "center" }}>
+                {c.linkedin ? (
+                  <a href={c.linkedin} target="_blank" rel="noreferrer" style={{ ...btn, border: `1px solid ${NAVY}`, color: NAVY, textDecoration: "none" }}>
+                    Open LinkedIn
+                  </a>
+                ) : (
+                  <span style={{ fontSize: 10.5, color: "#B3AC9C" }}>No LinkedIn on file</span>
+                )}
+                <button disabled={busy === email} onClick={() => markDone(p)} style={{ ...btn, border: `1px solid ${GOLD}`, background: GOLD, color: "#fff" }}>
+                  {busy === email ? "Saving…" : "✓ DM sent"}
+                </button>
+                {p.linked_site && <span onClick={() => onFocusSite(p.linked_site)} style={{ fontSize: 11, color: GOLD, cursor: "pointer", fontWeight: 600 }}>Show site</span>}
+              </div>
+            </div>
+          </div>
+        );
+      })}
+      {open.length === 0 && <div style={{ fontSize: 12, color: "#9A9382", marginTop: 12 }}>Everyone on the list has been contacted. New signals will add people back.</div>}
+
+      {done.length > 0 && (
+        <div style={{ marginTop: 14 }}>
+          <div onClick={() => setShowDone((v) => !v)} style={{ fontSize: 11.5, color: GOLD, cursor: "pointer", fontWeight: 600 }}>
+            {showDone ? "Hide" : "Show"} completed ({done.length})
+          </div>
+          {showDone && done.map((p) => {
+            const rec = recFor(p);
+            const email = (p.email || "").toLowerCase();
+            return (
+              <div key={p.email} style={{ padding: "7px 0", borderBottom: "1px solid #F0EDE5", fontSize: 12, color: "#9A9382" }}>
+                <span style={{ textDecoration: "line-through", color: "#6B655A" }}>{p.name}</span> · {p.company}
+                <div style={{ fontSize: 10.5 }}>
+                  DM sent by {rec.done_by} on {shortDate(rec.done_at)}
+                  {rec.salesforce === "logged" && " · logged in Salesforce"}
+                  {" · "}
+                  <span onClick={() => reopen(email)} style={{ color: GOLD, cursor: "pointer", fontWeight: 600 }}>{busy === email ? "…" : "Undo"}</span>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
+}
+
 function PriorityQueue({ priority, contacts, sfStatus, view, setView, onFocusSite }) {
   const accounts = priority.accounts || [];
   const people = priority.contacts || [];
@@ -865,7 +1036,18 @@ function PriorityQueue({ priority, contacts, sfStatus, view, setView, onFocusSit
       <div style={{ display: "flex", marginTop: 10, borderBottom: "1px solid #E4E3DF" }}>
         {tab("queue", "Accounts", newAccounts)}
         {tab("contacts", "Contacts", newPeople)}
+        <div
+          onClick={() => setView("tasks")}
+          style={{
+            flex: 1, textAlign: "center", padding: "6px 0", fontSize: 12, fontWeight: 600, cursor: "pointer",
+            color: view === "tasks" ? NAVY : "#9A9382", borderBottom: `2px solid ${view === "tasks" ? GOLD : "transparent"}`,
+          }}
+        >
+          Tasks
+        </div>
       </div>
+
+      {view === "tasks" && <TaskList people={people} byEmail={byEmail} onFocusSite={onFocusSite} />}
 
       {view === "queue" && accounts.map((a) => (
         <div key={a.company} style={{ padding: "10px 0", borderBottom: "1px solid #F0EDE5" }}>
