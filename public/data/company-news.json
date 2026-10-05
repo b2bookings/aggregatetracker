@@ -18,33 +18,17 @@
    "source": "https://www.aggbusiness.com/vulcan-materials-acquires-kentucky-quarry-from-greystone-client-hilltop-stone/",
    "publisher": "Aggregates Business",
    "found_by": "research",
-   "first_seen": "2026-10-05T15:12:37+00:00"
-  },
-  {
-   "headline": "Vulcan Materials Acquires Butler Quarry in Northern Kentucky",
-   "date": "2026-09-30",
-   "summary": "Vulcan Materials has acquired the Butler limestone quarry in Pendleton County, Kentucky, from Hilltop Stone. The 70-year-old operation supplies hard rock aggregate to the Greater Cincinnati and Northern Kentucky markets.",
-   "sales_angle": "Engage Vulcan's regional operations team to provide contract stripping, mine planning, or supplemental load-and-haul capacity as they integrate the newly acquired quarry.",
-   "signal_type": "acquisition",
-   "strength": 4,
-   "verified": true,
-   "source": "https://www.indexbox.io/blog/vulcan-materials-acquires-butler-quarry-in-kentucky-from-hilltop-stone/",
-   "publisher": "IndexBox",
-   "found_by": "news",
-   "first_seen": "2026-10-05T15:07:26+00:00"
-  },
-  {
-   "headline": "Vulcan Materials Acquires Butler Quarry in Kentucky from Hilltop Stone",
-   "date": "2026-10-05",
-   "summary": "Vulcan Materials has acquired the Butler Quarry located in Pendleton County, Kentucky, from Hilltop Stone. The transaction was advised by The Greystone Group.",
-   "sales_angle": "Reach out to Vulcan's Mideast division leadership to offer contract drilling, loading, hauling, and stripping services during the quarry integration.",
-   "signal_type": "acquisition",
-   "strength": 3,
-   "verified": true,
-   "source": "https://www.pitandquarry.com/vulcan-materials-acquires-kentucky-quarry/",
-   "publisher": "Pit & Quarry",
-   "found_by": "news",
-   "first_seen": "2026-10-05T15:07:26+00:00"
+   "first_seen": "2026-10-05T15:12:37+00:00",
+   "also_reported_by": [
+    {
+     "url": "https://www.indexbox.io/blog/vulcan-materials-acquires-butler-quarry-in-kentucky-from-hilltop-stone/",
+     "publisher": "IndexBox"
+    },
+    {
+     "url": "https://www.pitandquarry.com/vulcan-materials-acquires-kentucky-quarry/",
+     "publisher": "Pit & Quarry"
+    }
+   ]
   },
   {
    "headline": "CEO transition and Brannan Sand & Gravel acquisition",
@@ -66,12 +50,13 @@
    "summary": "The Town of New London scheduled an October 6, 2026 public hearing on Rogers Group requests for voluntary annexation and M-2 heavy manufacturing conditional rezoning. The approvals would enable development of a new aggregate mine across approximately 542 acres in Stanly County.",
    "sales_angle": "Contact Rogers Group greenfield project managers to introduce Turner Mining Group for site development, initial overburden removal, and pioneering services.",
    "signal_type": "new_site",
-   "strength": 4,
+   "strength": 3,
    "verified": true,
    "source": "https://www.newlondonnc.org/",
    "publisher": "Town of New London, North Carolina",
    "found_by": "research",
-   "first_seen": "2026-10-05T15:12:37+00:00"
+   "first_seen": "2026-10-05T15:12:37+00:00",
+   "needs_source_check": true
   },
   {
    "headline": "Rockydale Quarries acquisition — 13th deal in two years",
@@ -100,12 +85,13 @@
    "summary": "The Missouri Department of Natural Resources Land Reclamation Program approved an active open-pit limestone mining permit for the 37-acre Jasper Quarry #15 in Barton County, Missouri. The site is operated by Cornejo and Sons dba Midwest Minerals under Quikrete Materials.",
    "sales_angle": "Connect with Midwest Minerals and Quikrete operational leads to offer contract overburden removal, drilling, and blasting support under the newly active quarry permit.",
    "signal_type": "permit",
-   "strength": 3,
+   "strength": 2,
    "verified": true,
    "source": "https://gis-modnr.opendata.arcgis.com/datasets/modnr::permit-boundary/explore?showTable=true",
    "publisher": "Missouri Department of Natural Resources",
    "found_by": "research",
-   "first_seen": "2026-10-05T15:12:37+00:00"
+   "first_seen": "2026-10-05T15:12:37+00:00",
+   "needs_source_check": true
   },
   {
    "headline": "$2.8B Martin Marietta asset exchange",

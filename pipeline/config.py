@@ -56,6 +56,20 @@ TRIAGE_MODEL = "gemini-3.8-flash"     # sorts search snippets: relevant or not
 RESEARCH_MODEL = "gemini-3.8-flash"   # weekly deep research + full-article checks
 CLAUDE_MODEL = "claude-opus-5-5"
 
+# Prices for the per-run cost log (USD per 1M tokens; searches per 1,000).
+# Gemini 3.x Flash prices double on 2027-01-01 - update this table then.
+# Gemini Google Search: first 5,000 requests a month are free.
+MODEL_PRICES = {
+    "gemini-3.8-flash": {"input": 0.75, "output": 3.75},
+    "gemini-3.5-flash-lite": {"input": 0.30, "output": 2.50},
+    "claude-opus-5-5": {"input": 4.00, "output": 20.00},
+    "claude-sonnet-5-5": {"input": 2.00, "output": 10.00},
+    "claude-haiku-4-5": {"input": 1.00, "output": 5.00},
+}
+GEMINI_SEARCH_FREE_PER_MONTH = 5000
+GEMINI_SEARCH_PER_1K = 14.00
+SERPER_PER_1K = 1.00  # approximate; depends on the credit pack purchased
+
 # Weekly research looks back this many days per company.
 RESEARCH_LOOKBACK_DAYS = 14
 # Triaged items at or above this strength get a full-article check before

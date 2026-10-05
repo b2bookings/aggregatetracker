@@ -52,6 +52,8 @@ def main():
             digest.run(args.digest)
         else:
             parser.error(f"unknown step {step!r}")
+    import costs
+    meta.update(costs.record(args.steps) or {})
     save_json(config.META_FILE, meta, indent=1)
 
 

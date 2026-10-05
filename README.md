@@ -44,6 +44,14 @@ Metric definitions: **YoY hours** is hours worked in the last 3 complete
 quarters vs. the same 3 quarters a year earlier (seasonality cancels out);
 **Off peak** is trailing-4-quarter hours vs. the best stretch since 2010.
 
+Each run appends its token, search and query counts with an estimated cost
+to `pipeline/state/cost_log.json` (prices in `config.MODEL_PRICES`); the
+latest run and month-to-date totals also land in `public/data/meta.json`.
+
+The same event reported by several outlets is stored once, with the other
+links under `also_reported_by`. Items whose link is a homepage or data portal
+are tagged **Check source** in the app and score one point lower.
+
 Tuning lives in `pipeline/config.py` (companies, controller names, news
 terms, thresholds, model ids: `TRIAGE_MODEL`, `RESEARCH_MODEL`) and the point values at the top of `pipeline/priority.py`.
 
