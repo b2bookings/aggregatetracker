@@ -204,10 +204,17 @@ function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS, COMPANY_NEWS
   const [sfSync, setSfSync] = useState({ state: "idle", error: null });
   const [panelView, setPanelView] = useState("queue");
 
-  async function syncSalesforce(askForKey) {
+  async function syncSalesforce(fromClick) {
     const emails = CONTACTS.filter((c) => c.email).map((c) => c.email);
     if (emails.length === 0) return;
-    if (!getTrackerKey(askForKey)) return;
+    if (!getTrackerKey()) {
+      // The access key field lives in the Tasks tab.
+      if (fromClick) {
+        setSelectedSite(null);
+        setPanelView("tasks");
+      }
+      return;
+    }
     setSfSync({ state: "loading", error: null });
     try {
       const res = await salesforceCall({ action: "lookup", emails });
@@ -221,7 +228,7 @@ function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS, COMPANY_NEWS
   // Live lookup on load, but only once this browser has an access key -
   // without one the map never makes an unrequested call.
   useEffect(() => {
-    if (getTrackerKey(false)) syncSalesforce(false);
+    if (getTrackerKey()) syncSalesforce(false);
   }, []);
 
   function focusSite(mineId) {
@@ -697,19 +704,17 @@ function Dashboard({ SITES, CONTACTS, STATE_CENTROIDS, STATE_PATHS, COMPANY_NEWS
 // key (set once per browser) so random visitors can't write to Salesforce.
 const KEY_STORAGE = "trackerAccessKey";
 // Kept in memory as well, so the key still works for this visit when the
-// browser blocks storage (private windows, embedded browsers).
+// browser blocks storage (private windows, embedded browsers). Entered
+// through an on-page field: embedded browsers don't support window.prompt.
 let memoryKey = null;
-function getTrackerKey(ask) {
+function getTrackerKey() {
   let key = memoryKey;
   try { key = key || localStorage.getItem(KEY_STORAGE); } catch {}
-  if (!key && ask) {
-    key = (window.prompt("Enter the tracker access key:") || "").trim();
-    if (key) {
-      memoryKey = key;
-      try { localStorage.setItem(KEY_STORAGE, key); } catch {}
-    }
-  }
   return key ? key.trim() : null;
+}
+function setTrackerKey(key) {
+  memoryKey = key.trim();
+  try { localStorage.setItem(KEY_STORAGE, memoryKey); } catch {}
 }
 function forgetTrackerKey() {
   memoryKey = null;
@@ -717,8 +722,8 @@ function forgetTrackerKey() {
 }
 const salesforceCall = (body) => trackerCall("salesforce", body);
 async function trackerCall(fn, body) {
-  const key = getTrackerKey(true);
-  if (!key) throw new Error("No access key");
+  const key = getTrackerKey();
+  if (!key) throw new Error("Enter the access key in the Tasks tab first.");
   const res = await fetch(`/api/${fn}`, {
     method: "POST",
     headers: { "Content-Type": "application/json", "x-tracker-key": key },
@@ -841,28 +846,54 @@ function ContactActions({ contact, sf, reasonText }) {
 // the whole team sees the same list. A contact comes back to the open list
 // if a new signal arrives after they were contacted.
 const NAME_STORAGE = "trackerUserName";
-function getUserName() {
-  let name = null;
-  try { name = localStorage.getItem(NAME_STORAGE); } catch {}
-  if (!name) {
-    name = (window.prompt("Your name (shown next to tasks you complete):") || "").trim();
-    if (name) {
-      try { localStorage.setItem(NAME_STORAGE, name); } catch {}
-    }
-  }
-  return name || null;
+function loadUserName() {
+  try { return localStorage.getItem(NAME_STORAGE) || ""; } catch { return ""; }
+}
+
+// One-line text field + button, used for the access key and your name.
+function InlineField({ label, placeholder, secret, button, onSave }) {
+  const [value, setValue] = useState("");
+  const save = () => { if (value.trim()) onSave(value.trim()); };
+  return (
+    <div style={{ marginTop: 8 }}>
+      {label && <div style={{ fontSize: 11, color: "#6B655A", marginBottom: 4 }}>{label}</div>}
+      <div style={{ display: "flex", gap: 6 }}>
+        <input
+          type={secret ? "password" : "text"}
+          value={value}
+          placeholder={placeholder}
+          onChange={(e) => setValue(e.target.value)}
+          onKeyDown={(e) => { if (e.key === "Enter") save(); }}
+          style={{ flex: 1, minWidth: 0, fontSize: 12.5, padding: "5px 8px", border: "1px solid #D8D7D2", borderRadius: 3, fontFamily: "system-ui, sans-serif" }}
+        />
+        <button
+          onClick={save}
+          style={{ fontSize: 12, fontWeight: 600, border: `1px solid ${GOLD}`, background: GOLD, color: "#fff", borderRadius: 3, padding: "4px 10px", cursor: "pointer" }}
+        >
+          {button}
+        </button>
+      </div>
+    </div>
+  );
 }
 const shortDate = (iso) => new Date(iso).toLocaleDateString(undefined, { month: "short", day: "numeric" });
 
 function TaskList({ people, byEmail, onFocusSite }) {
   const [completions, setCompletions] = useState({});
-  const [status, setStatus] = useState(getTrackerKey(false) ? "loading" : "needs-key");
+  const [status, setStatus] = useState(getTrackerKey() ? "loading" : "needs-key");
+  const [userName, setUserName] = useState(loadUserName);
   const [error, setError] = useState(null);
   const [busy, setBusy] = useState(null);
   const [showDone, setShowDone] = useState(false);
 
+  function saveName(name) {
+    setUserName(name);
+    setError(null);
+    try { localStorage.setItem(NAME_STORAGE, name); } catch {}
+  }
+
   async function load() {
-    if (!getTrackerKey(true)) return;
+    if (!getTrackerKey()) return;
     setStatus("loading");
     try {
       const res = await trackerCall("tasks", { action: "list" });
@@ -870,7 +901,7 @@ function TaskList({ people, byEmail, onFocusSite }) {
       setStatus("ready");
       setError(null);
     } catch (e) {
-      setStatus(getTrackerKey(false) ? "error" : "needs-key");
+      setStatus(getTrackerKey() ? "error" : "needs-key");
       setError(e.message);
     }
   }
@@ -879,8 +910,11 @@ function TaskList({ people, byEmail, onFocusSite }) {
   }, []);
 
   async function markDone(p) {
-    const by = getUserName();
-    if (!by) return;
+    const by = userName;
+    if (!by) {
+      setError("Add your name above first - it's shown next to the tasks you complete.");
+      return;
+    }
     const email = (p.email || "").toLowerCase();
     setBusy(email);
     try {
@@ -914,7 +948,13 @@ function TaskList({ people, byEmail, onFocusSite }) {
       <div style={{ fontSize: 12.5, color: "#6B655A", marginTop: 16 }}>
         The task list is shared across the team, so it needs the tracker access key.
         {error && <div style={{ color: "#B0453E", marginTop: 8 }}>{error}</div>}
-        <div onClick={load} style={{ color: GOLD, fontWeight: 600, cursor: "pointer", marginTop: 8 }}>Enter access key</div>
+        <InlineField
+          label="Access key"
+          placeholder="Paste the tracker access key"
+          secret
+          button="Unlock"
+          onSave={(key) => { setTrackerKey(key); load(); }}
+        />
       </div>
     );
   }
@@ -937,6 +977,9 @@ function TaskList({ people, byEmail, onFocusSite }) {
       <div style={{ fontSize: 11, color: "#9A9382", marginTop: 8 }}>
         {open.length} to contact · {done.length} done · shared with everyone using the tracker
       </div>
+      {!userName && (
+        <InlineField label="Your name (shown next to tasks you complete)" placeholder="e.g. Joe" button="Save" onSave={saveName} />
+      )}
       {status === "error" && <div style={{ fontSize: 11, color: "#B0453E", marginTop: 6 }}>Couldn't load task status ({error}). <span onClick={load} style={{ color: GOLD, cursor: "pointer" }}>Retry</span></div>}
       {status === "ready" && error && <div style={{ fontSize: 11, color: "#B0453E", marginTop: 6 }}>{error}</div>}
 
