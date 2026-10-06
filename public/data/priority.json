@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-05T21:43:17+00:00",
+ "generated_at": "2026-10-06T02:35:26+00:00",
  "accounts": [
   {
    "company": "Vulcan Materials",
-   "score": 105.0,
+   "score": 104.0,
    "flagged_site_count": 20,
    "sites": [
     {
@@ -12,7 +12,7 @@
      "company": "Vulcan Materials",
      "state": "TN",
      "county": "Marion",
-     "score": 44.9,
+     "score": 44.7,
      "reasons": [
       {
        "id": "ramp:4003605:2026Q2",
@@ -27,7 +27,7 @@
        "type": "controller_change",
        "text": "Ownership changed - controller now Vulcan Materials Company",
        "date": "2026-08-19",
-       "points": 17.4,
+       "points": 17.2,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -134,7 +134,7 @@
      "type": "company_news",
      "text": "Vulcan Materials acquires Butler Quarry in Pendleton County, Kentucky",
      "date": "2026-09-30",
-     "points": 27.1,
+     "points": 26.3,
      "source": "https://www.aggbusiness.com/vulcan-materials-acquires-kentucky-quarry-from-greystone-client-hilltop-stone/",
      "sales_angle": "Reach out to Vulcan's regional leadership to pitch contract mining, pit development, and overburden stripping support during their operational integration of the new site.",
      "first_flagged": "2026-10-05T15:14:01+00:00"
@@ -146,7 +146,7 @@
   },
   {
    "company": "Rogers Group",
-   "score": 100.5,
+   "score": 100.4,
    "flagged_site_count": 7,
    "sites": [
     {
@@ -155,7 +155,7 @@
      "company": "Rogers Group",
      "state": "VA",
      "county": "Shenandoah",
-     "score": 32.9,
+     "score": 32.8,
      "reasons": [
       {
        "id": "ramp:4400081:2026Q2",
@@ -170,7 +170,7 @@
        "type": "controller_change",
        "text": "Ownership changed - controller now Rogers Group Inc",
        "date": "2026-06-05",
-       "points": 7.3,
+       "points": 7.2,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -296,7 +296,7 @@
   },
   {
    "company": "Amrize",
-   "score": 70.8,
+   "score": 70.4,
    "flagged_site_count": 6,
    "sites": [
     {
@@ -305,7 +305,7 @@
      "company": "Amrize",
      "state": "MN",
      "county": "Washington",
-     "score": 34.1,
+     "score": 34.0,
      "reasons": [
       {
        "id": "ramp:2100080:2026Q2",
@@ -320,7 +320,7 @@
        "type": "controller_change",
        "text": "Ownership changed - controller now Amrize Ltd",
        "date": "2026-04-15",
-       "points": 4.1,
+       "points": 4.0,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       },
       {
@@ -345,7 +345,7 @@
      "company": "Amrize",
      "state": "MN",
      "county": "Dakota",
-     "score": 34.1,
+     "score": 34.0,
      "reasons": [
       {
        "id": "ramp:2101702:2026Q2",
@@ -360,7 +360,7 @@
        "type": "controller_change",
        "text": "Ownership changed - controller now Amrize Ltd",
        "date": "2026-04-15",
-       "points": 4.1,
+       "points": 4.0,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -375,7 +375,7 @@
      "company": "Amrize",
      "state": "MN",
      "county": "Washington",
-     "score": 30.7,
+     "score": 30.6,
      "reasons": [
       {
        "id": "ramp:2100535:2026Q2",
@@ -390,7 +390,7 @@
        "type": "controller_change",
        "text": "Ownership changed - controller now Amrize Ltd",
        "date": "2026-04-15",
-       "points": 4.1,
+       "points": 4.0,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -426,14 +426,14 @@
      "company": "Amrize",
      "state": "MI",
      "county": "Washtenaw",
-     "score": 27.9,
+     "score": 27.0,
      "reasons": [
       {
        "id": "news:https://themanchestermirror.com/2026/09/28/public-notice-sharon-township-17/",
        "type": "news",
        "text": "Amrize seeks special land use permit for 122-acre gravel expansion in Sharon Township",
        "date": "2026-09-28",
-       "points": 23.8,
+       "points": 23.0,
        "source": "https://themanchestermirror.com/2026/09/28/public-notice-sharon-township-17/",
        "sales_angle": "Contact Amrize's Michigan aggregate leadership to track the permit approval process and position contract overburden stripping and site development services.",
        "first_flagged": "2026-10-05T15:14:01+00:00"
@@ -443,7 +443,7 @@
        "type": "controller_change",
        "text": "Ownership changed - controller now Amrize Ltd",
        "date": "2026-04-15",
-       "points": 4.1,
+       "points": 4.0,
        "first_flagged": "2026-10-05T15:14:01+00:00"
       }
      ],
@@ -556,7 +556,7 @@
      "company": "CRH/Oldcastle",
      "state": "KS",
      "county": "Johnson",
-     "score": 29.5,
+     "score": 29.4,
      "reasons": [
       {
        "id": "ramp:1400068:2026Q2",
@@ -571,7 +571,7 @@
        "type": "controller_change",
        "text": "Ownership changed - controller now CRH PLC",
        "date": "2026-04-08",
-       "points": 3.8,
+       "points": 3.7,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -588,7 +588,7 @@
   },
   {
    "company": "Heidelberg Materials",
-   "score": 61.0,
+   "score": 60.9,
    "flagged_site_count": 12,
    "sites": [
     {
@@ -639,14 +639,14 @@
      "company": "Heidelberg Materials",
      "state": "PA",
      "county": "Berks",
-     "score": 26.1,
+     "score": 25.8,
      "reasons": [
       {
        "id": "new:3604849",
        "type": "new_site",
        "text": "New site on MSHA record (Intermittent)",
        "date": "2026-09-23",
-       "points": 26.1,
+       "points": 25.8,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -661,7 +661,7 @@
      "company": "Heidelberg Materials",
      "state": "WA",
      "county": "Clark",
-     "score": 24.1,
+     "score": 24.0,
      "reasons": [
       {
        "id": "ramp:4503293:2026Q2",
@@ -676,7 +676,7 @@
        "type": "news",
        "text": "Phase 3 expansion (34 acres) begins this fall",
        "date": "2026-07-09",
-       "points": 1.4,
+       "points": 1.3,
        "source": "https://rockproducts.com/2026/07/09/heidelbergs-lewisville-pit-open-house-builds-connections/",
        "sales_angle": "An active expansion with a formal community-relations structure already in place — the quarterly advisory panel means whoever runs this site is carrying an ongoing community-liaison workload on top of the physical expansion.",
        "first_flagged": "2026-10-05T14:13:10+00:00"
@@ -834,7 +834,7 @@
   },
   {
    "company": "Cemex",
-   "score": 45.3,
+   "score": 44.2,
    "flagged_site_count": 3,
    "sites": [
     {
@@ -843,14 +843,14 @@
      "company": "Cemex",
      "state": "CA",
      "county": "Fresno",
-     "score": 32.2,
+     "score": 31.2,
      "reasons": [
       {
        "id": "news:https://files.ceqanet.lci.ca.gov/262313-4/attachment/s7Y1DIoZWYubZpj6-owdEE86SFaWtW-PYEpOQmtR1LdE01jerIInErhHvKo0Uvb-Gf-XIZiGP_1Hpaw_0",
        "type": "news",
        "text": "Fresno County releases Final EIR for CEMEX Rockfield Quarry expansion",
        "date": "2026-09-28",
-       "points": 31.7,
+       "points": 30.7,
        "source": "https://files.ceqanet.lci.ca.gov/262313-4/attachment/s7Y1DIoZWYubZpj6-owdEE86SFaWtW-PYEpOQmtR1LdE01jerIInErhHvKo0Uvb-Gf-XIZiGP_1Hpaw_0",
        "sales_angle": "Reach out to CEMEX California leadership now, as transitioning to deep hard rock extraction will require drilling, blasting, and heavy earthmoving support once permits are approved.",
        "first_flagged": "2026-10-05T15:14:01+00:00"
@@ -896,21 +896,21 @@
      "company": "Cemex",
      "state": "AZ",
      "county": "Maricopa",
-     "score": 15.7,
+     "score": 15.6,
      "reasons": [
-      {
-       "id": "controller:203544:2026-06-11",
-       "type": "controller_change",
-       "text": "Ownership changed - controller now Cemex S A",
-       "date": "2026-06-11",
-       "points": 7.9,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      },
       {
        "id": "status:203544:NonProducing:2026-09-14",
        "type": "status_change",
        "text": "MSHA status changed to NonProducing",
        "date": "2026-09-14",
+       "points": 7.8,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      },
+      {
+       "id": "controller:203544:2026-06-11",
+       "type": "controller_change",
+       "text": "Ownership changed - controller now Cemex S A",
+       "date": "2026-06-11",
        "points": 7.8,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
@@ -921,47 +921,6 @@
     }
    ],
    "company_news": [],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T15:14:01+00:00",
-   "is_new": false
-  },
-  {
-   "company": "Quikrete",
-   "score": 37.5,
-   "flagged_site_count": 1,
-   "sites": [
-    {
-     "mine_id": "3800305",
-     "name": "HARLEYVILLE MINE & PLANT",
-     "company": "Quikrete",
-     "state": "SC",
-     "county": "Dorchester",
-     "score": 24.4,
-     "reasons": [
-      {
-       "id": "ramp:3800305:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +44% year over year (131 employees)",
-       "date": "2026-06-30",
-       "points": 24.4,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": []
-    }
-   ],
-   "company_news": [
-    {
-     "id": "cnews:https://gis-modnr.opendata.arcgis.com/datasets/modnr::permit-boundary/explore?showTable=true",
-     "type": "company_news",
-     "text": "Missouri DNR issues open-pit limestone permit for Quikrete's Jasper Quarry #15",
-     "date": "2026-09-29",
-     "points": 13.1,
-     "source": "https://gis-modnr.opendata.arcgis.com/datasets/modnr::permit-boundary/explore?showTable=true",
-     "sales_angle": "Connect with Midwest Minerals and Quikrete operational leads to offer contract overburden removal, drilling, and blasting support under the newly active quarry permit.",
-     "first_flagged": "2026-10-05T15:14:01+00:00"
-    }
-   ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-05T15:14:01+00:00",
    "is_new": false
@@ -1024,6 +983,47 @@
    "is_new": false
   },
   {
+   "company": "Quikrete",
+   "score": 37.1,
+   "flagged_site_count": 1,
+   "sites": [
+    {
+     "mine_id": "3800305",
+     "name": "HARLEYVILLE MINE & PLANT",
+     "company": "Quikrete",
+     "state": "SC",
+     "county": "Dorchester",
+     "score": 24.4,
+     "reasons": [
+      {
+       "id": "ramp:3800305:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +44% year over year (131 employees)",
+       "date": "2026-06-30",
+       "points": 24.4,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": []
+    }
+   ],
+   "company_news": [
+    {
+     "id": "cnews:https://gis-modnr.opendata.arcgis.com/datasets/modnr::permit-boundary/explore?showTable=true",
+     "type": "company_news",
+     "text": "Missouri DNR issues open-pit limestone permit for Quikrete's Jasper Quarry #15",
+     "date": "2026-09-29",
+     "points": 12.7,
+     "source": "https://gis-modnr.opendata.arcgis.com/datasets/modnr::permit-boundary/explore?showTable=true",
+     "sales_angle": "Connect with Midwest Minerals and Quikrete operational leads to offer contract overburden removal, drilling, and blasting support under the newly active quarry permit.",
+     "first_flagged": "2026-10-05T15:14:01+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-05T14:13:10+00:00",
+   "latest_signal_at": "2026-10-05T15:14:01+00:00",
+   "is_new": false
+  },
+  {
    "company": "Titan America",
    "score": 37.0,
    "flagged_site_count": 2,
@@ -1082,7 +1082,7 @@
   },
   {
    "company": "CalPortland",
-   "score": 31.7,
+   "score": 31.4,
    "flagged_site_count": 2,
    "sites": [
     {
@@ -1091,7 +1091,7 @@
      "company": "CalPortland",
      "state": "CA",
      "county": "San Bernardino",
-     "score": 23.7,
+     "score": 23.6,
      "reasons": [
       {
        "id": "ramp:405907:2026Q2",
@@ -1106,7 +1106,7 @@
        "type": "news",
        "text": "Scheerer, Oro Grande & Mojave named #1 Aggregates Operation, President's Award",
        "date": "2026-06-25",
-       "points": 0.9,
+       "points": 0.8,
        "source": "https://rockproducts.com/2026/06/25/calportlands-scheerer-aggregates-plant-earns-safety-award/",
        "sales_angle": "Correction from an earlier draft: this is a safety recognition, not an environmental award. It's a real strength to acknowledge, not a pain point — these three sites have an unusually strong safety culture already in place. That's worth respecting in any outreach (don't lead with a staffing-gap pitch here), but it also means whoever is running day-to-day operations across all three is stretched thin keeping that streak alive while Mojave and Scheerer are simultaneously expanding — a scale-without-more-hands story, just a gentler one.",
        "first_flagged": "2026-10-05T14:13:10+00:00"
@@ -1134,14 +1134,14 @@
      "company": "CalPortland",
      "state": "WA",
      "county": "Pierce",
-     "score": 19.0,
+     "score": 18.4,
      "reasons": [
       {
        "id": "news:https://pierceprairiepost.com/2026/10/02/how-much-is-our-aquifer-worth-can-we-give-it-away/",
        "type": "news",
        "text": "Legal appeal against CalPortland DuPont gravel mine expansion proceeds in court",
        "date": "2026-10-02",
-       "points": 18.1,
+       "points": 17.5,
        "source": "https://pierceprairiepost.com/2026/10/02/how-much-is-our-aquifer-worth-can-we-give-it-away/",
        "sales_angle": "Track the DuPont permit appeal to position pit development, overburden removal, and dewatering earthwork support once environmental challenges are resolved.",
        "first_flagged": "2026-10-05T15:14:01+00:00"
@@ -1300,14 +1300,14 @@
    "linkedin": "http://www.linkedin.com/in/jaimehill",
    "sf_id": null,
    "linked_site": "2100080",
-   "score": 17.1,
+   "score": 17.0,
    "reasons": [
     {
      "id": "site:jaime.hill@amrize.com:2100080",
      "type": "site_signal",
      "text": "Best-placed contact for Amrize Larson Plant (MN) - Hours up +105% year over year (10 employees)",
      "date": "2026-06-30",
-     "points": 17.1,
+     "points": 17.0,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1325,14 +1325,14 @@
    "linkedin": "http://www.linkedin.com/in/michael-welhouse-11043717",
    "sf_id": null,
    "linked_site": "2100080",
-   "score": 17.1,
+   "score": 17.0,
    "reasons": [
     {
      "id": "site:michael.welhouse@amrize.com:2100080",
      "type": "site_signal",
      "text": "Best-placed contact for Amrize Larson Plant (MN) - Hours up +105% year over year (10 employees)",
      "date": "2026-06-30",
-     "points": 17.1,
+     "points": 17.0,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1941,31 +1941,6 @@
    "is_new": false
   },
   {
-   "email": "keith.childress@amrize.com",
-   "name": "Keith Childress",
-   "title": "Regional Director of Quality & Product Performance",
-   "company": "Amrize",
-   "tier": "Tier 2",
-   "state": "MI",
-   "linkedin": "http://www.linkedin.com/in/keith-childress-213a0b94",
-   "sf_id": null,
-   "linked_site": "2003423",
-   "score": 13.9,
-   "reasons": [
-    {
-     "id": "site:keith.childress@amrize.com:2003423",
-     "type": "site_signal",
-     "text": "Best-placed contact for Amrize Manchester Sand and Gravel (MI) - Amrize seeks special land use permit for 122-acre gravel expansion in Sharon Township",
-     "date": "2026-09-28",
-     "points": 13.9,
-     "first_flagged": "2026-10-05T15:14:01+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T15:14:01+00:00",
-   "latest_signal_at": "2026-10-05T15:14:01+00:00",
-   "is_new": false
-  },
-  {
    "email": "jose.armenta@apac.com",
    "name": "Jose Armenta",
    "title": "Vice President of Materials, Gulf Coast",
@@ -1975,14 +1950,14 @@
    "linkedin": "http://www.linkedin.com/in/jarmenta",
    "sf_id": null,
    "linked_site": "4202489",
-   "score": 13.8,
+   "score": 13.7,
    "reasons": [
     {
      "id": "site:jose.armenta@apac.com:4202489",
      "type": "site_signal",
      "text": "Best-placed contact for ELSINORE PIT (UT) - New site on MSHA record (Temporarily Idled)",
      "date": "2026-08-24",
-     "points": 13.8,
+     "points": 13.7,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -2000,19 +1975,44 @@
    "linkedin": "http://www.linkedin.com/in/travis-canfield-a7719470",
    "sf_id": null,
    "linked_site": "4202489",
-   "score": 13.8,
+   "score": 13.7,
    "reasons": [
     {
      "id": "site:travis.canfield@stakerparson.com:4202489",
      "type": "site_signal",
      "text": "Best-placed contact for ELSINORE PIT (UT) - New site on MSHA record (Temporarily Idled)",
      "date": "2026-08-24",
-     "points": 13.8,
+     "points": 13.7,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-05T14:13:10+00:00",
+   "is_new": false
+  },
+  {
+   "email": "keith.childress@amrize.com",
+   "name": "Keith Childress",
+   "title": "Regional Director of Quality & Product Performance",
+   "company": "Amrize",
+   "tier": "Tier 2",
+   "state": "MI",
+   "linkedin": "http://www.linkedin.com/in/keith-childress-213a0b94",
+   "sf_id": null,
+   "linked_site": "2003423",
+   "score": 13.5,
+   "reasons": [
+    {
+     "id": "site:keith.childress@amrize.com:2003423",
+     "type": "site_signal",
+     "text": "Best-placed contact for Amrize Manchester Sand and Gravel (MI) - Amrize seeks special land use permit for 122-acre gravel expansion in Sharon Township",
+     "date": "2026-09-28",
+     "points": 13.5,
+     "first_flagged": "2026-10-05T15:14:01+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-05T15:14:01+00:00",
+   "latest_signal_at": "2026-10-05T15:14:01+00:00",
    "is_new": false
   },
   {
@@ -2025,14 +2025,14 @@
    "linkedin": "http://www.linkedin.com/in/peter-sanguineti-0352534",
    "sf_id": null,
    "linked_site": "203282",
-   "score": 13.4,
+   "score": 13.3,
    "reasons": [
     {
      "id": "site:peter.sanguineti@amrize.com:203282",
      "type": "site_signal",
      "text": "Best-placed contact for Amrize Hassayampa Wash Plant (AZ) - Hours up +27% year over year (23 employees)",
      "date": "2026-06-30",
-     "points": 13.4,
+     "points": 13.3,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
