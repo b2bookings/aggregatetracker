@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-06T19:55:22+00:00",
+ "generated_at": "2026-10-07T01:55:19+00:00",
  "accounts": [
   {
    "company": "Vulcan Materials",
-   "score": 103.3,
+   "score": 102.2,
    "flagged_site_count": 20,
    "sites": [
     {
@@ -12,7 +12,7 @@
      "company": "Vulcan Materials",
      "state": "TN",
      "county": "Marion",
-     "score": 44.4,
+     "score": 44.2,
      "reasons": [
       {
        "id": "ramp:4003605:2026Q2",
@@ -27,7 +27,7 @@
        "type": "controller_change",
        "text": "Ownership changed - controller now Vulcan Materials Company",
        "date": "2026-08-19",
-       "points": 17.2,
+       "points": 17.0,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -134,7 +134,7 @@
      "type": "company_news",
      "text": "Vulcan Materials acquires Butler Quarry in Pendleton County, Kentucky",
      "date": "2026-09-30",
-     "points": 26.3,
+     "points": 25.4,
      "source": "https://www.aggbusiness.com/vulcan-materials-acquires-kentucky-quarry-from-greystone-client-hilltop-stone/",
      "sales_angle": "Reach out to Vulcan's regional leadership to pitch contract mining, pit development, and overburden stripping support during their operational integration of the new site.",
      "first_flagged": "2026-10-05T15:14:01+00:00"
@@ -146,7 +146,7 @@
   },
   {
    "company": "Rogers Group",
-   "score": 99.7,
+   "score": 98.9,
    "flagged_site_count": 7,
    "sites": [
     {
@@ -274,7 +274,7 @@
      "type": "company_news",
      "text": "Rogers Group pursues rezoning and annexation for 542-acre mine in North Carolina",
      "date": "2026-10-06",
-     "points": 24.0,
+     "points": 23.2,
      "source": "https://www.newlondonnc.org/",
      "sales_angle": "Contact Rogers Group greenfield project managers to introduce Turner Mining Group for site development, initial overburden removal, and pioneering services.",
      "first_flagged": "2026-10-05T15:14:01+00:00"
@@ -295,8 +295,145 @@
    "is_new": false
   },
   {
+   "company": "CRH/Oldcastle",
+   "score": 74.7,
+   "flagged_site_count": 20,
+   "sites": [
+    {
+     "mine_id": "1400068",
+     "name": "Johnson County Aggregates",
+     "company": "CRH/Oldcastle",
+     "state": "KS",
+     "county": "Johnson",
+     "score": 39.1,
+     "reasons": [
+      {
+       "id": "ramp:1400068:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +57% year over year (36 employees)",
+       "date": "2026-06-30",
+       "points": 25.4,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      },
+      {
+       "id": "news:https://www.kshb.com/news/local-news/kansas/johnson-county/would-they-want-it-in-their-neighborhood-olathe-neighbors-raise-concerns-over-proposed-quarry-expansion",
+       "type": "news",
+       "text": "Olathe residents raise concerns over Johnson County Aggregates quarry expansion",
+       "date": "2026-10-07",
+       "points": 10.0,
+       "source": "https://www.kshb.com/news/local-news/kansas/johnson-county/would-they-want-it-in-their-neighborhood-olathe-neighbors-raise-concerns-over-proposed-quarry-expansion",
+       "sales_angle": "Reach out to CRH's regional operational leadership to pitch overburden removal and initial site development services as the expansion permitting progresses.",
+       "first_flagged": "2026-10-07T01:55:19+00:00"
+      },
+      {
+       "id": "controller:1400068:2026-04-08",
+       "type": "controller_change",
+       "text": "Ownership changed - controller now CRH PLC",
+       "date": "2026-04-08",
+       "points": 3.7,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": [
+      "brandon.lefevre@na.crh.com",
+      "joel.galassini@crh.com"
+     ]
+    },
+    {
+     "mine_id": "300437",
+     "name": "Avoca Quarry & Plant",
+     "company": "CRH/Oldcastle",
+     "state": "AR",
+     "county": "Benton",
+     "score": 29.7,
+     "reasons": [
+      {
+       "id": "ramp:300437:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +105% year over year (12 employees)",
+       "date": "2026-06-30",
+       "points": 29.7,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": [
+      "brandon.lefevre@na.crh.com",
+      "dwayne.boyd@na.crh.com",
+      "joel.galassini@crh.com"
+     ]
+    },
+    {
+     "mine_id": "600393",
+     "name": "Jewett City",
+     "company": "CRH/Oldcastle",
+     "state": "CT",
+     "county": "New London",
+     "score": 29.7,
+     "reasons": [
+      {
+       "id": "ramp:600393:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +498% year over year (15 employees)",
+       "date": "2026-06-30",
+       "points": 29.7,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": []
+    },
+    {
+     "mine_id": "1519092",
+     "name": "PULASKI STONE COMPANY",
+     "company": "CRH/Oldcastle",
+     "state": "KY",
+     "county": "Pulaski",
+     "score": 29.7,
+     "reasons": [
+      {
+       "id": "ramp:1519092:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +475% year over year (14 employees)",
+       "date": "2026-06-30",
+       "points": 29.7,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": [
+      "brandon.lefevre@na.crh.com",
+      "dwayne.boyd@na.crh.com"
+     ]
+    },
+    {
+     "mine_id": "2302576",
+     "name": "ElDorado Springs Quarry",
+     "company": "CRH/Oldcastle",
+     "state": "MO",
+     "county": "St Clair",
+     "score": 29.7,
+     "reasons": [
+      {
+       "id": "ramp:2302576:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +127% year over year (12 employees)",
+       "date": "2026-06-30",
+       "points": 29.7,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": [
+      "brandon.lefevre@na.crh.com",
+      "dwayne.boyd@na.crh.com"
+     ]
+    }
+   ],
+   "company_news": [],
+   "first_flagged": "2026-10-05T14:13:10+00:00",
+   "latest_signal_at": "2026-10-07T01:55:19+00:00",
+   "is_new": true
+  },
+  {
    "company": "Amrize",
-   "score": 69.8,
+   "score": 69.7,
    "flagged_site_count": 6,
    "sites": [
     {
@@ -421,163 +558,32 @@
      ]
     },
     {
-     "mine_id": "2003423",
-     "name": "Amrize Manchester Sand and Gravel",
+     "mine_id": "203282",
+     "name": "Amrize Hassayampa Wash Plant",
      "company": "Amrize",
-     "state": "MI",
-     "county": "Washtenaw",
-     "score": 27.0,
+     "state": "AZ",
+     "county": "Maricopa",
+     "score": 26.4,
      "reasons": [
       {
-       "id": "news:https://themanchestermirror.com/2026/09/28/public-notice-sharon-township-17/",
-       "type": "news",
-       "text": "Amrize seeks special land use permit for 122-acre gravel expansion in Sharon Township",
-       "date": "2026-09-28",
-       "points": 23.0,
-       "source": "https://themanchestermirror.com/2026/09/28/public-notice-sharon-township-17/",
-       "sales_angle": "Contact Amrize's Michigan aggregate leadership to track the permit approval process and position contract overburden stripping and site development services.",
-       "first_flagged": "2026-10-05T15:14:01+00:00"
+       "id": "ramp:203282:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +27% year over year (23 employees)",
+       "date": "2026-06-30",
+       "points": 22.4,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
       },
       {
-       "id": "controller:2003423:2026-04-15",
+       "id": "controller:203282:2026-04-15",
        "type": "controller_change",
        "text": "Ownership changed - controller now Amrize Ltd",
        "date": "2026-04-15",
        "points": 4.0,
-       "first_flagged": "2026-10-05T15:14:01+00:00"
-      }
-     ],
-     "contacts": [
-      "keith.childress@amrize.com",
-      "jaime.hill@amrize.com",
-      "michael.welhouse@amrize.com"
-     ]
-    }
-   ],
-   "company_news": [],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T15:14:01+00:00",
-   "is_new": false
-  },
-  {
-   "company": "CRH/Oldcastle",
-   "score": 65.2,
-   "flagged_site_count": 20,
-   "sites": [
-    {
-     "mine_id": "300437",
-     "name": "Avoca Quarry & Plant",
-     "company": "CRH/Oldcastle",
-     "state": "AR",
-     "county": "Benton",
-     "score": 29.7,
-     "reasons": [
-      {
-       "id": "ramp:300437:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +105% year over year (12 employees)",
-       "date": "2026-06-30",
-       "points": 29.7,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
      "contacts": [
-      "brandon.lefevre@na.crh.com",
-      "dwayne.boyd@na.crh.com",
-      "joel.galassini@crh.com"
-     ]
-    },
-    {
-     "mine_id": "600393",
-     "name": "Jewett City",
-     "company": "CRH/Oldcastle",
-     "state": "CT",
-     "county": "New London",
-     "score": 29.7,
-     "reasons": [
-      {
-       "id": "ramp:600393:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +498% year over year (15 employees)",
-       "date": "2026-06-30",
-       "points": 29.7,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": []
-    },
-    {
-     "mine_id": "1519092",
-     "name": "PULASKI STONE COMPANY",
-     "company": "CRH/Oldcastle",
-     "state": "KY",
-     "county": "Pulaski",
-     "score": 29.7,
-     "reasons": [
-      {
-       "id": "ramp:1519092:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +475% year over year (14 employees)",
-       "date": "2026-06-30",
-       "points": 29.7,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": [
-      "brandon.lefevre@na.crh.com",
-      "dwayne.boyd@na.crh.com"
-     ]
-    },
-    {
-     "mine_id": "2302576",
-     "name": "ElDorado Springs Quarry",
-     "company": "CRH/Oldcastle",
-     "state": "MO",
-     "county": "St Clair",
-     "score": 29.7,
-     "reasons": [
-      {
-       "id": "ramp:2302576:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +127% year over year (12 employees)",
-       "date": "2026-06-30",
-       "points": 29.7,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": [
-      "brandon.lefevre@na.crh.com",
-      "dwayne.boyd@na.crh.com"
-     ]
-    },
-    {
-     "mine_id": "1400068",
-     "name": "Johnson County Aggregates",
-     "company": "CRH/Oldcastle",
-     "state": "KS",
-     "county": "Johnson",
-     "score": 29.1,
-     "reasons": [
-      {
-       "id": "ramp:1400068:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +57% year over year (36 employees)",
-       "date": "2026-06-30",
-       "points": 25.4,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      },
-      {
-       "id": "controller:1400068:2026-04-08",
-       "type": "controller_change",
-       "text": "Ownership changed - controller now CRH PLC",
-       "date": "2026-04-08",
-       "points": 3.7,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": [
-      "brandon.lefevre@na.crh.com",
-      "joel.galassini@crh.com"
+      "peter.sanguineti@amrize.com"
      ]
     }
    ],
@@ -588,7 +594,7 @@
   },
   {
    "company": "Heidelberg Materials",
-   "score": 60.3,
+   "score": 60.2,
    "flagged_site_count": 12,
    "sites": [
     {
@@ -639,14 +645,14 @@
      "company": "Heidelberg Materials",
      "state": "PA",
      "county": "Berks",
-     "score": 25.8,
+     "score": 25.5,
      "reasons": [
       {
        "id": "new:3604849",
        "type": "new_site",
        "text": "New site on MSHA record (Intermittent)",
        "date": "2026-09-23",
-       "points": 25.8,
+       "points": 25.5,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -834,7 +840,7 @@
   },
   {
    "company": "Cemex",
-   "score": 44.2,
+   "score": 43.1,
    "flagged_site_count": 3,
    "sites": [
     {
@@ -843,14 +849,14 @@
      "company": "Cemex",
      "state": "CA",
      "county": "Fresno",
-     "score": 31.2,
+     "score": 30.2,
      "reasons": [
       {
        "id": "news:https://files.ceqanet.lci.ca.gov/262313-4/attachment/s7Y1DIoZWYubZpj6-owdEE86SFaWtW-PYEpOQmtR1LdE01jerIInErhHvKo0Uvb-Gf-XIZiGP_1Hpaw_0",
        "type": "news",
        "text": "Fresno County releases Final EIR for CEMEX Rockfield Quarry expansion",
        "date": "2026-09-28",
-       "points": 30.7,
+       "points": 29.7,
        "source": "https://files.ceqanet.lci.ca.gov/262313-4/attachment/s7Y1DIoZWYubZpj6-owdEE86SFaWtW-PYEpOQmtR1LdE01jerIInErhHvKo0Uvb-Gf-XIZiGP_1Hpaw_0",
        "sales_angle": "Reach out to CEMEX California leadership now, as transitioning to deep hard rock extraction will require drilling, blasting, and heavy earthmoving support once permits are approved.",
        "first_flagged": "2026-10-05T15:14:01+00:00"
@@ -896,14 +902,14 @@
      "company": "Cemex",
      "state": "AZ",
      "county": "Maricopa",
-     "score": 15.6,
+     "score": 15.4,
      "reasons": [
       {
        "id": "status:203544:NonProducing:2026-09-14",
        "type": "status_change",
        "text": "MSHA status changed to NonProducing",
        "date": "2026-09-14",
-       "points": 7.8,
+       "points": 7.7,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       },
       {
@@ -911,7 +917,7 @@
        "type": "controller_change",
        "text": "Ownership changed - controller now Cemex S A",
        "date": "2026-06-11",
-       "points": 7.8,
+       "points": 7.7,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -921,47 +927,6 @@
     }
    ],
    "company_news": [],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T15:14:01+00:00",
-   "is_new": false
-  },
-  {
-   "company": "Quikrete",
-   "score": 36.9,
-   "flagged_site_count": 1,
-   "sites": [
-    {
-     "mine_id": "3800305",
-     "name": "HARLEYVILLE MINE & PLANT",
-     "company": "Quikrete",
-     "state": "SC",
-     "county": "Dorchester",
-     "score": 24.2,
-     "reasons": [
-      {
-       "id": "ramp:3800305:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +44% year over year (131 employees)",
-       "date": "2026-06-30",
-       "points": 24.2,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": []
-    }
-   ],
-   "company_news": [
-    {
-     "id": "cnews:https://gis-modnr.opendata.arcgis.com/datasets/modnr::permit-boundary/explore?showTable=true",
-     "type": "company_news",
-     "text": "Missouri DNR issues open-pit limestone permit for Quikrete's Jasper Quarry #15",
-     "date": "2026-09-29",
-     "points": 12.7,
-     "source": "https://gis-modnr.opendata.arcgis.com/datasets/modnr::permit-boundary/explore?showTable=true",
-     "sales_angle": "Connect with Midwest Minerals and Quikrete operational leads to offer contract overburden removal, drilling, and blasting support under the newly active quarry permit.",
-     "first_flagged": "2026-10-05T15:14:01+00:00"
-    }
-   ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-05T15:14:01+00:00",
    "is_new": false
@@ -1081,8 +1046,49 @@
    "is_new": false
   },
   {
+   "company": "Quikrete",
+   "score": 36.5,
+   "flagged_site_count": 1,
+   "sites": [
+    {
+     "mine_id": "3800305",
+     "name": "HARLEYVILLE MINE & PLANT",
+     "company": "Quikrete",
+     "state": "SC",
+     "county": "Dorchester",
+     "score": 24.2,
+     "reasons": [
+      {
+       "id": "ramp:3800305:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +44% year over year (131 employees)",
+       "date": "2026-06-30",
+       "points": 24.2,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": []
+    }
+   ],
+   "company_news": [
+    {
+     "id": "cnews:https://gis-modnr.opendata.arcgis.com/datasets/modnr::permit-boundary/explore?showTable=true",
+     "type": "company_news",
+     "text": "Missouri DNR issues open-pit limestone permit for Quikrete's Jasper Quarry #15",
+     "date": "2026-09-29",
+     "points": 12.3,
+     "source": "https://gis-modnr.opendata.arcgis.com/datasets/modnr::permit-boundary/explore?showTable=true",
+     "sales_angle": "Connect with Midwest Minerals and Quikrete operational leads to offer contract overburden removal, drilling, and blasting support under the newly active quarry permit.",
+     "first_flagged": "2026-10-05T15:14:01+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-05T14:13:10+00:00",
+   "latest_signal_at": "2026-10-05T15:14:01+00:00",
+   "is_new": false
+  },
+  {
    "company": "CalPortland",
-   "score": 31.1,
+   "score": 30.8,
    "flagged_site_count": 2,
    "sites": [
     {
@@ -1134,14 +1140,14 @@
      "company": "CalPortland",
      "state": "WA",
      "county": "Pierce",
-     "score": 18.4,
+     "score": 17.8,
      "reasons": [
       {
        "id": "news:https://pierceprairiepost.com/2026/10/02/how-much-is-our-aquifer-worth-can-we-give-it-away/",
        "type": "news",
        "text": "Legal appeal against CalPortland DuPont gravel mine expansion proceeds in court",
        "date": "2026-10-02",
-       "points": 17.5,
+       "points": 17.0,
        "source": "https://pierceprairiepost.com/2026/10/02/how-much-is-our-aquifer-worth-can-we-give-it-away/",
        "sales_angle": "Track the DuPont permit appeal to position pit development, overburden removal, and dewatering earthwork support once environmental challenges are resolved.",
        "first_flagged": "2026-10-05T15:14:01+00:00"
@@ -1151,7 +1157,7 @@
        "type": "news",
        "text": "Pioneer Aggregates expansion approved, then appealed",
        "date": "2026-06-26",
-       "points": 0.9,
+       "points": 0.8,
        "source": "https://hoodline.com/2026/07/dupont-showdown-hearing-backs-gravel-mine-push-into-beloved-woods/",
        "sales_angle": "A contested, high-scrutiny expansion that's adding scope without adding headcount — exactly the strain TMG's staffing model addresses.",
        "first_flagged": "2026-10-05T15:14:01+00:00"
@@ -1170,7 +1176,7 @@
      "type": "company_news",
      "text": "Northern California Teamsters strike resolved",
      "date": "2026-08",
-     "points": 2.3,
+     "points": 2.2,
      "source": null,
      "sales_angle": null,
      "first_flagged": "2026-10-05T14:13:10+00:00"
@@ -1225,14 +1231,14 @@
    "linkedin": "http://www.linkedin.com/in/allen-ramer-89359016",
    "sf_id": null,
    "linked_site": "4003605",
-   "score": 22.2,
+   "score": 22.1,
    "reasons": [
     {
      "id": "site:ramera@vmcmail.com:4003605",
      "type": "site_signal",
      "text": "Best-placed contact for Nickajack Quarry (TN) - Hours up +75% year over year (20 employees)",
      "date": "2026-06-30",
-     "points": 22.2,
+     "points": 22.1,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1250,14 +1256,14 @@
    "linkedin": "http://www.linkedin.com/in/jack-lambert-94a413a1",
    "sf_id": null,
    "linked_site": "4003605",
-   "score": 22.2,
+   "score": 22.1,
    "reasons": [
     {
      "id": "site:jack.lambert@vulcanmaterials.com:4003605",
      "type": "site_signal",
      "text": "Best-placed contact for Nickajack Quarry (TN) - Hours up +75% year over year (20 employees)",
      "date": "2026-06-30",
-     "points": 22.2,
+     "points": 22.1,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1275,20 +1281,70 @@
    "linkedin": "http://www.linkedin.com/in/jon-badgett-45189b89",
    "sf_id": null,
    "linked_site": "4003605",
-   "score": 22.2,
+   "score": 22.1,
    "reasons": [
     {
      "id": "site:badgettj@vmcmail.com:4003605",
      "type": "site_signal",
      "text": "Best-placed contact for Nickajack Quarry (TN) - Hours up +75% year over year (20 employees)",
      "date": "2026-06-30",
-     "points": 22.2,
+     "points": 22.1,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-05T14:13:10+00:00",
    "is_new": false
+  },
+  {
+   "email": "brandon.lefevre@na.crh.com",
+   "name": "Brandon Lefevre",
+   "title": "Regional President",
+   "company": "CRH/Oldcastle",
+   "tier": "Tier 1",
+   "state": "AR",
+   "linkedin": "http://www.linkedin.com/in/brandon-lefevre-755976120",
+   "sf_id": null,
+   "linked_site": "1400068",
+   "score": 19.6,
+   "reasons": [
+    {
+     "id": "site:brandon.lefevre@na.crh.com:1400068",
+     "type": "site_signal",
+     "text": "Best-placed contact for Johnson County Aggregates (KS) - Hours up +57% year over year (36 employees)",
+     "date": "2026-06-30",
+     "points": 19.6,
+     "first_flagged": "2026-10-07T01:55:19+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-07T01:55:19+00:00",
+   "latest_signal_at": "2026-10-07T01:55:19+00:00",
+   "is_new": true
+  },
+  {
+   "email": "joel.galassini@crh.com",
+   "name": "Joel Galassini",
+   "title": "President, South Central Division",
+   "company": "CRH/Oldcastle",
+   "tier": "Tier 1",
+   "state": "TX",
+   "linkedin": "http://www.linkedin.com/in/joelgalassini",
+   "sf_id": null,
+   "linked_site": "1400068",
+   "score": 19.6,
+   "reasons": [
+    {
+     "id": "site:joel.galassini@crh.com:1400068",
+     "type": "site_signal",
+     "text": "Best-placed contact for Johnson County Aggregates (KS) - Hours up +57% year over year (36 employees)",
+     "date": "2026-06-30",
+     "points": 19.6,
+     "first_flagged": "2026-10-07T01:55:19+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-07T01:55:19+00:00",
+   "latest_signal_at": "2026-10-07T01:55:19+00:00",
+   "is_new": true
   },
   {
    "email": "jaime.hill@amrize.com",
@@ -1466,31 +1522,6 @@
    "is_new": false
   },
   {
-   "email": "brandon.lefevre@na.crh.com",
-   "name": "Brandon Lefevre",
-   "title": "Regional President",
-   "company": "CRH/Oldcastle",
-   "tier": "Tier 1",
-   "state": "AR",
-   "linkedin": "http://www.linkedin.com/in/brandon-lefevre-755976120",
-   "sf_id": null,
-   "linked_site": "300437",
-   "score": 14.8,
-   "reasons": [
-    {
-     "id": "site:brandon.lefevre@na.crh.com:300437",
-     "type": "site_signal",
-     "text": "Best-placed contact for Avoca Quarry & Plant (AR) - Hours up +105% year over year (12 employees)",
-     "date": "2026-06-30",
-     "points": 14.8,
-     "first_flagged": "2026-10-05T14:13:10+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
-  },
-  {
    "email": "brian.bailey@vulcanmaterials.com",
    "name": "Brian Bailey",
    "title": "Vice President Operations",
@@ -1606,31 +1637,6 @@
      "id": "site:wilkersong@vmcmail.com:405987",
      "type": "site_signal",
      "text": "Best-placed contact for Cupertino Quarry (CA) - Hours up +286% year over year (14 employees)",
-     "date": "2026-06-30",
-     "points": 14.8,
-     "first_flagged": "2026-10-05T14:13:10+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
-  },
-  {
-   "email": "joel.galassini@crh.com",
-   "name": "Joel Galassini",
-   "title": "President, South Central Division",
-   "company": "CRH/Oldcastle",
-   "tier": "Tier 1",
-   "state": "TX",
-   "linkedin": "http://www.linkedin.com/in/joelgalassini",
-   "sf_id": null,
-   "linked_site": "300437",
-   "score": 14.8,
-   "reasons": [
-    {
-     "id": "site:joel.galassini@crh.com:300437",
-     "type": "site_signal",
-     "text": "Best-placed contact for Avoca Quarry & Plant (AR) - Hours up +105% year over year (12 employees)",
      "date": "2026-06-30",
      "points": 14.8,
      "first_flagged": "2026-10-05T14:13:10+00:00"
@@ -1950,14 +1956,14 @@
    "linkedin": "http://www.linkedin.com/in/jarmenta",
    "sf_id": null,
    "linked_site": "4202489",
-   "score": 13.7,
+   "score": 13.5,
    "reasons": [
     {
      "id": "site:jose.armenta@apac.com:4202489",
      "type": "site_signal",
      "text": "Best-placed contact for ELSINORE PIT (UT) - New site on MSHA record (Temporarily Idled)",
      "date": "2026-08-24",
-     "points": 13.7,
+     "points": 13.5,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1975,14 +1981,14 @@
    "linkedin": "http://www.linkedin.com/in/travis-canfield-a7719470",
    "sf_id": null,
    "linked_site": "4202489",
-   "score": 13.7,
+   "score": 13.5,
    "reasons": [
     {
      "id": "site:travis.canfield@stakerparson.com:4202489",
      "type": "site_signal",
      "text": "Best-placed contact for ELSINORE PIT (UT) - New site on MSHA record (Temporarily Idled)",
      "date": "2026-08-24",
-     "points": 13.7,
+     "points": 13.5,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -2000,14 +2006,14 @@
    "linkedin": "http://www.linkedin.com/in/keith-childress-213a0b94",
    "sf_id": null,
    "linked_site": "2003423",
-   "score": 13.5,
+   "score": 13.2,
    "reasons": [
     {
      "id": "site:keith.childress@amrize.com:2003423",
      "type": "site_signal",
      "text": "Best-placed contact for Amrize Manchester Sand and Gravel (MI) - Amrize seeks special land use permit for 122-acre gravel expansion in Sharon Township",
      "date": "2026-09-28",
-     "points": 13.5,
+     "points": 13.2,
      "first_flagged": "2026-10-05T15:14:01+00:00"
     }
    ],
