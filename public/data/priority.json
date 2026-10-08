@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-07T20:16:58+00:00",
+ "generated_at": "2026-10-08T02:20:54+00:00",
  "accounts": [
   {
    "company": "Vulcan Materials",
-   "score": 101.5,
+   "score": 100.5,
    "flagged_site_count": 20,
    "sites": [
     {
@@ -12,7 +12,7 @@
      "company": "Vulcan Materials",
      "state": "TN",
      "county": "Marion",
-     "score": 43.9,
+     "score": 43.7,
      "reasons": [
       {
        "id": "ramp:4003605:2026Q2",
@@ -27,7 +27,7 @@
        "type": "controller_change",
        "text": "Ownership changed - controller now Vulcan Materials Company",
        "date": "2026-08-19",
-       "points": 17.0,
+       "points": 16.8,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -134,7 +134,7 @@
      "type": "company_news",
      "text": "Vulcan Materials acquires Butler Quarry in Pendleton County, Kentucky",
      "date": "2026-09-30",
-     "points": 25.4,
+     "points": 24.6,
      "source": "https://www.aggbusiness.com/vulcan-materials-acquires-kentucky-quarry-from-greystone-client-hilltop-stone/",
      "sales_angle": "Reach out to Vulcan's regional leadership to pitch contract mining, pit development, and overburden stripping support during their operational integration of the new site.",
      "first_flagged": "2026-10-05T15:14:01+00:00"
@@ -146,7 +146,7 @@
   },
   {
    "company": "Rogers Group",
-   "score": 98.2,
+   "score": 97.4,
    "flagged_site_count": 7,
    "sites": [
     {
@@ -155,7 +155,7 @@
      "company": "Rogers Group",
      "state": "VA",
      "county": "Shenandoah",
-     "score": 32.2,
+     "score": 32.1,
      "reasons": [
       {
        "id": "ramp:4400081:2026Q2",
@@ -170,7 +170,7 @@
        "type": "controller_change",
        "text": "Ownership changed - controller now Rogers Group Inc",
        "date": "2026-06-05",
-       "points": 7.2,
+       "points": 7.1,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -274,7 +274,7 @@
      "type": "company_news",
      "text": "Rogers Group pursues rezoning and annexation for 542-acre mine in North Carolina",
      "date": "2026-10-06",
-     "points": 23.2,
+     "points": 22.5,
      "source": "https://www.newlondonnc.org/",
      "sales_angle": "Contact Rogers Group greenfield project managers to introduce Turner Mining Group for site development, initial overburden removal, and pioneering services.",
      "first_flagged": "2026-10-05T15:14:01+00:00"
@@ -296,7 +296,7 @@
   },
   {
    "company": "CRH/Oldcastle",
-   "score": 74.0,
+   "score": 73.6,
    "flagged_site_count": 20,
    "sites": [
     {
@@ -305,7 +305,7 @@
      "company": "CRH/Oldcastle",
      "state": "KS",
      "county": "Johnson",
-     "score": 38.8,
+     "score": 38.4,
      "reasons": [
       {
        "id": "ramp:1400068:2026Q2",
@@ -320,7 +320,7 @@
        "type": "news",
        "text": "Olathe residents raise concerns over Johnson County Aggregates quarry expansion",
        "date": "2026-10-07",
-       "points": 10.0,
+       "points": 9.7,
        "source": "https://www.kshb.com/news/local-news/kansas/johnson-county/would-they-want-it-in-their-neighborhood-olathe-neighbors-raise-concerns-over-proposed-quarry-expansion",
        "sales_angle": "Reach out to CRH's regional operational leadership to pitch overburden removal and initial site development services as the expansion permitting progresses.",
        "first_flagged": "2026-10-07T01:55:19+00:00"
@@ -330,7 +330,7 @@
        "type": "controller_change",
        "text": "Ownership changed - controller now CRH PLC",
        "date": "2026-04-08",
-       "points": 3.7,
+       "points": 3.6,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -433,7 +433,7 @@
   },
   {
    "company": "Amrize",
-   "score": 68.9,
+   "score": 68.7,
    "flagged_site_count": 6,
    "sites": [
     {
@@ -442,7 +442,7 @@
      "company": "Amrize",
      "state": "MN",
      "county": "Washington",
-     "score": 33.3,
+     "score": 33.2,
      "reasons": [
       {
        "id": "ramp:2100080:2026Q2",
@@ -457,7 +457,7 @@
        "type": "controller_change",
        "text": "Ownership changed - controller now Amrize Ltd",
        "date": "2026-04-15",
-       "points": 4.0,
+       "points": 3.9,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       },
       {
@@ -482,7 +482,7 @@
      "company": "Amrize",
      "state": "MN",
      "county": "Dakota",
-     "score": 33.3,
+     "score": 33.2,
      "reasons": [
       {
        "id": "ramp:2101702:2026Q2",
@@ -497,7 +497,7 @@
        "type": "controller_change",
        "text": "Ownership changed - controller now Amrize Ltd",
        "date": "2026-04-15",
-       "points": 4.0,
+       "points": 3.9,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -512,7 +512,7 @@
      "company": "Amrize",
      "state": "MN",
      "county": "Washington",
-     "score": 30.0,
+     "score": 29.9,
      "reasons": [
       {
        "id": "ramp:2100535:2026Q2",
@@ -527,7 +527,7 @@
        "type": "controller_change",
        "text": "Ownership changed - controller now Amrize Ltd",
        "date": "2026-04-15",
-       "points": 4.0,
+       "points": 3.9,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -558,47 +558,43 @@
      ]
     },
     {
-     "mine_id": "2003423",
-     "name": "Amrize Manchester Sand and Gravel",
+     "mine_id": "203282",
+     "name": "Amrize Hassayampa Wash Plant",
      "company": "Amrize",
-     "state": "MI",
-     "county": "Washtenaw",
-     "score": 26.3,
+     "state": "AZ",
+     "county": "Maricopa",
+     "score": 26.1,
      "reasons": [
       {
-       "id": "news:https://themanchestermirror.com/2026/09/28/public-notice-sharon-township-17/",
-       "type": "news",
-       "text": "Amrize seeks special land use permit for 122-acre gravel expansion in Sharon Township",
-       "date": "2026-09-28",
-       "points": 22.3,
-       "source": "https://themanchestermirror.com/2026/09/28/public-notice-sharon-township-17/",
-       "sales_angle": "Contact Amrize's Michigan aggregate leadership to track the permit approval process and position contract overburden stripping and site development services.",
-       "first_flagged": "2026-10-05T15:14:01+00:00"
+       "id": "ramp:203282:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +27% year over year (23 employees)",
+       "date": "2026-06-30",
+       "points": 22.2,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
       },
       {
-       "id": "controller:2003423:2026-04-15",
+       "id": "controller:203282:2026-04-15",
        "type": "controller_change",
        "text": "Ownership changed - controller now Amrize Ltd",
        "date": "2026-04-15",
-       "points": 4.0,
-       "first_flagged": "2026-10-05T15:14:01+00:00"
+       "points": 3.9,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
      "contacts": [
-      "keith.childress@amrize.com",
-      "jaime.hill@amrize.com",
-      "michael.welhouse@amrize.com"
+      "peter.sanguineti@amrize.com"
      ]
     }
    ],
    "company_news": [],
    "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T15:14:01+00:00",
+   "latest_signal_at": "2026-10-05T14:13:10+00:00",
    "is_new": false
   },
   {
    "company": "Heidelberg Materials",
-   "score": 59.6,
+   "score": 59.5,
    "flagged_site_count": 12,
    "sites": [
     {
@@ -649,14 +645,14 @@
      "company": "Heidelberg Materials",
      "state": "PA",
      "county": "Berks",
-     "score": 25.5,
+     "score": 25.2,
      "reasons": [
       {
        "id": "new:3604849",
        "type": "new_site",
        "text": "New site on MSHA record (Intermittent)",
        "date": "2026-09-23",
-       "points": 25.5,
+       "points": 25.2,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -664,35 +660,6 @@
       "frank.tedesco@lehighhanson.com",
       "toby.knott@heidelbergmaterials.com"
      ]
-    },
-    {
-     "mine_id": "4503293",
-     "name": "Lewisville Pit",
-     "company": "Heidelberg Materials",
-     "state": "WA",
-     "county": "Clark",
-     "score": 23.5,
-     "reasons": [
-      {
-       "id": "ramp:4503293:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +27% year over year (13 employees)",
-       "date": "2026-06-30",
-       "points": 22.2,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      },
-      {
-       "id": "news:https://rockproducts.com/2026/07/09/heidelbergs-lewisville-pit-open-house-builds-connections/",
-       "type": "news",
-       "text": "Phase 3 expansion (34 acres) begins this fall",
-       "date": "2026-07-09",
-       "points": 1.3,
-       "source": "https://rockproducts.com/2026/07/09/heidelbergs-lewisville-pit-open-house-builds-connections/",
-       "sales_angle": "An active expansion with a formal community-relations structure already in place — the quarterly advisory panel means whoever runs this site is carrying an ongoing community-liaison workload on top of the physical expansion.",
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": []
     },
     {
      "mine_id": "3608864",
@@ -715,6 +682,35 @@
       "frank.tedesco@lehighhanson.com",
       "toby.knott@heidelbergmaterials.com"
      ]
+    },
+    {
+     "mine_id": "4503293",
+     "name": "Lewisville Pit",
+     "company": "Heidelberg Materials",
+     "state": "WA",
+     "county": "Clark",
+     "score": 23.4,
+     "reasons": [
+      {
+       "id": "ramp:4503293:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +27% year over year (13 employees)",
+       "date": "2026-06-30",
+       "points": 22.2,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      },
+      {
+       "id": "news:https://rockproducts.com/2026/07/09/heidelbergs-lewisville-pit-open-house-builds-connections/",
+       "type": "news",
+       "text": "Phase 3 expansion (34 acres) begins this fall",
+       "date": "2026-07-09",
+       "points": 1.2,
+       "source": "https://rockproducts.com/2026/07/09/heidelbergs-lewisville-pit-open-house-builds-connections/",
+       "sales_angle": "An active expansion with a formal community-relations structure already in place — the quarterly advisory panel means whoever runs this site is carrying an ongoing community-liaison workload on top of the physical expansion.",
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": []
     }
    ],
    "company_news": [],
@@ -844,7 +840,7 @@
   },
   {
    "company": "Cemex",
-   "score": 43.0,
+   "score": 42.0,
    "flagged_site_count": 3,
    "sites": [
     {
@@ -853,14 +849,14 @@
      "company": "Cemex",
      "state": "CA",
      "county": "Fresno",
-     "score": 30.2,
+     "score": 29.3,
      "reasons": [
       {
        "id": "news:https://files.ceqanet.lci.ca.gov/262313-4/attachment/s7Y1DIoZWYubZpj6-owdEE86SFaWtW-PYEpOQmtR1LdE01jerIInErhHvKo0Uvb-Gf-XIZiGP_1Hpaw_0",
        "type": "news",
        "text": "Fresno County releases Final EIR for CEMEX Rockfield Quarry expansion",
        "date": "2026-09-28",
-       "points": 29.7,
+       "points": 28.8,
        "source": "https://files.ceqanet.lci.ca.gov/262313-4/attachment/s7Y1DIoZWYubZpj6-owdEE86SFaWtW-PYEpOQmtR1LdE01jerIInErhHvKo0Uvb-Gf-XIZiGP_1Hpaw_0",
        "sales_angle": "Reach out to CEMEX California leadership now, as transitioning to deep hard rock extraction will require drilling, blasting, and heavy earthmoving support once permits are approved.",
        "first_flagged": "2026-10-05T15:14:01+00:00"
@@ -906,14 +902,14 @@
      "company": "Cemex",
      "state": "AZ",
      "county": "Maricopa",
-     "score": 15.4,
+     "score": 15.2,
      "reasons": [
       {
        "id": "status:203544:NonProducing:2026-09-14",
        "type": "status_change",
        "text": "MSHA status changed to NonProducing",
        "date": "2026-09-14",
-       "points": 7.7,
+       "points": 7.6,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       },
       {
@@ -921,7 +917,7 @@
        "type": "controller_change",
        "text": "Ownership changed - controller now Cemex S A",
        "date": "2026-06-11",
-       "points": 7.7,
+       "points": 7.6,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -993,47 +989,6 @@
    "is_new": false
   },
   {
-   "company": "Quikrete",
-   "score": 36.2,
-   "flagged_site_count": 1,
-   "sites": [
-    {
-     "mine_id": "3800305",
-     "name": "HARLEYVILLE MINE & PLANT",
-     "company": "Quikrete",
-     "state": "SC",
-     "county": "Dorchester",
-     "score": 23.9,
-     "reasons": [
-      {
-       "id": "ramp:3800305:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +44% year over year (131 employees)",
-       "date": "2026-06-30",
-       "points": 23.9,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": []
-    }
-   ],
-   "company_news": [
-    {
-     "id": "cnews:https://gis-modnr.opendata.arcgis.com/datasets/modnr::permit-boundary/explore?showTable=true",
-     "type": "company_news",
-     "text": "Missouri DNR issues open-pit limestone permit for Quikrete's Jasper Quarry #15",
-     "date": "2026-09-29",
-     "points": 12.3,
-     "source": "https://gis-modnr.opendata.arcgis.com/datasets/modnr::permit-boundary/explore?showTable=true",
-     "sales_angle": "Connect with Midwest Minerals and Quikrete operational leads to offer contract overburden removal, drilling, and blasting support under the newly active quarry permit.",
-     "first_flagged": "2026-10-05T15:14:01+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T15:14:01+00:00",
-   "is_new": false
-  },
-  {
    "company": "Titan America",
    "score": 36.1,
    "flagged_site_count": 2,
@@ -1091,8 +1046,49 @@
    "is_new": false
   },
   {
+   "company": "Quikrete",
+   "score": 35.8,
+   "flagged_site_count": 1,
+   "sites": [
+    {
+     "mine_id": "3800305",
+     "name": "HARLEYVILLE MINE & PLANT",
+     "company": "Quikrete",
+     "state": "SC",
+     "county": "Dorchester",
+     "score": 23.9,
+     "reasons": [
+      {
+       "id": "ramp:3800305:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +44% year over year (131 employees)",
+       "date": "2026-06-30",
+       "points": 23.9,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": []
+    }
+   ],
+   "company_news": [
+    {
+     "id": "cnews:https://gis-modnr.opendata.arcgis.com/datasets/modnr::permit-boundary/explore?showTable=true",
+     "type": "company_news",
+     "text": "Missouri DNR issues open-pit limestone permit for Quikrete's Jasper Quarry #15",
+     "date": "2026-09-29",
+     "points": 11.9,
+     "source": "https://gis-modnr.opendata.arcgis.com/datasets/modnr::permit-boundary/explore?showTable=true",
+     "sales_angle": "Connect with Midwest Minerals and Quikrete operational leads to offer contract overburden removal, drilling, and blasting support under the newly active quarry permit.",
+     "first_flagged": "2026-10-05T15:14:01+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-05T14:13:10+00:00",
+   "latest_signal_at": "2026-10-05T15:14:01+00:00",
+   "is_new": false
+  },
+  {
    "company": "CalPortland",
-   "score": 30.6,
+   "score": 30.4,
    "flagged_site_count": 2,
    "sites": [
     {
@@ -1144,14 +1140,14 @@
      "company": "CalPortland",
      "state": "WA",
      "county": "Pierce",
-     "score": 17.8,
+     "score": 17.2,
      "reasons": [
       {
        "id": "news:https://pierceprairiepost.com/2026/10/02/how-much-is-our-aquifer-worth-can-we-give-it-away/",
        "type": "news",
        "text": "Legal appeal against CalPortland DuPont gravel mine expansion proceeds in court",
        "date": "2026-10-02",
-       "points": 17.0,
+       "points": 16.4,
        "source": "https://pierceprairiepost.com/2026/10/02/how-much-is-our-aquifer-worth-can-we-give-it-away/",
        "sales_angle": "Track the DuPont permit appeal to position pit development, overburden removal, and dewatering earthwork support once environmental challenges are resolved.",
        "first_flagged": "2026-10-05T15:14:01+00:00"
@@ -1180,7 +1176,7 @@
      "type": "company_news",
      "text": "Northern California Teamsters strike resolved",
      "date": "2026-08",
-     "points": 2.2,
+     "points": 2.1,
      "source": null,
      "sales_angle": null,
      "first_flagged": "2026-10-05T14:13:10+00:00"
@@ -1310,14 +1306,14 @@
    "linkedin": "http://www.linkedin.com/in/brandon-lefevre-755976120",
    "sf_id": null,
    "linked_site": "1400068",
-   "score": 19.4,
+   "score": 19.2,
    "reasons": [
     {
      "id": "site:brandon.lefevre@na.crh.com:1400068",
      "type": "site_signal",
      "text": "Best-placed contact for Johnson County Aggregates (KS) - Hours up +57% year over year (36 employees)",
      "date": "2026-06-30",
-     "points": 19.4,
+     "points": 19.2,
      "first_flagged": "2026-10-07T01:55:19+00:00"
     }
    ],
@@ -1335,14 +1331,14 @@
    "linkedin": "http://www.linkedin.com/in/joelgalassini",
    "sf_id": null,
    "linked_site": "1400068",
-   "score": 19.4,
+   "score": 19.2,
    "reasons": [
     {
      "id": "site:joel.galassini@crh.com:1400068",
      "type": "site_signal",
      "text": "Best-placed contact for Johnson County Aggregates (KS) - Hours up +57% year over year (36 employees)",
      "date": "2026-06-30",
-     "points": 19.4,
+     "points": 19.2,
      "first_flagged": "2026-10-07T01:55:19+00:00"
     }
    ],
@@ -1960,14 +1956,14 @@
    "linkedin": "http://www.linkedin.com/in/jarmenta",
    "sf_id": null,
    "linked_site": "4202489",
-   "score": 13.5,
+   "score": 13.3,
    "reasons": [
     {
      "id": "site:jose.armenta@apac.com:4202489",
      "type": "site_signal",
      "text": "Best-placed contact for ELSINORE PIT (UT) - New site on MSHA record (Temporarily Idled)",
      "date": "2026-08-24",
-     "points": 13.5,
+     "points": 13.3,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1985,44 +1981,19 @@
    "linkedin": "http://www.linkedin.com/in/travis-canfield-a7719470",
    "sf_id": null,
    "linked_site": "4202489",
-   "score": 13.5,
+   "score": 13.3,
    "reasons": [
     {
      "id": "site:travis.canfield@stakerparson.com:4202489",
      "type": "site_signal",
      "text": "Best-placed contact for ELSINORE PIT (UT) - New site on MSHA record (Temporarily Idled)",
      "date": "2026-08-24",
-     "points": 13.5,
+     "points": 13.3,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
-  },
-  {
-   "email": "keith.childress@amrize.com",
-   "name": "Keith Childress",
-   "title": "Regional Director of Quality & Product Performance",
-   "company": "Amrize",
-   "tier": "Tier 2",
-   "state": "MI",
-   "linkedin": "http://www.linkedin.com/in/keith-childress-213a0b94",
-   "sf_id": null,
-   "linked_site": "2003423",
-   "score": 13.2,
-   "reasons": [
-    {
-     "id": "site:keith.childress@amrize.com:2003423",
-     "type": "site_signal",
-     "text": "Best-placed contact for Amrize Manchester Sand and Gravel (MI) - Amrize seeks special land use permit for 122-acre gravel expansion in Sharon Township",
-     "date": "2026-09-28",
-     "points": 13.2,
-     "first_flagged": "2026-10-05T15:14:01+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T15:14:01+00:00",
-   "latest_signal_at": "2026-10-05T15:14:01+00:00",
    "is_new": false
   },
   {
@@ -2073,6 +2044,31 @@
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-05T14:13:10+00:00",
+   "is_new": false
+  },
+  {
+   "email": "keith.childress@amrize.com",
+   "name": "Keith Childress",
+   "title": "Regional Director of Quality & Product Performance",
+   "company": "Amrize",
+   "tier": "Tier 2",
+   "state": "MI",
+   "linkedin": "http://www.linkedin.com/in/keith-childress-213a0b94",
+   "sf_id": null,
+   "linked_site": "2003423",
+   "score": 12.8,
+   "reasons": [
+    {
+     "id": "site:keith.childress@amrize.com:2003423",
+     "type": "site_signal",
+     "text": "Best-placed contact for Amrize Manchester Sand and Gravel (MI) - Amrize seeks special land use permit for 122-acre gravel expansion in Sharon Township",
+     "date": "2026-09-28",
+     "points": 12.8,
+     "first_flagged": "2026-10-05T15:14:01+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-05T15:14:01+00:00",
+   "latest_signal_at": "2026-10-05T15:14:01+00:00",
    "is_new": false
   },
   {
