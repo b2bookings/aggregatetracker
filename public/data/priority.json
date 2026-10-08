@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T17:50:16+00:00",
+ "generated_at": "2026-10-08T20:19:24+00:00",
  "accounts": [
   {
    "company": "Vulcan Materials",
@@ -711,7 +711,7 @@
    "company_news": [],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-08T17:50:16+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Summit Materials",
@@ -1789,7 +1789,7 @@
    ],
    "first_flagged": "2026-10-08T17:50:16+00:00",
    "latest_signal_at": "2026-10-08T17:50:16+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "email": "tburke@titanamerica.com",
