@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T17:26:30+00:00",
+ "generated_at": "2026-10-09T19:54:28+00:00",
  "accounts": [
   {
    "company": "Vulcan Materials",
@@ -426,7 +426,7 @@
    "company_news": [],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-09T17:26:30+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "CRH/Oldcastle",
