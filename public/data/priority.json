@@ -1,168 +1,55 @@
 {
- "generated_at": "2026-10-10T02:00:22+00:00",
+ "generated_at": "2026-10-10T16:52:32+00:00",
  "accounts": [
   {
-   "company": "Vulcan Materials",
-   "score": 97.2,
-   "flagged_site_count": 20,
+   "company": "Rogers Group",
+   "score": 118.7,
+   "flagged_site_count": 8,
    "sites": [
     {
-     "mine_id": "4003605",
-     "name": "Nickajack Quarry",
-     "company": "Vulcan Materials",
+     "mine_id": "4003609",
+     "name": "Blount-Loudon Quarry",
+     "company": "Rogers Group",
      "state": "TN",
-     "county": "Marion",
-     "score": 42.8,
+     "county": "Loudon",
+     "score": 54.1,
      "reasons": [
       {
-       "id": "ramp:4003605:2026Q2",
+       "id": "ramp:4003609:2026Q2",
        "type": "ramp_up",
-       "text": "Hours up +75% year over year (20 employees)",
+       "text": "Hours up +149% year over year (16 employees)",
        "date": "2026-06-30",
-       "points": 26.3,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
+       "points": 30.0,
+       "first_flagged": "2026-10-10T16:52:32+00:00"
       },
       {
-       "id": "controller:4003605:2026-08-19",
+       "id": "controller:4003609:2026-09-21",
        "type": "controller_change",
-       "text": "Ownership changed - controller now Vulcan Materials Company",
-       "date": "2026-08-19",
-       "points": 16.5,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
+       "text": "Ownership changed - controller now Rogers Group Inc",
+       "date": "2026-09-21",
+       "points": 24.1,
+       "first_flagged": "2026-10-10T16:52:32+00:00"
       }
      ],
      "contacts": [
-      "jack.lambert@vulcanmaterials.com",
-      "badgettj@vmcmail.com",
-      "ramera@vmcmail.com"
+      "derek.roberts@rogersgroupinc.com",
+      "jharvell@rogersgroupinc.com"
      ]
     },
-    {
-     "mine_id": "405987",
-     "name": "Cupertino Quarry",
-     "company": "Vulcan Materials",
-     "state": "CA",
-     "county": "Santa Clara",
-     "score": 28.6,
-     "reasons": [
-      {
-       "id": "ramp:405987:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +286% year over year (14 employees)",
-       "date": "2026-06-30",
-       "points": 28.6,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": [
-      "mayerb@vmcmail.com",
-      "wilkersong@vmcmail.com",
-      "finiep@vmcmail.com"
-     ]
-    },
-    {
-     "mine_id": "4105703",
-     "name": "Cantrell Quarry",
-     "company": "Vulcan Materials",
-     "state": "TX",
-     "county": "Uvalde",
-     "score": 28.6,
-     "reasons": [
-      {
-       "id": "ramp:4105703:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +386% year over year (14 employees)",
-       "date": "2026-06-30",
-       "points": 28.6,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": [
-      "sabharwala@vmcmail.com",
-      "brian.bailey@vulcanmaterials.com"
-     ]
-    },
-    {
-     "mine_id": "2901771",
-     "name": "PENA BLANCA",
-     "company": "Vulcan Materials",
-     "state": "NM",
-     "county": "Sandoval",
-     "score": 24.0,
-     "reasons": [
-      {
-       "id": "ramp:2901771:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +52% year over year (25 employees)",
-       "date": "2026-06-30",
-       "points": 24.0,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": [
-      "sabharwala@vmcmail.com",
-      "brian.bailey@vulcanmaterials.com"
-     ]
-    },
-    {
-     "mine_id": "4002961",
-     "name": "Dayton Quarry",
-     "company": "Vulcan Materials",
-     "state": "TN",
-     "county": "Rhea",
-     "score": 23.6,
-     "reasons": [
-      {
-       "id": "ramp:4002961:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +48% year over year (10 employees)",
-       "date": "2026-06-30",
-       "points": 23.6,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": [
-      "jack.lambert@vulcanmaterials.com",
-      "badgettj@vmcmail.com",
-      "ramera@vmcmail.com"
-     ]
-    }
-   ],
-   "company_news": [
-    {
-     "id": "cnews:https://www.aggbusiness.com/vulcan-materials-acquires-kentucky-quarry-from-greystone-client-hilltop-stone/",
-     "type": "company_news",
-     "text": "Vulcan Materials acquires Butler Quarry in Pendleton County, Kentucky",
-     "date": "2026-09-30",
-     "points": 23.0,
-     "source": "https://www.aggbusiness.com/vulcan-materials-acquires-kentucky-quarry-from-greystone-client-hilltop-stone/",
-     "sales_angle": "Reach out to Vulcan's regional leadership to pitch contract mining, pit development, and overburden stripping support during their operational integration of the new site.",
-     "first_flagged": "2026-10-05T15:14:01+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T15:14:01+00:00",
-   "is_new": false
-  },
-  {
-   "company": "Rogers Group",
-   "score": 94.4,
-   "flagged_site_count": 7,
-   "sites": [
     {
      "mine_id": "4400081",
      "name": "Flatrock Quarry",
      "company": "Rogers Group",
      "state": "VA",
      "county": "Shenandoah",
-     "score": 31.4,
+     "score": 31.1,
      "reasons": [
       {
        "id": "ramp:4400081:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +56% year over year (15 employees)",
        "date": "2026-06-30",
-       "points": 24.5,
+       "points": 24.2,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       },
       {
@@ -185,14 +72,14 @@
      "company": "Rogers Group",
      "state": "AL",
      "county": "Franklin",
-     "score": 28.6,
+     "score": 28.3,
      "reasons": [
       {
        "id": "ramp:103596:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +176% year over year (20 employees)",
        "date": "2026-06-30",
-       "points": 28.6,
+       "points": 28.3,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -207,14 +94,14 @@
      "company": "Rogers Group",
      "state": "TX",
      "county": "Potter",
-     "score": 27.4,
+     "score": 27.1,
      "reasons": [
       {
        "id": "ramp:4104465:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +87% year over year (15 employees)",
        "date": "2026-06-30",
-       "points": 27.4,
+       "points": 27.1,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -229,41 +116,19 @@
      "company": "Rogers Group",
      "state": "AL",
      "county": "Morgan",
-     "score": 25.8,
+     "score": 25.5,
      "reasons": [
       {
        "id": "ramp:103356:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +70% year over year (21 employees)",
        "date": "2026-06-30",
-       "points": 25.8,
+       "points": 25.5,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
      "contacts": [
       "tim.gorman@rogersgroupinc.com",
-      "derek.roberts@rogersgroupinc.com"
-     ]
-    },
-    {
-     "mine_id": "1519948",
-     "name": "Smith Farm Mine",
-     "company": "Rogers Group",
-     "state": "KY",
-     "county": "Bullitt",
-     "score": 25.0,
-     "reasons": [
-      {
-       "id": "ramp:1519948:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +62% year over year (15 employees)",
-       "date": "2026-06-30",
-       "points": 25.0,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": [
-      "tstout@rogersgroupinc.com",
       "derek.roberts@rogersgroupinc.com"
      ]
     }
@@ -291,12 +156,155 @@
     }
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
+   "latest_signal_at": "2026-10-10T16:52:32+00:00",
+   "is_new": true
+  },
+  {
+   "company": "Vulcan Materials",
+   "score": 96.6,
+   "flagged_site_count": 20,
+   "sites": [
+    {
+     "mine_id": "4003605",
+     "name": "Nickajack Quarry",
+     "company": "Vulcan Materials",
+     "state": "TN",
+     "county": "Marion",
+     "score": 42.5,
+     "reasons": [
+      {
+       "id": "ramp:4003605:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +75% year over year (20 employees)",
+       "date": "2026-06-30",
+       "points": 26.0,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      },
+      {
+       "id": "controller:4003605:2026-08-19",
+       "type": "controller_change",
+       "text": "Ownership changed - controller now Vulcan Materials Company",
+       "date": "2026-08-19",
+       "points": 16.5,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": [
+      "jack.lambert@vulcanmaterials.com",
+      "badgettj@vmcmail.com",
+      "ramera@vmcmail.com"
+     ]
+    },
+    {
+     "mine_id": "405987",
+     "name": "Cupertino Quarry",
+     "company": "Vulcan Materials",
+     "state": "CA",
+     "county": "Santa Clara",
+     "score": 28.3,
+     "reasons": [
+      {
+       "id": "ramp:405987:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +286% year over year (14 employees)",
+       "date": "2026-06-30",
+       "points": 28.3,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": [
+      "mayerb@vmcmail.com",
+      "wilkersong@vmcmail.com",
+      "finiep@vmcmail.com"
+     ]
+    },
+    {
+     "mine_id": "4105703",
+     "name": "Cantrell Quarry",
+     "company": "Vulcan Materials",
+     "state": "TX",
+     "county": "Uvalde",
+     "score": 28.3,
+     "reasons": [
+      {
+       "id": "ramp:4105703:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +386% year over year (14 employees)",
+       "date": "2026-06-30",
+       "points": 28.3,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": [
+      "sabharwala@vmcmail.com",
+      "brian.bailey@vulcanmaterials.com"
+     ]
+    },
+    {
+     "mine_id": "2901771",
+     "name": "PENA BLANCA",
+     "company": "Vulcan Materials",
+     "state": "NM",
+     "county": "Sandoval",
+     "score": 23.8,
+     "reasons": [
+      {
+       "id": "ramp:2901771:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +52% year over year (25 employees)",
+       "date": "2026-06-30",
+       "points": 23.8,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": [
+      "sabharwala@vmcmail.com",
+      "brian.bailey@vulcanmaterials.com"
+     ]
+    },
+    {
+     "mine_id": "4002961",
+     "name": "Dayton Quarry",
+     "company": "Vulcan Materials",
+     "state": "TN",
+     "county": "Rhea",
+     "score": 23.4,
+     "reasons": [
+      {
+       "id": "ramp:4002961:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +48% year over year (10 employees)",
+       "date": "2026-06-30",
+       "points": 23.4,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": [
+      "jack.lambert@vulcanmaterials.com",
+      "badgettj@vmcmail.com",
+      "ramera@vmcmail.com"
+     ]
+    }
+   ],
+   "company_news": [
+    {
+     "id": "cnews:https://www.aggbusiness.com/vulcan-materials-acquires-kentucky-quarry-from-greystone-client-hilltop-stone/",
+     "type": "company_news",
+     "text": "Vulcan Materials acquires Butler Quarry in Pendleton County, Kentucky",
+     "date": "2026-09-30",
+     "points": 23.0,
+     "source": "https://www.aggbusiness.com/vulcan-materials-acquires-kentucky-quarry-from-greystone-client-hilltop-stone/",
+     "sales_angle": "Reach out to Vulcan's regional leadership to pitch contract mining, pit development, and overburden stripping support during their operational integration of the new site.",
+     "first_flagged": "2026-10-05T15:14:01+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-05T15:14:01+00:00",
    "is_new": false
   },
   {
    "company": "Cemex",
-   "score": 75.6,
+   "score": 75.5,
    "flagged_site_count": 3,
    "sites": [
     {
@@ -377,14 +385,14 @@
      "company": "Cemex",
      "state": "FL",
      "county": "Collier",
-     "score": 26.7,
+     "score": 26.4,
      "reasons": [
       {
        "id": "ramp:801436:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +79% year over year (22 employees)",
        "date": "2026-06-30",
-       "points": 26.7,
+       "points": 26.4,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -401,8 +409,8 @@
   },
   {
    "company": "CRH/Oldcastle",
-   "score": 71.5,
-   "flagged_site_count": 20,
+   "score": 72.4,
+   "flagged_site_count": 21,
    "sites": [
     {
      "mine_id": "1400068",
@@ -410,14 +418,14 @@
      "company": "CRH/Oldcastle",
      "state": "KS",
      "county": "Johnson",
-     "score": 37.2,
+     "score": 36.9,
      "reasons": [
       {
        "id": "ramp:1400068:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +57% year over year (36 employees)",
        "date": "2026-06-30",
-       "points": 24.6,
+       "points": 24.3,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       },
       {
@@ -445,19 +453,48 @@
      ]
     },
     {
+     "mine_id": "1302050",
+     "name": "Portable Lime Screen",
+     "company": "CRH/Oldcastle",
+     "state": "IA",
+     "county": "Tama",
+     "score": 33.6,
+     "reasons": [
+      {
+       "id": "new:1302050",
+       "type": "new_site",
+       "text": "New site on MSHA record (Intermittent)",
+       "date": "2026-10-07",
+       "points": 29.0,
+       "first_flagged": "2026-10-10T16:52:32+00:00"
+      },
+      {
+       "id": "status:1302050:Abandoned:2026-08-04",
+       "type": "status_change",
+       "text": "MSHA status changed to Abandoned",
+       "date": "2026-08-04",
+       "points": 4.6,
+       "first_flagged": "2026-10-10T16:52:32+00:00"
+      }
+     ],
+     "contacts": [
+      "brandon.lefevre@na.crh.com"
+     ]
+    },
+    {
      "mine_id": "300437",
      "name": "Avoca Quarry & Plant",
      "company": "CRH/Oldcastle",
      "state": "AR",
      "county": "Benton",
-     "score": 28.6,
+     "score": 28.3,
      "reasons": [
       {
        "id": "ramp:300437:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +105% year over year (12 employees)",
        "date": "2026-06-30",
-       "points": 28.6,
+       "points": 28.3,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -473,14 +510,14 @@
      "company": "CRH/Oldcastle",
      "state": "CT",
      "county": "New London",
-     "score": 28.6,
+     "score": 28.3,
      "reasons": [
       {
        "id": "ramp:600393:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +498% year over year (15 employees)",
        "date": "2026-06-30",
-       "points": 28.6,
+       "points": 28.3,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -492,36 +529,14 @@
      "company": "CRH/Oldcastle",
      "state": "KY",
      "county": "Pulaski",
-     "score": 28.6,
+     "score": 28.3,
      "reasons": [
       {
        "id": "ramp:1519092:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +475% year over year (14 employees)",
        "date": "2026-06-30",
-       "points": 28.6,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": [
-      "brandon.lefevre@na.crh.com",
-      "dwayne.boyd@na.crh.com"
-     ]
-    },
-    {
-     "mine_id": "2302576",
-     "name": "ElDorado Springs Quarry",
-     "company": "CRH/Oldcastle",
-     "state": "MO",
-     "county": "St Clair",
-     "score": 28.6,
-     "reasons": [
-      {
-       "id": "ramp:2302576:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +127% year over year (12 employees)",
-       "date": "2026-06-30",
-       "points": 28.6,
+       "points": 28.3,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -533,12 +548,12 @@
    ],
    "company_news": [],
    "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-07T01:55:19+00:00",
-   "is_new": false
+   "latest_signal_at": "2026-10-10T16:52:32+00:00",
+   "is_new": true
   },
   {
    "company": "Amrize",
-   "score": 67.1,
+   "score": 66.4,
    "flagged_site_count": 6,
    "sites": [
     {
@@ -547,14 +562,14 @@
      "company": "Amrize",
      "state": "MN",
      "county": "Washington",
-     "score": 32.4,
+     "score": 32.1,
      "reasons": [
       {
        "id": "ramp:2100080:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +105% year over year (10 employees)",
        "date": "2026-06-30",
-       "points": 28.6,
+       "points": 28.3,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       },
       {
@@ -587,14 +602,14 @@
      "company": "Amrize",
      "state": "MN",
      "county": "Dakota",
-     "score": 32.4,
+     "score": 32.1,
      "reasons": [
       {
        "id": "ramp:2101702:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +107% year over year (30 employees)",
        "date": "2026-06-30",
-       "points": 28.6,
+       "points": 28.3,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       },
       {
@@ -617,14 +632,14 @@
      "company": "Amrize",
      "state": "MN",
      "county": "Washington",
-     "score": 29.2,
+     "score": 28.9,
      "reasons": [
       {
        "id": "ramp:2100535:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +66% year over year (11 employees)",
        "date": "2026-06-30",
-       "points": 25.4,
+       "points": 25.1,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       },
       {
@@ -647,14 +662,14 @@
      "company": "Amrize",
      "state": "FL",
      "county": "Citrus",
-     "score": 28.5,
+     "score": 28.1,
      "reasons": [
       {
        "id": "ramp:801110:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +98% year over year (16 employees)",
        "date": "2026-06-30",
-       "points": 28.5,
+       "points": 28.1,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -668,14 +683,14 @@
      "company": "Amrize",
      "state": "AZ",
      "county": "Maricopa",
-     "score": 25.5,
+     "score": 25.2,
      "reasons": [
       {
        "id": "ramp:203282:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +27% year over year (23 employees)",
        "date": "2026-06-30",
-       "points": 21.7,
+       "points": 21.4,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       },
       {
@@ -699,7 +714,7 @@
   },
   {
    "company": "Heidelberg Materials",
-   "score": 59.4,
+   "score": 59.0,
    "flagged_site_count": 13,
    "sites": [
     {
@@ -708,14 +723,14 @@
      "company": "Heidelberg Materials",
      "state": "NY",
      "county": "Onondaga",
-     "score": 28.6,
+     "score": 28.3,
      "reasons": [
       {
        "id": "ramp:3000060:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +134% year over year (53 employees)",
        "date": "2026-06-30",
-       "points": 28.6,
+       "points": 28.3,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -729,14 +744,14 @@
      "company": "Heidelberg Materials",
      "state": "KY",
      "county": "Fleming",
-     "score": 28.0,
+     "score": 27.7,
      "reasons": [
       {
        "id": "ramp:1500031:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +94% year over year (10 employees)",
        "date": "2026-06-30",
-       "points": 28.0,
+       "points": 27.7,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -791,33 +806,26 @@
      ]
     },
     {
-     "mine_id": "4503293",
-     "name": "Lewisville Pit",
+     "mine_id": "3608864",
+     "name": "RICH HILL UNDERGROUND MINE & PLANT",
      "company": "Heidelberg Materials",
-     "state": "WA",
-     "county": "Clark",
-     "score": 22.9,
+     "state": "PA",
+     "county": "Fayette",
+     "score": 22.6,
      "reasons": [
       {
-       "id": "ramp:4503293:2026Q2",
+       "id": "ramp:3608864:2026Q2",
        "type": "ramp_up",
-       "text": "Hours up +27% year over year (13 employees)",
+       "text": "Hours up +39% year over year (40 employees)",
        "date": "2026-06-30",
-       "points": 21.7,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      },
-      {
-       "id": "news:https://rockproducts.com/2026/07/09/heidelbergs-lewisville-pit-open-house-builds-connections/",
-       "type": "news",
-       "text": "Phase 3 expansion (34 acres) begins this fall",
-       "date": "2026-07-09",
-       "points": 1.2,
-       "source": "https://rockproducts.com/2026/07/09/heidelbergs-lewisville-pit-open-house-builds-connections/",
-       "sales_angle": "An active expansion with a formal community-relations structure already in place — the quarterly advisory panel means whoever runs this site is carrying an ongoing community-liaison workload on top of the physical expansion.",
+       "points": 22.6,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
-     "contacts": []
+     "contacts": [
+      "frank.tedesco@lehighhanson.com",
+      "toby.knott@heidelbergmaterials.com"
+     ]
     }
    ],
    "company_news": [],
@@ -827,7 +835,7 @@
   },
   {
    "company": "Summit Materials",
-   "score": 54.8,
+   "score": 54.2,
    "flagged_site_count": 6,
    "sites": [
     {
@@ -836,14 +844,14 @@
      "company": "Summit Materials",
      "state": "UT",
      "county": "Utah",
-     "score": 27.8,
+     "score": 27.5,
      "reasons": [
       {
        "id": "ramp:4200941:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +91% year over year (12 employees)",
        "date": "2026-06-30",
-       "points": 27.8,
+       "points": 27.5,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -857,14 +865,14 @@
      "company": "Summit Materials",
      "state": "OK",
      "county": "Choctaw",
-     "score": 24.2,
+     "score": 24.0,
      "reasons": [
       {
        "id": "ramp:3401950:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +54% year over year (50 employees)",
        "date": "2026-06-30",
-       "points": 24.2,
+       "points": 24.0,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -879,14 +887,14 @@
      "company": "Summit Materials",
      "state": "TX",
      "county": "Liberty",
-     "score": 22.1,
+     "score": 21.8,
      "reasons": [
       {
        "id": "ramp:4104631:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +31% year over year (17 employees)",
        "date": "2026-06-30",
-       "points": 22.1,
+       "points": 21.8,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -901,14 +909,14 @@
      "company": "Summit Materials",
      "state": "KS",
      "county": "Sedgwick",
-     "score": 21.9,
+     "score": 21.7,
      "reasons": [
       {
        "id": "ramp:1400543:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +29% year over year (11 employees)",
        "date": "2026-06-30",
-       "points": 21.9,
+       "points": 21.7,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -923,14 +931,14 @@
      "company": "Summit Materials",
      "state": "KS",
      "county": "Elk",
-     "score": 21.8,
+     "score": 21.5,
      "reasons": [
       {
        "id": "ramp:1401719:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +28% year over year (13 employees)",
        "date": "2026-06-30",
-       "points": 21.8,
+       "points": 21.5,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -947,7 +955,7 @@
   },
   {
    "company": "Eagle Materials",
-   "score": 35.5,
+   "score": 35.1,
    "flagged_site_count": 2,
    "sites": [
     {
@@ -956,14 +964,14 @@
      "company": "Eagle Materials",
      "state": "CO",
      "county": "Weld",
-     "score": 28.6,
+     "score": 28.3,
      "reasons": [
       {
        "id": "ramp:505192:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +364% year over year (12 employees)",
        "date": "2026-06-30",
-       "points": 28.6,
+       "points": 28.3,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -979,14 +987,14 @@
      "company": "Eagle Materials",
      "state": "TX",
      "county": "Hays",
-     "score": 22.9,
+     "score": 22.7,
      "reasons": [
       {
        "id": "ramp:4102241:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +40% year over year (32 employees)",
        "date": "2026-06-30",
-       "points": 22.9,
+       "points": 22.7,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -1004,7 +1012,7 @@
   },
   {
    "company": "Titan America",
-   "score": 35.3,
+   "score": 34.9,
    "flagged_site_count": 2,
    "sites": [
     {
@@ -1013,14 +1021,14 @@
      "company": "Titan America",
      "state": "VA",
      "county": "Augusta",
-     "score": 28.6,
+     "score": 28.3,
      "reasons": [
       {
        "id": "ramp:4402385:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +190% year over year (10 employees)",
        "date": "2026-06-30",
-       "points": 28.6,
+       "points": 28.3,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -1036,14 +1044,14 @@
      "company": "Titan America",
      "state": "VA",
      "county": "Craig",
-     "score": 21.9,
+     "score": 21.7,
      "reasons": [
       {
        "id": "ramp:4402402:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +30% year over year (14 employees)",
        "date": "2026-06-30",
-       "points": 21.9,
+       "points": 21.7,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -1061,7 +1069,7 @@
   },
   {
    "company": "Quikrete",
-   "score": 34.4,
+   "score": 34.2,
    "flagged_site_count": 1,
    "sites": [
     {
@@ -1070,14 +1078,14 @@
      "company": "Quikrete",
      "state": "SC",
      "county": "Dorchester",
-     "score": 23.3,
+     "score": 23.1,
      "reasons": [
       {
        "id": "ramp:3800305:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +44% year over year (131 employees)",
        "date": "2026-06-30",
-       "points": 23.3,
+       "points": 23.1,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -1102,7 +1110,7 @@
   },
   {
    "company": "CalPortland",
-   "score": 29.4,
+   "score": 29.1,
    "flagged_site_count": 2,
    "sites": [
     {
@@ -1111,14 +1119,14 @@
      "company": "CalPortland",
      "state": "CA",
      "county": "San Bernardino",
-     "score": 22.5,
+     "score": 22.2,
      "reasons": [
       {
        "id": "ramp:405907:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +28% year over year (19 employees)",
        "date": "2026-06-30",
-       "points": 21.8,
+       "points": 21.5,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       },
       {
@@ -1202,7 +1210,7 @@
   },
   {
    "company": "Carmeuse",
-   "score": 21.6,
+   "score": 21.4,
    "flagged_site_count": 1,
    "sites": [
     {
@@ -1211,14 +1219,14 @@
      "company": "Carmeuse",
      "state": "VA",
      "county": "Frederick",
-     "score": 21.6,
+     "score": 21.4,
      "reasons": [
       {
        "id": "ramp:4400049:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +26% year over year (27 employees)",
        "date": "2026-06-30",
-       "points": 21.6,
+       "points": 21.4,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -1236,6 +1244,56 @@
  ],
  "contacts": [
   {
+   "email": "derek.roberts@rogersgroupinc.com",
+   "name": "Derek Roberts",
+   "title": "Vice President - Southern Division",
+   "company": "Rogers Group",
+   "tier": "Tier 1",
+   "state": "TN",
+   "linkedin": "http://www.linkedin.com/in/derek-roberts-53323b16",
+   "sf_id": null,
+   "linked_site": "4003609",
+   "score": 27.1,
+   "reasons": [
+    {
+     "id": "site:derek.roberts@rogersgroupinc.com:4003609",
+     "type": "site_signal",
+     "text": "Best-placed contact for Blount-Loudon Quarry (TN) - Hours up +149% year over year (16 employees)",
+     "date": "2026-06-30",
+     "points": 27.1,
+     "first_flagged": "2026-10-10T16:52:32+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-10T16:52:32+00:00",
+   "latest_signal_at": "2026-10-10T16:52:32+00:00",
+   "is_new": true
+  },
+  {
+   "email": "jharvell@rogersgroupinc.com",
+   "name": "John Harvell",
+   "title": "Manager of Mine Planning and Geology",
+   "company": "Rogers Group",
+   "tier": "Tier 3",
+   "state": "TN",
+   "linkedin": "http://www.linkedin.com/in/john-ross-harvell-aa7894166",
+   "sf_id": null,
+   "linked_site": "4003609",
+   "score": 27.1,
+   "reasons": [
+    {
+     "id": "site:jharvell@rogersgroupinc.com:4003609",
+     "type": "site_signal",
+     "text": "Best-placed contact for Blount-Loudon Quarry (TN) - Hours up +149% year over year (16 employees)",
+     "date": "2026-06-30",
+     "points": 27.1,
+     "first_flagged": "2026-10-10T16:52:32+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-10T16:52:32+00:00",
+   "latest_signal_at": "2026-10-10T16:52:32+00:00",
+   "is_new": true
+  },
+  {
    "email": "ramera@vmcmail.com",
    "name": "Allen Ramer",
    "title": "Vice President, Operations Northern Concrete Div",
@@ -1245,14 +1303,14 @@
    "linkedin": "http://www.linkedin.com/in/allen-ramer-89359016",
    "sf_id": null,
    "linked_site": "4003605",
-   "score": 21.4,
+   "score": 21.2,
    "reasons": [
     {
      "id": "site:ramera@vmcmail.com:4003605",
      "type": "site_signal",
      "text": "Best-placed contact for Nickajack Quarry (TN) - Hours up +75% year over year (20 employees)",
      "date": "2026-06-30",
-     "points": 21.4,
+     "points": 21.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1270,14 +1328,14 @@
    "linkedin": "http://www.linkedin.com/in/jack-lambert-94a413a1",
    "sf_id": null,
    "linked_site": "4003605",
-   "score": 21.4,
+   "score": 21.2,
    "reasons": [
     {
      "id": "site:jack.lambert@vulcanmaterials.com:4003605",
      "type": "site_signal",
      "text": "Best-placed contact for Nickajack Quarry (TN) - Hours up +75% year over year (20 employees)",
      "date": "2026-06-30",
-     "points": 21.4,
+     "points": 21.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1295,14 +1353,14 @@
    "linkedin": "http://www.linkedin.com/in/jon-badgett-45189b89",
    "sf_id": null,
    "linked_site": "4003605",
-   "score": 21.4,
+   "score": 21.2,
    "reasons": [
     {
      "id": "site:badgettj@vmcmail.com:4003605",
      "type": "site_signal",
      "text": "Best-placed contact for Nickajack Quarry (TN) - Hours up +75% year over year (20 employees)",
      "date": "2026-06-30",
-     "points": 21.4,
+     "points": 21.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1320,14 +1378,14 @@
    "linkedin": "http://www.linkedin.com/in/brandon-lefevre-755976120",
    "sf_id": null,
    "linked_site": "1400068",
-   "score": 18.6,
+   "score": 18.4,
    "reasons": [
     {
      "id": "site:brandon.lefevre@na.crh.com:1400068",
      "type": "site_signal",
      "text": "Best-placed contact for Johnson County Aggregates (KS) - Hours up +57% year over year (36 employees)",
      "date": "2026-06-30",
-     "points": 18.6,
+     "points": 18.4,
      "first_flagged": "2026-10-07T01:55:19+00:00"
     }
    ],
@@ -1345,14 +1403,14 @@
    "linkedin": "http://www.linkedin.com/in/joelgalassini",
    "sf_id": null,
    "linked_site": "1400068",
-   "score": 18.6,
+   "score": 18.4,
    "reasons": [
     {
      "id": "site:joel.galassini@crh.com:1400068",
      "type": "site_signal",
      "text": "Best-placed contact for Johnson County Aggregates (KS) - Hours up +57% year over year (36 employees)",
      "date": "2026-06-30",
-     "points": 18.6,
+     "points": 18.4,
      "first_flagged": "2026-10-07T01:55:19+00:00"
     }
    ],
@@ -1370,14 +1428,14 @@
    "linkedin": "http://www.linkedin.com/in/jaimehill",
    "sf_id": null,
    "linked_site": "2100080",
-   "score": 16.2,
+   "score": 16.1,
    "reasons": [
     {
      "id": "site:jaime.hill@amrize.com:2100080",
      "type": "site_signal",
      "text": "Best-placed contact for Amrize Larson Plant (MN) - Hours up +105% year over year (10 employees)",
      "date": "2026-06-30",
-     "points": 16.2,
+     "points": 16.1,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1395,39 +1453,14 @@
    "linkedin": "http://www.linkedin.com/in/michael-welhouse-11043717",
    "sf_id": null,
    "linked_site": "2100080",
-   "score": 16.2,
+   "score": 16.1,
    "reasons": [
     {
      "id": "site:michael.welhouse@amrize.com:2100080",
      "type": "site_signal",
      "text": "Best-placed contact for Amrize Larson Plant (MN) - Hours up +105% year over year (10 employees)",
      "date": "2026-06-30",
-     "points": 16.2,
-     "first_flagged": "2026-10-05T14:13:10+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
-  },
-  {
-   "email": "derek.roberts@rogersgroupinc.com",
-   "name": "Derek Roberts",
-   "title": "Vice President - Southern Division",
-   "company": "Rogers Group",
-   "tier": "Tier 1",
-   "state": "TN",
-   "linkedin": "http://www.linkedin.com/in/derek-roberts-53323b16",
-   "sf_id": null,
-   "linked_site": "4400081",
-   "score": 15.7,
-   "reasons": [
-    {
-     "id": "site:derek.roberts@rogersgroupinc.com:4400081",
-     "type": "site_signal",
-     "text": "Best-placed contact for Flatrock Quarry (VA) - Hours up +56% year over year (15 employees)",
-     "date": "2026-06-30",
-     "points": 15.7,
+     "points": 16.1,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1445,14 +1478,14 @@
    "linkedin": "http://www.linkedin.com/sales/lead/ACwAAADJqEABIw5NpzR471UP5E2NDu6ENnQIPUQ",
    "sf_id": null,
    "linked_site": "4400081",
-   "score": 15.7,
+   "score": 15.6,
    "reasons": [
     {
      "id": "site:nick.dibartolo@rogersgroupinc.com:4400081",
      "type": "site_signal",
      "text": "Best-placed contact for Flatrock Quarry (VA) - Hours up +56% year over year (15 employees)",
      "date": "2026-06-30",
-     "points": 15.7,
+     "points": 15.6,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1470,14 +1503,14 @@
    "linkedin": "http://www.linkedin.com/in/atul-sabharwal-01bb318",
    "sf_id": null,
    "linked_site": "4105703",
-   "score": 14.3,
+   "score": 14.2,
    "reasons": [
     {
      "id": "site:sabharwala@vmcmail.com:4105703",
      "type": "site_signal",
      "text": "Best-placed contact for Cantrell Quarry (TX) - Hours up +386% year over year (14 employees)",
      "date": "2026-06-30",
-     "points": 14.3,
+     "points": 14.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1495,14 +1528,14 @@
    "linkedin": "http://www.linkedin.com/in/bart-mayer-16ba256",
    "sf_id": null,
    "linked_site": "405987",
-   "score": 14.3,
+   "score": 14.2,
    "reasons": [
     {
      "id": "site:mayerb@vmcmail.com:405987",
      "type": "site_signal",
      "text": "Best-placed contact for Cupertino Quarry (CA) - Hours up +286% year over year (14 employees)",
      "date": "2026-06-30",
-     "points": 14.3,
+     "points": 14.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1520,14 +1553,14 @@
    "linkedin": "http://www.linkedin.com/in/benjamin-bufmack-09aa70101",
    "sf_id": null,
    "linked_site": "505192",
-   "score": 14.3,
+   "score": 14.2,
    "reasons": [
     {
      "id": "site:bbufmack@eaglematerials.com:505192",
      "type": "site_signal",
      "text": "Best-placed contact for Two Rivers (CO) - Hours up +364% year over year (12 employees)",
      "date": "2026-06-30",
-     "points": 14.3,
+     "points": 14.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1545,14 +1578,14 @@
    "linkedin": "http://www.linkedin.com/in/brian-bailey-b88493191",
    "sf_id": null,
    "linked_site": "4105703",
-   "score": 14.3,
+   "score": 14.2,
    "reasons": [
     {
      "id": "site:brian.bailey@vulcanmaterials.com:4105703",
      "type": "site_signal",
      "text": "Best-placed contact for Cantrell Quarry (TX) - Hours up +386% year over year (14 employees)",
      "date": "2026-06-30",
-     "points": 14.3,
+     "points": 14.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1570,14 +1603,14 @@
    "linkedin": "http://www.linkedin.com/in/dwayne-boyd-54765656",
    "sf_id": null,
    "linked_site": "300437",
-   "score": 14.3,
+   "score": 14.2,
    "reasons": [
     {
      "id": "site:dwayne.boyd@na.crh.com:300437",
      "type": "site_signal",
      "text": "Best-placed contact for Avoca Quarry & Plant (AR) - Hours up +105% year over year (12 employees)",
      "date": "2026-06-30",
-     "points": 14.3,
+     "points": 14.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1595,14 +1628,14 @@
    "linkedin": "http://www.linkedin.com/in/eric-l-weech-76545213b",
    "sf_id": null,
    "linked_site": "505192",
-   "score": 14.3,
+   "score": 14.2,
    "reasons": [
     {
      "id": "site:eweech@eaglematerials.com:505192",
      "type": "site_signal",
      "text": "Best-placed contact for Two Rivers (CO) - Hours up +364% year over year (12 employees)",
      "date": "2026-06-30",
-     "points": 14.3,
+     "points": 14.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1620,14 +1653,14 @@
    "linkedin": "http://www.linkedin.com/in/frank-tedesco-1127352b5",
    "sf_id": null,
    "linked_site": "3000060",
-   "score": 14.3,
+   "score": 14.2,
    "reasons": [
     {
      "id": "site:frank.tedesco@lehighhanson.com:3000060",
      "type": "site_signal",
      "text": "Best-placed contact for Jamesville Plant (NY) - Hours up +134% year over year (53 employees)",
      "date": "2026-06-30",
-     "points": 14.3,
+     "points": 14.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1645,14 +1678,14 @@
    "linkedin": "http://www.linkedin.com/in/greg-wilkerson-22421138",
    "sf_id": null,
    "linked_site": "405987",
-   "score": 14.3,
+   "score": 14.2,
    "reasons": [
     {
      "id": "site:wilkersong@vmcmail.com:405987",
      "type": "site_signal",
      "text": "Best-placed contact for Cupertino Quarry (CA) - Hours up +286% year over year (14 employees)",
      "date": "2026-06-30",
-     "points": 14.3,
+     "points": 14.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1670,14 +1703,14 @@
    "linkedin": "http://www.linkedin.com/in/karl-spiewak-770534111",
    "sf_id": null,
    "linked_site": "505192",
-   "score": 14.3,
+   "score": 14.2,
    "reasons": [
     {
      "id": "site:kspiewak@eaglematerials.com:505192",
      "type": "site_signal",
      "text": "Best-placed contact for Two Rivers (CO) - Hours up +364% year over year (12 employees)",
      "date": "2026-06-30",
-     "points": 14.3,
+     "points": 14.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1695,14 +1728,14 @@
    "linkedin": "http://www.linkedin.com/in/kevin-black-2945a7383",
    "sf_id": null,
    "linked_site": "4402385",
-   "score": 14.3,
+   "score": 14.2,
    "reasons": [
     {
      "id": "site:kblack@titanamerica.com:4402385",
      "type": "site_signal",
      "text": "Best-placed contact for D M Conner Sand Co (VA) - Hours up +190% year over year (10 employees)",
      "date": "2026-06-30",
-     "points": 14.3,
+     "points": 14.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1720,14 +1753,14 @@
    "linkedin": "http://www.linkedin.com/in/patrick-mccrady-p-e-sme-r-52908b46",
    "sf_id": null,
    "linked_site": "4402385",
-   "score": 14.3,
+   "score": 14.2,
    "reasons": [
     {
      "id": "site:pmccrady@titanamerica.com:4402385",
      "type": "site_signal",
      "text": "Best-placed contact for D M Conner Sand Co (VA) - Hours up +190% year over year (10 employees)",
      "date": "2026-06-30",
-     "points": 14.3,
+     "points": 14.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1745,14 +1778,14 @@
    "linkedin": "http://www.linkedin.com/in/peter-finie-062a0135",
    "sf_id": null,
    "linked_site": "405987",
-   "score": 14.3,
+   "score": 14.2,
    "reasons": [
     {
      "id": "site:finiep@vmcmail.com:405987",
      "type": "site_signal",
      "text": "Best-placed contact for Cupertino Quarry (CA) - Hours up +286% year over year (14 employees)",
      "date": "2026-06-30",
-     "points": 14.3,
+     "points": 14.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1770,14 +1803,14 @@
    "linkedin": "http://www.linkedin.com/sales/lead/ACwAAAEIk7UB1WZSEVeDT_BnSS85KO5bHcg_Ifk",
    "sf_id": null,
    "linked_site": "103596",
-   "score": 14.3,
+   "score": 14.2,
    "reasons": [
     {
      "id": "site:tim.gorman@rogersgroupinc.com:103596",
      "type": "site_signal",
      "text": "Best-placed contact for RED BAY QUARRY (AL) - Hours up +176% year over year (20 employees)",
      "date": "2026-06-30",
-     "points": 14.3,
+     "points": 14.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1795,14 +1828,14 @@
    "linkedin": "http://www.linkedin.com/in/tracy-burke-13399616",
    "sf_id": null,
    "linked_site": "4402385",
-   "score": 14.3,
+   "score": 14.2,
    "reasons": [
     {
      "id": "site:tburke@titanamerica.com:4402385",
      "type": "site_signal",
      "text": "Best-placed contact for D M Conner Sand Co (VA) - Hours up +190% year over year (10 employees)",
      "date": "2026-06-30",
-     "points": 14.3,
+     "points": 14.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1820,39 +1853,14 @@
    "linkedin": "http://www.linkedin.com/in/thomasapostolos",
    "sf_id": null,
    "linked_site": "801110",
-   "score": 14.2,
+   "score": 14.1,
    "reasons": [
     {
      "id": "site:thomas.apostolos@amrize.com:801110",
      "type": "site_signal",
      "text": "Best-placed contact for Amrize Crystal River Quarry (FL) - Hours up +98% year over year (16 employees)",
      "date": "2026-06-30",
-     "points": 14.2,
-     "first_flagged": "2026-10-05T14:13:10+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
-  },
-  {
-   "email": "toby.knott@heidelbergmaterials.com",
-   "name": "Toby Knott",
-   "title": "Vice President",
-   "company": "Heidelberg Materials",
-   "tier": "Tier 1",
-   "state": "IN",
-   "linkedin": "http://www.linkedin.com/in/toby-knott-14697b5",
-   "sf_id": null,
-   "linked_site": "1500031",
-   "score": 14.0,
-   "reasons": [
-    {
-     "id": "site:toby.knott@heidelbergmaterials.com:1500031",
-     "type": "site_signal",
-     "text": "Best-placed contact for FLEMINGSBURG QUARRY (KY) - Hours up +94% year over year (10 employees)",
-     "date": "2026-06-30",
-     "points": 14.0,
+     "points": 14.1,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1870,14 +1878,39 @@
    "linkedin": "http://www.linkedin.com/in/charlie-sedlock-98930a25",
    "sf_id": null,
    "linked_site": "4200941",
-   "score": 13.9,
+   "score": 13.8,
    "reasons": [
     {
      "id": "site:charlie.sedlock@summit-materials.com:4200941",
      "type": "site_signal",
      "text": "Best-placed contact for HIGHLAND PIT (UT) - Hours up +91% year over year (12 employees)",
      "date": "2026-06-30",
-     "points": 13.9,
+     "points": 13.8,
+     "first_flagged": "2026-10-05T14:13:10+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-05T14:13:10+00:00",
+   "latest_signal_at": "2026-10-05T14:13:10+00:00",
+   "is_new": false
+  },
+  {
+   "email": "toby.knott@heidelbergmaterials.com",
+   "name": "Toby Knott",
+   "title": "Vice President",
+   "company": "Heidelberg Materials",
+   "tier": "Tier 1",
+   "state": "IN",
+   "linkedin": "http://www.linkedin.com/in/toby-knott-14697b5",
+   "sf_id": null,
+   "linked_site": "1500031",
+   "score": 13.8,
+   "reasons": [
+    {
+     "id": "site:toby.knott@heidelbergmaterials.com:1500031",
+     "type": "site_signal",
+     "text": "Best-placed contact for FLEMINGSBURG QUARRY (KY) - Hours up +94% year over year (10 employees)",
+     "date": "2026-06-30",
+     "points": 13.8,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1895,14 +1928,14 @@
    "linkedin": "http://www.linkedin.com/in/michael-connelly-1b250964",
    "sf_id": null,
    "linked_site": "4104465",
-   "score": 13.7,
+   "score": 13.6,
    "reasons": [
     {
      "id": "site:mike.connelly@rogersgroupinc.com:4104465",
      "type": "site_signal",
      "text": "Best-placed contact for Box Canyon Sand & Gravel (TX) - Hours up +87% year over year (15 employees)",
      "date": "2026-06-30",
-     "points": 13.7,
+     "points": 13.6,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1920,14 +1953,14 @@
    "linkedin": "http://www.linkedin.com/in/gilberto-gonzalez-68576615",
    "sf_id": null,
    "linked_site": "801436",
-   "score": 13.3,
+   "score": 13.2,
    "reasons": [
     {
      "id": "site:gilberto.gonzalezg@cemex.com:801436",
      "type": "site_signal",
      "text": "Best-placed contact for Immokalee Sand Mine (FL) - Hours up +79% year over year (22 employees)",
      "date": "2026-06-30",
-     "points": 13.3,
+     "points": 13.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1945,14 +1978,14 @@
    "linkedin": "http://www.linkedin.com/in/hustedde-chad-7a5baa4",
    "sf_id": null,
    "linked_site": "801436",
-   "score": 13.3,
+   "score": 13.2,
    "reasons": [
     {
      "id": "site:chad.hustedde@cemex.com:801436",
      "type": "site_signal",
      "text": "Best-placed contact for Immokalee Sand Mine (FL) - Hours up +79% year over year (22 employees)",
      "date": "2026-06-30",
-     "points": 13.3,
+     "points": 13.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -2020,14 +2053,14 @@
    "linkedin": "http://www.linkedin.com/in/peter-sanguineti-0352534",
    "sf_id": null,
    "linked_site": "203282",
-   "score": 12.8,
+   "score": 12.6,
    "reasons": [
     {
      "id": "site:peter.sanguineti@amrize.com:203282",
      "type": "site_signal",
      "text": "Best-placed contact for Amrize Hassayampa Wash Plant (AZ) - Hours up +27% year over year (23 employees)",
      "date": "2026-06-30",
-     "points": 12.8,
+     "points": 12.6,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -2045,14 +2078,14 @@
    "linkedin": "http://www.linkedin.com/sales/lead/ACwAAAFmUEUB5nkQieNyZ3GMfg-ZHLPb3NnFY34",
    "sf_id": null,
    "linked_site": "4400164",
-   "score": 12.6,
+   "score": 12.4,
    "reasons": [
     {
      "id": "site:crystal.mistretta@crh.com:4400164",
      "type": "site_signal",
      "text": "Best-placed contact for Glade Stone Plant (VA) - Hours up +63% year over year (26 employees)",
      "date": "2026-06-30",
-     "points": 12.6,
+     "points": 12.4,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -2070,39 +2103,14 @@
    "linkedin": "http://www.linkedin.com/in/timstout",
    "sf_id": null,
    "linked_site": "1519948",
-   "score": 12.5,
+   "score": 12.4,
    "reasons": [
     {
      "id": "site:tstout@rogersgroupinc.com:1519948",
      "type": "site_signal",
      "text": "Best-placed contact for Smith Farm Mine (KY) - Hours up +62% year over year (15 employees)",
      "date": "2026-06-30",
-     "points": 12.5,
-     "first_flagged": "2026-10-05T14:13:10+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
-  },
-  {
-   "email": "salexander@acgmaterials.com",
-   "name": "Scott Alexander",
-   "title": "Senior Vice President - Aggregates",
-   "company": "Summit Materials",
-   "tier": "Tier 1",
-   "state": "TN",
-   "linkedin": "http://www.linkedin.com/in/scott-alexander-62769232",
-   "sf_id": null,
-   "linked_site": "3401950",
-   "score": 12.1,
-   "reasons": [
-    {
-     "id": "site:salexander@acgmaterials.com:3401950",
-     "type": "site_signal",
-     "text": "Best-placed contact for Sawyer Quarry (OK) - Hours up +54% year over year (50 employees)",
-     "date": "2026-06-30",
-     "points": 12.1,
+     "points": 12.4,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -2136,73 +2144,23 @@
    "is_new": false
   },
   {
-   "email": "paceb@vmcmail.com",
-   "name": "Brian Pace",
-   "title": "President - East Division",
-   "company": "Vulcan Materials",
+   "email": "salexander@acgmaterials.com",
+   "name": "Scott Alexander",
+   "title": "Senior Vice President - Aggregates",
+   "company": "Summit Materials",
    "tier": "Tier 1",
-   "state": "GA",
-   "linkedin": "http://www.linkedin.com/in/brian-pace-a8197035",
+   "state": "TN",
+   "linkedin": "http://www.linkedin.com/in/scott-alexander-62769232",
    "sf_id": null,
-   "linked_site": "3800704",
-   "score": 11.7,
+   "linked_site": "3401950",
+   "score": 12.0,
    "reasons": [
     {
-     "id": "site:paceb@vmcmail.com:3800704",
+     "id": "site:salexander@acgmaterials.com:3401950",
      "type": "site_signal",
-     "text": "Best-placed contact for North Myrtle Beach Quarry (SC) - Hours up +44% year over year (31 employees)",
+     "text": "Best-placed contact for Sawyer Quarry (OK) - Hours up +54% year over year (50 employees)",
      "date": "2026-06-30",
-     "points": 11.7,
-     "first_flagged": "2026-10-05T14:13:10+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
-  },
-  {
-   "email": "bellchad@vmcmail.com",
-   "name": "Chad Bell",
-   "title": "Vice President Operations",
-   "company": "Vulcan Materials",
-   "tier": "Tier 1",
-   "state": "GA",
-   "linkedin": "http://www.linkedin.com/in/chad-bell-67230577",
-   "sf_id": null,
-   "linked_site": "3800704",
-   "score": 11.7,
-   "reasons": [
-    {
-     "id": "site:bellchad@vmcmail.com:3800704",
-     "type": "site_signal",
-     "text": "Best-placed contact for North Myrtle Beach Quarry (SC) - Hours up +44% year over year (31 employees)",
-     "date": "2026-06-30",
-     "points": 11.7,
-     "first_flagged": "2026-10-05T14:13:10+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
-  },
-  {
-   "email": "botzise@vmcmail.com",
-   "name": "Elliott Botzis",
-   "title": "Vice President & General Manager, South Carolina",
-   "company": "Vulcan Materials",
-   "tier": "Tier 1",
-   "state": "SC",
-   "linkedin": "http://www.linkedin.com/in/elliott-botzis-154960142",
-   "sf_id": null,
-   "linked_site": "3800704",
-   "score": 11.7,
-   "reasons": [
-    {
-     "id": "site:botzise@vmcmail.com:3800704",
-     "type": "site_signal",
-     "text": "Best-placed contact for North Myrtle Beach Quarry (SC) - Hours up +44% year over year (31 employees)",
-     "date": "2026-06-30",
-     "points": 11.7,
+     "points": 12.0,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -2220,20 +2178,70 @@
    "linkedin": "http://www.linkedin.com/in/hdupree",
    "sf_id": null,
    "linked_site": "3100557",
-   "score": 11.7,
+   "score": 11.6,
    "reasons": [
     {
      "id": "site:heather.dupree@crh.com:3100557",
      "type": "site_signal",
      "text": "Best-placed contact for Dillsboro Quarry (NC) - Hours up +45% year over year (22 employees)",
      "date": "2026-06-30",
-     "points": 11.7,
+     "points": 11.6,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-05T14:13:10+00:00",
    "is_new": false
+  },
+  {
+   "email": "paceb@vmcmail.com",
+   "name": "Brian Pace",
+   "title": "President - East Division",
+   "company": "Vulcan Materials",
+   "tier": "Tier 1",
+   "state": "GA",
+   "linkedin": "http://www.linkedin.com/in/brian-pace-a8197035",
+   "sf_id": null,
+   "linked_site": "900487",
+   "score": 11.5,
+   "reasons": [
+    {
+     "id": "site:paceb@vmcmail.com:900487",
+     "type": "site_signal",
+     "text": "Best-placed contact for La Grange Quarry (GA) - Hours up +43% year over year (29 employees)",
+     "date": "2026-06-30",
+     "points": 11.5,
+     "first_flagged": "2026-10-10T16:52:32+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-10T16:52:32+00:00",
+   "latest_signal_at": "2026-10-10T16:52:32+00:00",
+   "is_new": true
+  },
+  {
+   "email": "bellchad@vmcmail.com",
+   "name": "Chad Bell",
+   "title": "Vice President Operations",
+   "company": "Vulcan Materials",
+   "tier": "Tier 1",
+   "state": "GA",
+   "linkedin": "http://www.linkedin.com/in/chad-bell-67230577",
+   "sf_id": null,
+   "linked_site": "900487",
+   "score": 11.5,
+   "reasons": [
+    {
+     "id": "site:bellchad@vmcmail.com:900487",
+     "type": "site_signal",
+     "text": "Best-placed contact for La Grange Quarry (GA) - Hours up +43% year over year (29 employees)",
+     "date": "2026-06-30",
+     "points": 11.5,
+     "first_flagged": "2026-10-10T16:52:32+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-10T16:52:32+00:00",
+   "latest_signal_at": "2026-10-10T16:52:32+00:00",
+   "is_new": true
   }
  ]
 }

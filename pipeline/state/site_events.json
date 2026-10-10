@@ -3004,5 +3004,39 @@
   "mine_id": "4503707",
   "name": "Amrize Axton Pit",
   "state": "WA"
+ },
+ "new:1302050": {
+  "id": "new:1302050",
+  "first_seen": "2026-10-10T16:52:31+00:00",
+  "type": "new_site",
+  "status": "Intermittent",
+  "date": "2026-10-07",
+  "company": "CRH/Oldcastle",
+  "mine_id": "1302050",
+  "name": "Portable Lime Screen",
+  "state": "IA"
+ },
+ "controller:4003609:2026-09-21": {
+  "id": "controller:4003609:2026-09-21",
+  "first_seen": "2026-10-10T16:52:31+00:00",
+  "type": "controller_change",
+  "controller": "Rogers Group Inc",
+  "date": "2026-09-21",
+  "company": "Rogers Group",
+  "mine_id": "4003609",
+  "name": "Blount-Loudon Quarry",
+  "state": "TN"
+ },
+ "ramp:4003609:2026Q2": {
+  "id": "ramp:4003609:2026Q2",
+  "first_seen": "2026-10-10T16:52:31+00:00",
+  "type": "ramp_up",
+  "trend": 149.3,
+  "employees": 16,
+  "date": "2026-06-30",
+  "company": "Rogers Group",
+  "mine_id": "4003609",
+  "name": "Blount-Loudon Quarry",
+  "state": "TN"
  }
 }
