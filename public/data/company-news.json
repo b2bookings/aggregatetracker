@@ -27,6 +27,10 @@
     {
      "url": "https://www.pitandquarry.com/vulcan-materials-acquires-kentucky-quarry/",
      "publisher": "Pit & Quarry"
+    },
+    {
+     "url": "https://ruralnewsmedia.com/vulcan-materials-acquires-butler-quarry-in-pendleton-county/",
+     "publisher": "Rural News Media"
     }
    ]
   },
@@ -79,6 +83,20 @@
   }
  ],
  "Quikrete": [
+  {
+   "headline": "Quikrete 10-year permit extension appealed in Summit County, Colorado",
+   "date": "2026-10-01",
+   "summary": "Residents of Summit Sky Ranch filed an appeal against a 10-year Conditional Use Permit extension granted to Quikrete by the Lower Blue Planning Commission. The appeal will be heard by the Summit County Board of County Commissioners on October 13, 2026.",
+   "sales_angle": "Monitor the permit outcome to engage Quikrete's Colorado operations on contracted pit support and compliance needs if operational constraints are imposed.",
+   "signal_type": "permit",
+   "strength": 3,
+   "verified": true,
+   "needs_source_check": false,
+   "source": "https://www.folbr.org/news/general-news/330-quikrete-10-year-conditional-use-permit-to-be-appealed",
+   "publisher": "Friends Of The Lower Blue River",
+   "found_by": "research",
+   "first_seen": "2026-10-12T19:40:31+00:00"
+  },
   {
    "headline": "Missouri DNR issues open-pit limestone permit for Quikrete's Jasper Quarry #15",
    "date": "2026-09-29",
