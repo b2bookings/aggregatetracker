@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-15T15:36:52+00:00",
+ "generated_at": "2026-10-15T18:48:49+00:00",
  "accounts": [
   {
    "company": "Rogers Group",
-   "score": 110.8,
+   "score": 110.5,
    "flagged_site_count": 8,
    "sites": [
     {
@@ -12,14 +12,14 @@
      "company": "Rogers Group",
      "state": "TN",
      "county": "Loudon",
-     "score": 51.3,
+     "score": 51.0,
      "reasons": [
       {
        "id": "ramp:4003609:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +149% year over year (16 employees)",
        "date": "2026-06-30",
-       "points": 28.6,
+       "points": 28.3,
        "first_flagged": "2026-10-10T16:52:32+00:00"
       },
       {
@@ -161,8 +161,8 @@
   },
   {
    "company": "Vulcan Materials",
-   "score": 88.8,
-   "flagged_site_count": 20,
+   "score": 90.5,
+   "flagged_site_count": 21,
    "sites": [
     {
      "mine_id": "4003605",
@@ -193,6 +193,39 @@
       "jack.lambert@vulcanmaterials.com",
       "badgettj@vmcmail.com",
       "ramera@vmcmail.com"
+     ]
+    },
+    {
+     "mine_id": "102523",
+     "name": "Guntersville Quarry",
+     "company": "Vulcan Materials",
+     "state": "AL",
+     "county": "Marshall",
+     "score": 27.6,
+     "reasons": [
+      {
+       "id": "news:https://www.decaturdaily.com/news/morgan_county/morgan-county-restricts-heavy-truck-traffic-coming-out-of-marshall-county-quarry/article_a7392a1a-4e30-4c3b-b743-e91efdb52fe0.html",
+       "type": "news",
+       "text": "Morgan County restricts through truck traffic serving Marshall County quarry",
+       "date": "2026-10-13",
+       "points": 18.7,
+       "source": "https://www.decaturdaily.com/news/morgan_county/morgan-county-restricts-heavy-truck-traffic-coming-out-of-marshall-county-quarry/article_a7392a1a-4e30-4c3b-b743-e91efdb52fe0.html",
+       "sales_angle": "Connect with site management at Guntersville Quarry to explore whether external haul route constraints will impact loadout logistics, inventory staging, or production schedules.",
+       "first_flagged": "2026-10-15T18:48:49+00:00"
+      },
+      {
+       "id": "slowdown:102523:2026Q2",
+       "type": "slowdown",
+       "text": "Hours down -40% year over year",
+       "date": "2026-06-30",
+       "points": 8.9,
+       "first_flagged": "2026-10-15T18:48:49+00:00"
+      }
+     ],
+     "contacts": [
+      "wilsonb@vmcmail.com",
+      "garrettt@vmcmail.com",
+      "paceb@vmcmail.com"
      ]
     },
     {
@@ -261,29 +294,6 @@
       "sabharwala@vmcmail.com",
       "brian.bailey@vulcanmaterials.com"
      ]
-    },
-    {
-     "mine_id": "4002961",
-     "name": "Dayton Quarry",
-     "company": "Vulcan Materials",
-     "state": "TN",
-     "county": "Rhea",
-     "score": 22.0,
-     "reasons": [
-      {
-       "id": "ramp:4002961:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +48% year over year (10 employees)",
-       "date": "2026-06-30",
-       "points": 22.0,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": [
-      "jack.lambert@vulcanmaterials.com",
-      "badgettj@vmcmail.com",
-      "ramera@vmcmail.com"
-     ]
     }
    ],
    "company_news": [
@@ -299,8 +309,8 @@
     }
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T15:14:01+00:00",
-   "is_new": false
+   "latest_signal_at": "2026-10-15T18:48:49+00:00",
+   "is_new": true
   },
   {
    "company": "CRH/Oldcastle",
@@ -1228,14 +1238,14 @@
    "linkedin": "http://www.linkedin.com/in/derek-roberts-53323b16",
    "sf_id": null,
    "linked_site": "4003609",
-   "score": 25.6,
+   "score": 25.5,
    "reasons": [
     {
      "id": "site:derek.roberts@rogersgroupinc.com:4003609",
      "type": "site_signal",
      "text": "Best-placed contact for Blount-Loudon Quarry (TN) - Hours up +149% year over year (16 employees)",
      "date": "2026-06-30",
-     "points": 25.6,
+     "points": 25.5,
      "first_flagged": "2026-10-10T16:52:32+00:00"
     }
    ],
@@ -1253,14 +1263,14 @@
    "linkedin": "http://www.linkedin.com/in/john-ross-harvell-aa7894166",
    "sf_id": null,
    "linked_site": "4003609",
-   "score": 25.6,
+   "score": 25.5,
    "reasons": [
     {
      "id": "site:jharvell@rogersgroupinc.com:4003609",
      "type": "site_signal",
      "text": "Best-placed contact for Blount-Loudon Quarry (TN) - Hours up +149% year over year (16 employees)",
      "date": "2026-06-30",
-     "points": 25.6,
+     "points": 25.5,
      "first_flagged": "2026-10-10T16:52:32+00:00"
     }
    ],
@@ -1467,6 +1477,81 @@
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-05T14:13:10+00:00",
    "is_new": false
+  },
+  {
+   "email": "paceb@vmcmail.com",
+   "name": "Brian Pace",
+   "title": "President - East Division",
+   "company": "Vulcan Materials",
+   "tier": "Tier 1",
+   "state": "GA",
+   "linkedin": "http://www.linkedin.com/in/brian-pace-a8197035",
+   "sf_id": null,
+   "linked_site": "102523",
+   "score": 13.8,
+   "reasons": [
+    {
+     "id": "site:paceb@vmcmail.com:102523",
+     "type": "site_signal",
+     "text": "Best-placed contact for Guntersville Quarry (AL) - Morgan County restricts through truck traffic serving Marshall County quarry",
+     "date": "2026-10-13",
+     "points": 13.8,
+     "first_flagged": "2026-10-15T18:48:49+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-15T18:48:49+00:00",
+   "latest_signal_at": "2026-10-15T18:48:49+00:00",
+   "is_new": true
+  },
+  {
+   "email": "wilsonb@vmcmail.com",
+   "name": "Brigette Wilson",
+   "title": "Manager Mine Planning & Services",
+   "company": "Vulcan Materials",
+   "tier": "Tier 3",
+   "state": "AL",
+   "linkedin": "http://www.linkedin.com/in/brigette-wilson-42173011",
+   "sf_id": null,
+   "linked_site": "102523",
+   "score": 13.8,
+   "reasons": [
+    {
+     "id": "site:wilsonb@vmcmail.com:102523",
+     "type": "site_signal",
+     "text": "Best-placed contact for Guntersville Quarry (AL) - Morgan County restricts through truck traffic serving Marshall County quarry",
+     "date": "2026-10-13",
+     "points": 13.8,
+     "first_flagged": "2026-10-15T18:48:49+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-15T18:48:49+00:00",
+   "latest_signal_at": "2026-10-15T18:48:49+00:00",
+   "is_new": true
+  },
+  {
+   "email": "garrettt@vmcmail.com",
+   "name": "Tim Garrett",
+   "title": "Vice President General Manager",
+   "company": "Vulcan Materials",
+   "tier": "Tier 1",
+   "state": "AL",
+   "linkedin": "http://www.linkedin.com/in/tim-garrett-a771a415",
+   "sf_id": null,
+   "linked_site": "102523",
+   "score": 13.8,
+   "reasons": [
+    {
+     "id": "site:garrettt@vmcmail.com:102523",
+     "type": "site_signal",
+     "text": "Best-placed contact for Guntersville Quarry (AL) - Morgan County restricts through truck traffic serving Marshall County quarry",
+     "date": "2026-10-13",
+     "points": 13.8,
+     "first_flagged": "2026-10-15T18:48:49+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-15T18:48:49+00:00",
+   "latest_signal_at": "2026-10-15T18:48:49+00:00",
+   "is_new": true
   },
   {
    "email": "sabharwala@vmcmail.com",
@@ -2119,31 +2204,6 @@
    "is_new": false
   },
   {
-   "email": "paceb@vmcmail.com",
-   "name": "Brian Pace",
-   "title": "President - East Division",
-   "company": "Vulcan Materials",
-   "tier": "Tier 1",
-   "state": "GA",
-   "linkedin": "http://www.linkedin.com/in/brian-pace-a8197035",
-   "sf_id": null,
-   "linked_site": "3800704",
-   "score": 10.9,
-   "reasons": [
-    {
-     "id": "site:paceb@vmcmail.com:3800704",
-     "type": "site_signal",
-     "text": "Best-placed contact for North Myrtle Beach Quarry (SC) - Hours up +44% year over year (31 employees)",
-     "date": "2026-06-30",
-     "points": 10.9,
-     "first_flagged": "2026-10-05T14:13:10+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
-  },
-  {
    "email": "bellchad@vmcmail.com",
    "name": "Chad Bell",
    "title": "Vice President Operations",
@@ -2159,56 +2219,6 @@
      "id": "site:bellchad@vmcmail.com:3800704",
      "type": "site_signal",
      "text": "Best-placed contact for North Myrtle Beach Quarry (SC) - Hours up +44% year over year (31 employees)",
-     "date": "2026-06-30",
-     "points": 10.9,
-     "first_flagged": "2026-10-05T14:13:10+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
-  },
-  {
-   "email": "botzise@vmcmail.com",
-   "name": "Elliott Botzis",
-   "title": "Vice President & General Manager, South Carolina",
-   "company": "Vulcan Materials",
-   "tier": "Tier 1",
-   "state": "SC",
-   "linkedin": "http://www.linkedin.com/in/elliott-botzis-154960142",
-   "sf_id": null,
-   "linked_site": "3800704",
-   "score": 10.9,
-   "reasons": [
-    {
-     "id": "site:botzise@vmcmail.com:3800704",
-     "type": "site_signal",
-     "text": "Best-placed contact for North Myrtle Beach Quarry (SC) - Hours up +44% year over year (31 employees)",
-     "date": "2026-06-30",
-     "points": 10.9,
-     "first_flagged": "2026-10-05T14:13:10+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
-  },
-  {
-   "email": "heather.dupree@crh.com",
-   "name": "Heather Dupree",
-   "title": "Director of Operations",
-   "company": "CRH/Oldcastle",
-   "tier": "Tier 2",
-   "state": "GA",
-   "linkedin": "http://www.linkedin.com/in/hdupree",
-   "sf_id": null,
-   "linked_site": "3100557",
-   "score": 10.9,
-   "reasons": [
-    {
-     "id": "site:heather.dupree@crh.com:3100557",
-     "type": "site_signal",
-     "text": "Best-placed contact for Dillsboro Quarry (NC) - Hours up +45% year over year (22 employees)",
      "date": "2026-06-30",
      "points": 10.9,
      "first_flagged": "2026-10-05T14:13:10+00:00"
