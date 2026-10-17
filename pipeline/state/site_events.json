@@ -3038,5 +3038,49 @@
   "mine_id": "4003609",
   "name": "Blount-Loudon Quarry",
   "state": "TN"
+ },
+ "status:1301825:Temporarily Idled:2026-10-15": {
+  "id": "status:1301825:Temporarily Idled:2026-10-15",
+  "first_seen": "2026-10-17T14:52:28+00:00",
+  "type": "status_change",
+  "status": "Temporarily Idled",
+  "date": "2026-10-15",
+  "company": "CRH/Oldcastle",
+  "mine_id": "1301825",
+  "name": "Stripping  #1",
+  "state": "IA"
+ },
+ "status:2002621:Abandoned:2026-10-13": {
+  "id": "status:2002621:Abandoned:2026-10-13",
+  "first_seen": "2026-10-17T14:52:28+00:00",
+  "type": "status_change",
+  "status": "Abandoned",
+  "date": "2026-10-13",
+  "company": "Carmeuse",
+  "mine_id": "2002621",
+  "name": "A/C Plant",
+  "state": "MI"
+ },
+ "status:3600036:Abandoned:2026-10-08": {
+  "id": "status:3600036:Abandoned:2026-10-08",
+  "first_seen": "2026-10-17T14:52:28+00:00",
+  "type": "status_change",
+  "status": "Abandoned",
+  "date": "2026-10-08",
+  "company": "Heidelberg Materials",
+  "mine_id": "3600036",
+  "name": "Ottsville Quarry",
+  "state": "PA"
+ },
+ "controller:4103410:2026-10-03": {
+  "id": "controller:4103410:2026-10-03",
+  "first_seen": "2026-10-17T14:52:28+00:00",
+  "type": "controller_change",
+  "controller": "Vulcan Materials Company",
+  "date": "2026-10-03",
+  "company": "Vulcan Materials",
+  "mine_id": "4103410",
+  "name": "Eastland Quarry #2",
+  "state": "TX"
  }
 }
