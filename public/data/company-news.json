@@ -84,6 +84,20 @@
  ],
  "Quikrete": [
   {
+   "headline": "Summit County approves 7-year conditional permit for Quikrete's Silverthorne gravel pit",
+   "date": "2026-10-13",
+   "summary": "Summit County commissioners approved a 7-year conditional-use permit for Quikrete's sand and gravel mine and asphalt plant north of Silverthorne, down from the 10-year term previously recommended. The compromise allows continued extraction while the county and operator begin planning for future aggregate sources once this deposit is depleted.",
+   "sales_angle": "Contact Quikrete's Colorado operations team to discuss contract mining, load-and-haul, and pit optimization services to maximize production efficiency during the approved seven-year window.",
+   "signal_type": "permit",
+   "strength": 3,
+   "verified": true,
+   "needs_source_check": false,
+   "source": "https://krystal93.com/silverthorne-gravel-pit-safe-for-7-years-with-a-compromise-by-county-commissioners/",
+   "publisher": "Krystal 93",
+   "found_by": "research",
+   "first_seen": "2026-10-19T16:51:49+00:00"
+  },
+  {
    "headline": "Quikrete 10-year permit extension appealed in Summit County, Colorado",
    "date": "2026-10-01",
    "summary": "Residents of Summit Sky Ranch filed an appeal against a 10-year Conditional Use Permit extension granted to Quikrete by the Lower Blue Planning Commission. The appeal will be heard by the Summit County Board of County Commissioners on October 13, 2026.",
@@ -122,6 +136,22 @@
    "headline": "Northern California Teamsters strike resolved",
    "date": "2026-08",
    "summary": "Over 350 CalPortland ready-mix drivers across 15 Northern California plants (Sonoma, Marin, Napa, Solano counties) went on strike Aug 6-21, 2026, disrupting public and private construction projects until a new contract was ratified."
+  }
+ ],
+ "Buzzi Unicem": [
+  {
+   "headline": "Buzzi subsidiary Alamo Concrete acquires Big Town Concrete in Dallas-Fort Worth",
+   "date": "2026-10-19",
+   "summary": "Buzzi subsidiary Alamo Concrete Products completed the acquisition of Big Town Concrete LLC, adding six ready-mix concrete plants producing 400,000 cubic yards annually to integrate with Buzzi's regional cement distribution network.",
+   "sales_angle": "Connect with Buzzi Unicem and Alamo Concrete leadership to explore whether increased downstream ready-mix demand requires increased quarry production or contract overburden stripping at their Texas cement and aggregate operations.",
+   "signal_type": "acquisition",
+   "strength": 2,
+   "verified": false,
+   "needs_source_check": false,
+   "source": "https://www.buzziunicemusa.com/w/alamo-concrete-expands-its-operations-in-the-dallas/fort-worth-market",
+   "publisher": "Buzzi Unicem USA",
+   "found_by": "research",
+   "first_seen": "2026-10-19T16:51:49+00:00"
   }
  ]
 }
