@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T16:56:10+00:00",
+ "generated_at": "2026-10-19T17:26:05+00:00",
  "accounts": [
   {
    "company": "Rogers Group",
@@ -272,7 +272,7 @@
    "company_news": [],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-19T16:56:10+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "CRH/Oldcastle",
@@ -437,7 +437,7 @@
    "company_news": [],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-19T16:56:10+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Vulcan Materials",
@@ -718,7 +718,7 @@
    "company_news": [],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-19T16:56:10+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Quikrete",
@@ -779,7 +779,7 @@
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-19T16:56:10+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Amrize",
@@ -1161,7 +1161,7 @@
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-19T16:56:10+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Eagle Materials",
@@ -1329,7 +1329,7 @@
    ],
    "first_flagged": "2026-10-19T16:56:10+00:00",
    "latest_signal_at": "2026-10-19T16:56:10+00:00",
-   "is_new": true
+   "is_new": false
   }
  ],
  "contacts": [
@@ -1456,7 +1456,7 @@
    ],
    "first_flagged": "2026-10-19T16:56:10+00:00",
    "latest_signal_at": "2026-10-19T16:56:10+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "email": "jose.armenta@apac.com",
@@ -1481,7 +1481,7 @@
    ],
    "first_flagged": "2026-10-19T16:56:10+00:00",
    "latest_signal_at": "2026-10-19T16:56:10+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "email": "travis.canfield@stakerparson.com",
@@ -1506,7 +1506,7 @@
    ],
    "first_flagged": "2026-10-19T16:56:10+00:00",
    "latest_signal_at": "2026-10-19T16:56:10+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "email": "ramera@vmcmail.com",
@@ -1606,7 +1606,7 @@
    ],
    "first_flagged": "2026-10-19T16:56:10+00:00",
    "latest_signal_at": "2026-10-19T16:56:10+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "email": "moregan@calportland.com",
@@ -1631,7 +1631,7 @@
    ],
    "first_flagged": "2026-10-19T16:56:10+00:00",
    "latest_signal_at": "2026-10-19T16:56:10+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "email": "mstratford@calportland.com",
@@ -1656,7 +1656,7 @@
    ],
    "first_flagged": "2026-10-19T16:56:10+00:00",
    "latest_signal_at": "2026-10-19T16:56:10+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "email": "jaime.hill@amrize.com",
