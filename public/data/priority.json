@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-20T15:38:51+00:00",
+ "generated_at": "2026-10-20T18:49:08+00:00",
  "accounts": [
   {
    "company": "Rogers Group",
-   "score": 103.5,
+   "score": 103.2,
    "flagged_site_count": 8,
    "sites": [
     {
@@ -12,14 +12,14 @@
      "company": "Rogers Group",
      "state": "TN",
      "county": "Loudon",
-     "score": 48.5,
+     "score": 48.2,
      "reasons": [
       {
        "id": "ramp:4003609:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +149% year over year (16 employees)",
        "date": "2026-06-30",
-       "points": 27.0,
+       "points": 26.7,
        "first_flagged": "2026-10-10T16:52:32+00:00"
       },
       {
@@ -1354,14 +1354,14 @@
    "linkedin": "http://www.linkedin.com/in/derek-roberts-53323b16",
    "sf_id": null,
    "linked_site": "4003609",
-   "score": 24.2,
+   "score": 24.1,
    "reasons": [
     {
      "id": "site:derek.roberts@rogersgroupinc.com:4003609",
      "type": "site_signal",
      "text": "Best-placed contact for Blount-Loudon Quarry (TN) - Hours up +149% year over year (16 employees)",
      "date": "2026-06-30",
-     "points": 24.2,
+     "points": 24.1,
      "first_flagged": "2026-10-10T16:52:32+00:00"
     }
    ],
@@ -1379,14 +1379,14 @@
    "linkedin": "http://www.linkedin.com/in/john-ross-harvell-aa7894166",
    "sf_id": null,
    "linked_site": "4003609",
-   "score": 24.2,
+   "score": 24.1,
    "reasons": [
     {
      "id": "site:jharvell@rogersgroupinc.com:4003609",
      "type": "site_signal",
      "text": "Best-placed contact for Blount-Loudon Quarry (TN) - Hours up +149% year over year (16 employees)",
      "date": "2026-06-30",
-     "points": 24.2,
+     "points": 24.1,
      "first_flagged": "2026-10-10T16:52:32+00:00"
     }
    ],
