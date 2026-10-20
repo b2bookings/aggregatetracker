@@ -153,5 +153,27 @@
    "found_by": "research",
    "first_seen": "2026-10-19T16:51:49+00:00"
   }
+ ],
+ "Cemex": [
+  {
+   "headline": "Cemex supplies 300,000 cubic yards of concrete for LA Metro D Line extension",
+   "date": "2026-10-19",
+   "summary": "Cemex supplied more than 300,000 cubic yards of concrete for Section 1 of the Los Angeles Metro D Line Extension transit project.",
+   "sales_angle": "High-volume infrastructure supply commitments in Southern California strain regional aggregate supply; reach out to regional ops to offer contract quarrying and hauling support.",
+   "signal_type": "contract_award",
+   "strength": 2,
+   "verified": false,
+   "needs_source_check": false,
+   "source": "https://www.businesswire.com/news/home/20261019658403/en/Cemex-Supplies-Concrete-for-Major-Los-Angeles-Metro-Expansion",
+   "publisher": "Business Wire",
+   "found_by": "news",
+   "first_seen": "2026-10-20T01:21:41+00:00",
+   "also_reported_by": [
+    {
+     "url": "https://www.streetinsider.com/Corporate+News/Cemex+supplies+concrete+for+LA+Metro+D+Line+expansion/27204876.html",
+     "publisher": "StreetInsider"
+    }
+   ]
+  }
  ]
 }
