@@ -1,10 +1,10 @@
 {
- "priority_generated_at": "2026-10-22T19:00:21+00:00",
+ "priority_generated_at": "2026-10-22T22:00:24+00:00",
  "latest_quarter": "2002 Q4",
  "msha_refreshed_at": "2026-10-17T14:52:28+00:00",
  "site_count": 1268,
  "research_ran_at": "2026-10-19T16:51:49+00:00",
- "news_scanned_at": "2026-10-22T18:57:42+00:00",
- "last_run_cost_usd": 0.1824,
- "month_cost_usd": 4.38
+ "news_scanned_at": "2026-10-22T22:00:10+00:00",
+ "last_run_cost_usd": 0.0696,
+ "month_cost_usd": 4.45
 }
