@@ -170,6 +170,20 @@
  ],
  "Cemex": [
   {
+   "headline": "Cemex USA acquires new aggregates reserves in Florida",
+   "date": "2023-05-12",
+   "summary": "Cemex USA finalized an acquisition securing new long-term aggregate reserves to support its vertically integrated operations in the Florida region.",
+   "sales_angle": "Reach out to Cemex USA's Florida operations leadership to offer contract mining, overburden stripping, and site development services for the newly acquired aggregate reserves.",
+   "signal_type": "acquisition",
+   "strength": 3,
+   "verified": true,
+   "needs_source_check": false,
+   "source": "https://worldcement.com/the-americas/12052023/cemex-continues-to-grow-aggregates-business/",
+   "publisher": "World Cement",
+   "found_by": "news",
+   "first_seen": "2026-10-22T18:57:42+00:00"
+  },
+  {
    "headline": "Cemex supplies 300,000 cubic yards of concrete for LA Metro D Line extension",
    "date": "2026-10-19",
    "summary": "Cemex supplied more than 300,000 cubic yards of concrete for Section 1 of the Los Angeles Metro D Line Extension transit project.",
