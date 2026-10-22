@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-22T01:05:25+00:00",
+ "generated_at": "2026-10-22T15:53:34+00:00",
  "accounts": [
   {
    "company": "Rogers Group",
-   "score": 101.1,
+   "score": 100.9,
    "flagged_site_count": 8,
    "sites": [
     {
@@ -42,14 +42,14 @@
      "company": "Rogers Group",
      "state": "VA",
      "county": "Shenandoah",
-     "score": 27.3,
+     "score": 27.1,
      "reasons": [
       {
        "id": "ramp:4400081:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +56% year over year (15 employees)",
        "date": "2026-06-30",
-       "points": 21.3,
+       "points": 21.1,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       },
       {
@@ -72,14 +72,14 @@
      "company": "Rogers Group",
      "state": "AL",
      "county": "Franklin",
-     "score": 24.9,
+     "score": 24.7,
      "reasons": [
       {
        "id": "ramp:103596:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +176% year over year (20 employees)",
        "date": "2026-06-30",
-       "points": 24.9,
+       "points": 24.7,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -94,14 +94,14 @@
      "company": "Rogers Group",
      "state": "TX",
      "county": "Potter",
-     "score": 23.9,
+     "score": 23.6,
      "reasons": [
       {
        "id": "ramp:4104465:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +87% year over year (15 employees)",
        "date": "2026-06-30",
-       "points": 23.9,
+       "points": 23.6,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -116,14 +116,14 @@
      "company": "Rogers Group",
      "state": "AL",
      "county": "Morgan",
-     "score": 22.4,
+     "score": 22.2,
      "reasons": [
       {
        "id": "ramp:103356:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +70% year over year (21 employees)",
        "date": "2026-06-30",
-       "points": 22.4,
+       "points": 22.2,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -160,287 +160,8 @@
    "is_new": false
   },
   {
-   "company": "Cemex",
-   "score": 95.4,
-   "flagged_site_count": 3,
-   "sites": [
-    {
-     "mine_id": "401897",
-     "name": "Rockfield Plant",
-     "company": "Cemex",
-     "state": "CA",
-     "county": "Fresno",
-     "score": 61.9,
-     "reasons": [
-      {
-       "id": "news:https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCqMrcbB4ZV2EtNXQXJCIZ2gL-gi3BOZPeVR7s1y6eeVs7ot9YM-LnLzxIzOYP2sKu5w5LpALuvZskKrGXHKeva_cOR6o2AOV7tl3ZBnGUWonSZlygrrHfOsHQ3qevZvDYW3L8r-_QsaIKC1T7kcdXPVzpvvOHH0t_Zqfn-CHuMpXzINQSyyG--ggXvI8i7bn3",
-       "type": "news",
-       "text": "Fresno County sets November appeal hearing for Cemex Rockfield Quarry deep-mining permit",
-       "date": "2026-10-16",
-       "points": 24.6,
-       "source": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCqMrcbB4ZV2EtNXQXJCIZ2gL-gi3BOZPeVR7s1y6eeVs7ot9YM-LnLzxIzOYP2sKu5w5LpALuvZskKrGXHKeva_cOR6o2AOV7tl3ZBnGUWonSZlygrrHfOsHQ3qevZvDYW3L8r-_QsaIKC1T7kcdXPVzpvvOHH0t_Zqfn-CHuMpXzINQSyyG--ggXvI8i7bn3",
-       "sales_angle": "Engage Cemex Western region operations leaders ahead of the November appeal hearing to position contract mining, drilling, blasting, and overburden stripping services tailored to the revised pit plan.",
-       "first_flagged": "2026-10-19T16:56:10+00:00"
-      },
-      {
-       "id": "news:https://fresnoland.org/2026/10/08/san-joaquin-river-blast-mine/",
-       "type": "news",
-       "text": "Fresno County Planning Commission deadlocks on Cemex Rockfield Quarry blasting permit",
-       "date": "2026-10-08",
-       "points": 18.9,
-       "source": "https://fresnoland.org/2026/10/08/san-joaquin-river-blast-mine/",
-       "sales_angle": "Engage Cemex's Western regional management to offer contract mechanical ripping and overburden removal solutions should hard-rock blasting permits face continued regulatory delays.",
-       "first_flagged": "2026-10-09T17:26:30+00:00"
-      },
-      {
-       "id": "news:https://files.ceqanet.lci.ca.gov/262313-4/attachment/s7Y1DIoZWYubZpj6-owdEE86SFaWtW-PYEpOQmtR1LdE01jerIInErhHvKo0Uvb-Gf-XIZiGP_1Hpaw_0",
-       "type": "news",
-       "text": "Fresno County releases Final EIR for CEMEX Rockfield Quarry expansion",
-       "date": "2026-09-28",
-       "points": 18.1,
-       "source": "https://files.ceqanet.lci.ca.gov/262313-4/attachment/s7Y1DIoZWYubZpj6-owdEE86SFaWtW-PYEpOQmtR1LdE01jerIInErhHvKo0Uvb-Gf-XIZiGP_1Hpaw_0",
-       "sales_angle": "Reach out to CEMEX California leadership now, as transitioning to deep hard rock extraction will require drilling, blasting, and heavy earthmoving support once permits are approved.",
-       "first_flagged": "2026-10-05T15:14:01+00:00"
-      },
-      {
-       "id": "news:https://fresnochamber.com/news/planning-commission-gives-cemex-another-year/",
-       "type": "news",
-       "text": "Contested 100-year deep-rock expansion; permit extended amid legislative pushback",
-       "date": "2026-06-11",
-       "points": 0.3,
-       "source": "https://fresnochamber.com/news/planning-commission-gives-cemex-another-year/",
-       "sales_angle": "One of the most contested single-site fights in Cemex's whole portfolio — a state legislative bill was written specifically to stop this project. High visibility, high stakes, and the company has publicly signaled it's stretched trying to keep current operations running while fighting for the expansion.",
-       "first_flagged": "2026-10-05T15:14:01+00:00"
-      }
-     ],
-     "contacts": []
-    },
-    {
-     "mine_id": "500344",
-     "name": "Lyons Cement Plant Cemex Inc",
-     "company": "Cemex",
-     "state": "CO",
-     "county": "Boulder",
-     "score": 40.1,
-     "reasons": [
-      {
-       "id": "news:https://www.indexbox.io/blog/cemex-to-lay-off-at-least-70-workers-at-colorado-cement-plant-starting-november-2026/",
-       "type": "news",
-       "text": "Cemex to lay off over 70 workers at Lyons cement plant in Colorado",
-       "date": "2026-11-21",
-       "points": 40.0,
-       "source": "https://www.indexbox.io/blog/cemex-to-lay-off-at-least-70-workers-at-colorado-cement-plant-starting-november-2026/",
-       "sales_angle": "Reach out to Cemex regional operations management to offer contract quarrying, mobile crushing, and material handling support to bridge operational gaps caused by the workforce reduction.",
-       "first_flagged": "2026-10-09T17:26:30+00:00"
-      },
-      {
-       "id": "news:https://coloradosun.com/2026/05/21/boulder-county-reverses-allows-cemex-to-keep-operating-kiln/",
-       "type": "news",
-       "text": "County reverses shutdown order; plant's right to operate reinstated",
-       "date": "2026-05-19",
-       "points": 0.1,
-       "source": "https://coloradosun.com/2026/05/21/boulder-county-reverses-allows-cemex-to-keep-operating-kiln/",
-       "sales_angle": "A site that came within one appeal of being shut down entirely, now cleared to keep running under intensified community and regulatory scrutiny — exactly the kind of high-stakes operating environment where TMG's execution discipline matters most.",
-       "first_flagged": "2026-10-09T17:26:30+00:00"
-      }
-     ],
-     "contacts": []
-    },
-    {
-     "mine_id": "801436",
-     "name": "Immokalee Sand Mine",
-     "company": "Cemex",
-     "state": "FL",
-     "county": "Collier",
-     "score": 23.2,
-     "reasons": [
-      {
-       "id": "ramp:801436:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +79% year over year (22 employees)",
-       "date": "2026-06-30",
-       "points": 23.2,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": [
-      "gilberto.gonzalezg@cemex.com",
-      "chad.hustedde@cemex.com"
-     ]
-    }
-   ],
-   "company_news": [
-    {
-     "id": "cnews:https://www.businesswire.com/news/home/20261019658403/en/Cemex-Supplies-Concrete-for-Major-Los-Angeles-Metro-Expansion",
-     "type": "company_news",
-     "text": "Cemex supplies 300,000 cubic yards of concrete for LA Metro D Line extension",
-     "date": "2026-10-19",
-     "points": 14.5,
-     "source": "https://www.businesswire.com/news/home/20261019658403/en/Cemex-Supplies-Concrete-for-Major-Los-Angeles-Metro-Expansion",
-     "sales_angle": "High-volume infrastructure supply commitments in Southern California strain regional aggregate supply; reach out to regional ops to offer contract quarrying and hauling support.",
-     "first_flagged": "2026-10-20T01:22:07+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-20T01:22:07+00:00",
-   "is_new": false
-  },
-  {
-   "company": "Vulcan Materials",
-   "score": 80.9,
-   "flagged_site_count": 21,
-   "sites": [
-    {
-     "mine_id": "4003605",
-     "name": "Nickajack Quarry",
-     "company": "Vulcan Materials",
-     "state": "TN",
-     "county": "Marion",
-     "score": 37.2,
-     "reasons": [
-      {
-       "id": "ramp:4003605:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +75% year over year (20 employees)",
-       "date": "2026-06-30",
-       "points": 22.9,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      },
-      {
-       "id": "controller:4003605:2026-08-19",
-       "type": "controller_change",
-       "text": "Ownership changed - controller now Vulcan Materials Company",
-       "date": "2026-08-19",
-       "points": 14.3,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": [
-      "jack.lambert@vulcanmaterials.com",
-      "badgettj@vmcmail.com",
-      "ramera@vmcmail.com"
-     ]
-    },
-    {
-     "mine_id": "405987",
-     "name": "Cupertino Quarry",
-     "company": "Vulcan Materials",
-     "state": "CA",
-     "county": "Santa Clara",
-     "score": 24.9,
-     "reasons": [
-      {
-       "id": "ramp:405987:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +286% year over year (14 employees)",
-       "date": "2026-06-30",
-       "points": 24.9,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": [
-      "mayerb@vmcmail.com",
-      "wilkersong@vmcmail.com",
-      "finiep@vmcmail.com"
-     ]
-    },
-    {
-     "mine_id": "4105703",
-     "name": "Cantrell Quarry",
-     "company": "Vulcan Materials",
-     "state": "TX",
-     "county": "Uvalde",
-     "score": 24.9,
-     "reasons": [
-      {
-       "id": "ramp:4105703:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +386% year over year (14 employees)",
-       "date": "2026-06-30",
-       "points": 24.9,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": [
-      "sabharwala@vmcmail.com",
-      "brian.bailey@vulcanmaterials.com"
-     ]
-    },
-    {
-     "mine_id": "102523",
-     "name": "Guntersville Quarry",
-     "company": "Vulcan Materials",
-     "state": "AL",
-     "county": "Marshall",
-     "score": 23.2,
-     "reasons": [
-      {
-       "id": "news:https://www.decaturdaily.com/news/morgan_county/morgan-county-restricts-heavy-truck-traffic-coming-out-of-marshall-county-quarry/article_a7392a1a-4e30-4c3b-b743-e91efdb52fe0.html",
-       "type": "news",
-       "text": "Morgan County restricts through truck traffic serving Marshall County quarry",
-       "date": "2026-10-13",
-       "points": 14.9,
-       "source": "https://www.decaturdaily.com/news/morgan_county/morgan-county-restricts-heavy-truck-traffic-coming-out-of-marshall-county-quarry/article_a7392a1a-4e30-4c3b-b743-e91efdb52fe0.html",
-       "sales_angle": "Connect with site management at Guntersville Quarry to explore whether external haul route constraints will impact loadout logistics, inventory staging, or production schedules.",
-       "first_flagged": "2026-10-15T18:48:49+00:00"
-      },
-      {
-       "id": "slowdown:102523:2026Q2",
-       "type": "slowdown",
-       "text": "Hours down -40% year over year",
-       "date": "2026-06-30",
-       "points": 8.3,
-       "first_flagged": "2026-10-15T18:48:49+00:00"
-      }
-     ],
-     "contacts": [
-      "wilsonb@vmcmail.com",
-      "garrettt@vmcmail.com",
-      "paceb@vmcmail.com"
-     ]
-    },
-    {
-     "mine_id": "2901771",
-     "name": "PENA BLANCA",
-     "company": "Vulcan Materials",
-     "state": "NM",
-     "county": "Sandoval",
-     "score": 20.9,
-     "reasons": [
-      {
-       "id": "ramp:2901771:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +52% year over year (25 employees)",
-       "date": "2026-06-30",
-       "points": 20.9,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": [
-      "sabharwala@vmcmail.com",
-      "brian.bailey@vulcanmaterials.com"
-     ]
-    }
-   ],
-   "company_news": [
-    {
-     "id": "cnews:https://www.aggbusiness.com/vulcan-materials-acquires-kentucky-quarry-from-greystone-client-hilltop-stone/",
-     "type": "company_news",
-     "text": "Vulcan Materials acquires Butler Quarry in Pendleton County, Kentucky",
-     "date": "2026-09-30",
-     "points": 15.5,
-     "source": "https://www.aggbusiness.com/vulcan-materials-acquires-kentucky-quarry-from-greystone-client-hilltop-stone/",
-     "sales_angle": "Reach out to Vulcan's regional leadership to pitch contract mining, pit development, and overburden stripping support during their operational integration of the new site.",
-     "first_flagged": "2026-10-05T15:14:01+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-15T18:48:49+00:00",
-   "is_new": false
-  },
-  {
    "company": "CRH/Oldcastle",
-   "score": 80.3,
+   "score": 95.9,
    "flagged_site_count": 21,
    "sites": [
     {
@@ -449,14 +170,14 @@
      "company": "CRH/Oldcastle",
      "state": "KS",
      "county": "Johnson",
-     "score": 45.0,
+     "score": 44.7,
      "reasons": [
       {
        "id": "ramp:1400068:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +57% year over year (36 employees)",
        "date": "2026-06-30",
-       "points": 21.4,
+       "points": 21.1,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       },
       {
@@ -561,14 +282,14 @@
      "company": "CRH/Oldcastle",
      "state": "AR",
      "county": "Benton",
-     "score": 24.9,
+     "score": 24.7,
      "reasons": [
       {
        "id": "ramp:300437:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +105% year over year (12 employees)",
        "date": "2026-06-30",
-       "points": 24.9,
+       "points": 24.7,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -584,28 +305,318 @@
      "company": "CRH/Oldcastle",
      "state": "CT",
      "county": "New London",
-     "score": 24.9,
+     "score": 24.7,
      "reasons": [
       {
        "id": "ramp:600393:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +498% year over year (15 employees)",
        "date": "2026-06-30",
-       "points": 24.9,
+       "points": 24.7,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
      "contacts": []
     }
    ],
-   "company_news": [],
+   "company_news": [
+    {
+     "id": "cnews:https://www.insidernj.com/press-releases/ag-davenport-takes-action-to-move-to-protect-taxpayers-and-preserve-competition-in-proposed-crh-arcosa-merger",
+     "type": "company_news",
+     "text": "NJ Attorney General requires CRH to divest asphalt plants under settlement",
+     "date": "2026-10-22",
+     "points": 16.0,
+     "source": "https://www.insidernj.com/press-releases/ag-davenport-takes-action-to-move-to-protect-taxpayers-and-preserve-competition-in-proposed-crh-arcosa-merger",
+     "sales_angle": "Connect with CRH Northeast asset management and regional leadership as they execute court-mandated divestitures and adjust regional operational footprints.",
+     "first_flagged": "2026-10-22T15:53:34+00:00"
+    }
+   ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-19T16:56:10+00:00",
+   "latest_signal_at": "2026-10-22T15:53:34+00:00",
+   "is_new": true
+  },
+  {
+   "company": "Cemex",
+   "score": 95.3,
+   "flagged_site_count": 3,
+   "sites": [
+    {
+     "mine_id": "401897",
+     "name": "Rockfield Plant",
+     "company": "Cemex",
+     "state": "CA",
+     "county": "Fresno",
+     "score": 61.9,
+     "reasons": [
+      {
+       "id": "news:https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCqMrcbB4ZV2EtNXQXJCIZ2gL-gi3BOZPeVR7s1y6eeVs7ot9YM-LnLzxIzOYP2sKu5w5LpALuvZskKrGXHKeva_cOR6o2AOV7tl3ZBnGUWonSZlygrrHfOsHQ3qevZvDYW3L8r-_QsaIKC1T7kcdXPVzpvvOHH0t_Zqfn-CHuMpXzINQSyyG--ggXvI8i7bn3",
+       "type": "news",
+       "text": "Fresno County sets November appeal hearing for Cemex Rockfield Quarry deep-mining permit",
+       "date": "2026-10-16",
+       "points": 24.6,
+       "source": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCqMrcbB4ZV2EtNXQXJCIZ2gL-gi3BOZPeVR7s1y6eeVs7ot9YM-LnLzxIzOYP2sKu5w5LpALuvZskKrGXHKeva_cOR6o2AOV7tl3ZBnGUWonSZlygrrHfOsHQ3qevZvDYW3L8r-_QsaIKC1T7kcdXPVzpvvOHH0t_Zqfn-CHuMpXzINQSyyG--ggXvI8i7bn3",
+       "sales_angle": "Engage Cemex Western region operations leaders ahead of the November appeal hearing to position contract mining, drilling, blasting, and overburden stripping services tailored to the revised pit plan.",
+       "first_flagged": "2026-10-19T16:56:10+00:00"
+      },
+      {
+       "id": "news:https://fresnoland.org/2026/10/08/san-joaquin-river-blast-mine/",
+       "type": "news",
+       "text": "Fresno County Planning Commission deadlocks on Cemex Rockfield Quarry blasting permit",
+       "date": "2026-10-08",
+       "points": 18.9,
+       "source": "https://fresnoland.org/2026/10/08/san-joaquin-river-blast-mine/",
+       "sales_angle": "Engage Cemex's Western regional management to offer contract mechanical ripping and overburden removal solutions should hard-rock blasting permits face continued regulatory delays.",
+       "first_flagged": "2026-10-09T17:26:30+00:00"
+      },
+      {
+       "id": "news:https://files.ceqanet.lci.ca.gov/262313-4/attachment/s7Y1DIoZWYubZpj6-owdEE86SFaWtW-PYEpOQmtR1LdE01jerIInErhHvKo0Uvb-Gf-XIZiGP_1Hpaw_0",
+       "type": "news",
+       "text": "Fresno County releases Final EIR for CEMEX Rockfield Quarry expansion",
+       "date": "2026-09-28",
+       "points": 18.1,
+       "source": "https://files.ceqanet.lci.ca.gov/262313-4/attachment/s7Y1DIoZWYubZpj6-owdEE86SFaWtW-PYEpOQmtR1LdE01jerIInErhHvKo0Uvb-Gf-XIZiGP_1Hpaw_0",
+       "sales_angle": "Reach out to CEMEX California leadership now, as transitioning to deep hard rock extraction will require drilling, blasting, and heavy earthmoving support once permits are approved.",
+       "first_flagged": "2026-10-05T15:14:01+00:00"
+      },
+      {
+       "id": "news:https://fresnochamber.com/news/planning-commission-gives-cemex-another-year/",
+       "type": "news",
+       "text": "Contested 100-year deep-rock expansion; permit extended amid legislative pushback",
+       "date": "2026-06-11",
+       "points": 0.3,
+       "source": "https://fresnochamber.com/news/planning-commission-gives-cemex-another-year/",
+       "sales_angle": "One of the most contested single-site fights in Cemex's whole portfolio — a state legislative bill was written specifically to stop this project. High visibility, high stakes, and the company has publicly signaled it's stretched trying to keep current operations running while fighting for the expansion.",
+       "first_flagged": "2026-10-05T15:14:01+00:00"
+      }
+     ],
+     "contacts": []
+    },
+    {
+     "mine_id": "500344",
+     "name": "Lyons Cement Plant Cemex Inc",
+     "company": "Cemex",
+     "state": "CO",
+     "county": "Boulder",
+     "score": 40.1,
+     "reasons": [
+      {
+       "id": "news:https://www.indexbox.io/blog/cemex-to-lay-off-at-least-70-workers-at-colorado-cement-plant-starting-november-2026/",
+       "type": "news",
+       "text": "Cemex to lay off over 70 workers at Lyons cement plant in Colorado",
+       "date": "2026-11-21",
+       "points": 40.0,
+       "source": "https://www.indexbox.io/blog/cemex-to-lay-off-at-least-70-workers-at-colorado-cement-plant-starting-november-2026/",
+       "sales_angle": "Reach out to Cemex regional operations management to offer contract quarrying, mobile crushing, and material handling support to bridge operational gaps caused by the workforce reduction.",
+       "first_flagged": "2026-10-09T17:26:30+00:00"
+      },
+      {
+       "id": "news:https://coloradosun.com/2026/05/21/boulder-county-reverses-allows-cemex-to-keep-operating-kiln/",
+       "type": "news",
+       "text": "County reverses shutdown order; plant's right to operate reinstated",
+       "date": "2026-05-19",
+       "points": 0.1,
+       "source": "https://coloradosun.com/2026/05/21/boulder-county-reverses-allows-cemex-to-keep-operating-kiln/",
+       "sales_angle": "A site that came within one appeal of being shut down entirely, now cleared to keep running under intensified community and regulatory scrutiny — exactly the kind of high-stakes operating environment where TMG's execution discipline matters most.",
+       "first_flagged": "2026-10-09T17:26:30+00:00"
+      }
+     ],
+     "contacts": []
+    },
+    {
+     "mine_id": "801436",
+     "name": "Immokalee Sand Mine",
+     "company": "Cemex",
+     "state": "FL",
+     "county": "Collier",
+     "score": 22.9,
+     "reasons": [
+      {
+       "id": "ramp:801436:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +79% year over year (22 employees)",
+       "date": "2026-06-30",
+       "points": 22.9,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": [
+      "gilberto.gonzalezg@cemex.com",
+      "chad.hustedde@cemex.com"
+     ]
+    }
+   ],
+   "company_news": [
+    {
+     "id": "cnews:https://www.businesswire.com/news/home/20261019658403/en/Cemex-Supplies-Concrete-for-Major-Los-Angeles-Metro-Expansion",
+     "type": "company_news",
+     "text": "Cemex supplies 300,000 cubic yards of concrete for LA Metro D Line extension",
+     "date": "2026-10-19",
+     "points": 14.5,
+     "source": "https://www.businesswire.com/news/home/20261019658403/en/Cemex-Supplies-Concrete-for-Major-Los-Angeles-Metro-Expansion",
+     "sales_angle": "High-volume infrastructure supply commitments in Southern California strain regional aggregate supply; reach out to regional ops to offer contract quarrying and hauling support.",
+     "first_flagged": "2026-10-20T01:22:07+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-05T14:13:10+00:00",
+   "latest_signal_at": "2026-10-20T01:22:07+00:00",
+   "is_new": false
+  },
+  {
+   "company": "Vulcan Materials",
+   "score": 80.4,
+   "flagged_site_count": 21,
+   "sites": [
+    {
+     "mine_id": "4003605",
+     "name": "Nickajack Quarry",
+     "company": "Vulcan Materials",
+     "state": "TN",
+     "county": "Marion",
+     "score": 36.9,
+     "reasons": [
+      {
+       "id": "ramp:4003605:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +75% year over year (20 employees)",
+       "date": "2026-06-30",
+       "points": 22.6,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      },
+      {
+       "id": "controller:4003605:2026-08-19",
+       "type": "controller_change",
+       "text": "Ownership changed - controller now Vulcan Materials Company",
+       "date": "2026-08-19",
+       "points": 14.3,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": [
+      "jack.lambert@vulcanmaterials.com",
+      "badgettj@vmcmail.com",
+      "ramera@vmcmail.com"
+     ]
+    },
+    {
+     "mine_id": "405987",
+     "name": "Cupertino Quarry",
+     "company": "Vulcan Materials",
+     "state": "CA",
+     "county": "Santa Clara",
+     "score": 24.7,
+     "reasons": [
+      {
+       "id": "ramp:405987:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +286% year over year (14 employees)",
+       "date": "2026-06-30",
+       "points": 24.7,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": [
+      "mayerb@vmcmail.com",
+      "wilkersong@vmcmail.com",
+      "finiep@vmcmail.com"
+     ]
+    },
+    {
+     "mine_id": "4105703",
+     "name": "Cantrell Quarry",
+     "company": "Vulcan Materials",
+     "state": "TX",
+     "county": "Uvalde",
+     "score": 24.7,
+     "reasons": [
+      {
+       "id": "ramp:4105703:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +386% year over year (14 employees)",
+       "date": "2026-06-30",
+       "points": 24.7,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": [
+      "sabharwala@vmcmail.com",
+      "brian.bailey@vulcanmaterials.com"
+     ]
+    },
+    {
+     "mine_id": "102523",
+     "name": "Guntersville Quarry",
+     "company": "Vulcan Materials",
+     "state": "AL",
+     "county": "Marshall",
+     "score": 23.1,
+     "reasons": [
+      {
+       "id": "news:https://www.decaturdaily.com/news/morgan_county/morgan-county-restricts-heavy-truck-traffic-coming-out-of-marshall-county-quarry/article_a7392a1a-4e30-4c3b-b743-e91efdb52fe0.html",
+       "type": "news",
+       "text": "Morgan County restricts through truck traffic serving Marshall County quarry",
+       "date": "2026-10-13",
+       "points": 14.9,
+       "source": "https://www.decaturdaily.com/news/morgan_county/morgan-county-restricts-heavy-truck-traffic-coming-out-of-marshall-county-quarry/article_a7392a1a-4e30-4c3b-b743-e91efdb52fe0.html",
+       "sales_angle": "Connect with site management at Guntersville Quarry to explore whether external haul route constraints will impact loadout logistics, inventory staging, or production schedules.",
+       "first_flagged": "2026-10-15T18:48:49+00:00"
+      },
+      {
+       "id": "slowdown:102523:2026Q2",
+       "type": "slowdown",
+       "text": "Hours down -40% year over year",
+       "date": "2026-06-30",
+       "points": 8.2,
+       "first_flagged": "2026-10-15T18:48:49+00:00"
+      }
+     ],
+     "contacts": [
+      "wilsonb@vmcmail.com",
+      "garrettt@vmcmail.com",
+      "paceb@vmcmail.com"
+     ]
+    },
+    {
+     "mine_id": "2901771",
+     "name": "PENA BLANCA",
+     "company": "Vulcan Materials",
+     "state": "NM",
+     "county": "Sandoval",
+     "score": 20.7,
+     "reasons": [
+      {
+       "id": "ramp:2901771:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +52% year over year (25 employees)",
+       "date": "2026-06-30",
+       "points": 20.7,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": [
+      "sabharwala@vmcmail.com",
+      "brian.bailey@vulcanmaterials.com"
+     ]
+    }
+   ],
+   "company_news": [
+    {
+     "id": "cnews:https://www.aggbusiness.com/vulcan-materials-acquires-kentucky-quarry-from-greystone-client-hilltop-stone/",
+     "type": "company_news",
+     "text": "Vulcan Materials acquires Butler Quarry in Pendleton County, Kentucky",
+     "date": "2026-09-30",
+     "points": 15.5,
+     "source": "https://www.aggbusiness.com/vulcan-materials-acquires-kentucky-quarry-from-greystone-client-hilltop-stone/",
+     "sales_angle": "Reach out to Vulcan's regional leadership to pitch contract mining, pit development, and overburden stripping support during their operational integration of the new site.",
+     "first_flagged": "2026-10-05T15:14:01+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-05T14:13:10+00:00",
+   "latest_signal_at": "2026-10-15T18:48:49+00:00",
    "is_new": false
   },
   {
    "company": "Heidelberg Materials",
-   "score": 68.6,
+   "score": 68.2,
    "flagged_site_count": 13,
    "sites": [
     {
@@ -614,7 +625,7 @@
      "company": "Heidelberg Materials",
      "state": "NJ",
      "county": "Camden",
-     "score": 41.4,
+     "score": 41.2,
      "reasons": [
       {
        "id": "news:https://d3n9y02raazwpg.cloudfront.net/winslowtownship/b696ad10-efcd-11f0-bb28-005056a89546-cd73afea-1921-4363-93d0-5fbf70984261-1791896886.pdf",
@@ -631,7 +642,7 @@
        "type": "ramp_up",
        "text": "Hours up +30% year over year (10 employees)",
        "date": "2026-06-30",
-       "points": 19.1,
+       "points": 18.9,
        "first_flagged": "2026-10-19T16:56:10+00:00"
       }
      ],
@@ -645,14 +656,14 @@
      "company": "Heidelberg Materials",
      "state": "NY",
      "county": "Onondaga",
-     "score": 24.9,
+     "score": 24.7,
      "reasons": [
       {
        "id": "ramp:3000060:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +134% year over year (53 employees)",
        "date": "2026-06-30",
-       "points": 24.9,
+       "points": 24.7,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -666,14 +677,14 @@
      "company": "Heidelberg Materials",
      "state": "KY",
      "county": "Fleming",
-     "score": 24.4,
+     "score": 24.1,
      "reasons": [
       {
        "id": "ramp:1500031:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +94% year over year (10 employees)",
        "date": "2026-06-30",
-       "points": 24.4,
+       "points": 24.1,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -709,14 +720,14 @@
      "company": "Heidelberg Materials",
      "state": "PA",
      "county": "Fayette",
-     "score": 19.9,
+     "score": 19.6,
      "reasons": [
       {
        "id": "ramp:3608864:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +39% year over year (40 employees)",
        "date": "2026-06-30",
-       "points": 19.9,
+       "points": 19.6,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -733,7 +744,7 @@
   },
   {
    "company": "Amrize",
-   "score": 58.4,
+   "score": 57.9,
    "flagged_site_count": 6,
    "sites": [
     {
@@ -742,14 +753,14 @@
      "company": "Amrize",
      "state": "MN",
      "county": "Washington",
-     "score": 28.2,
+     "score": 28.0,
      "reasons": [
       {
        "id": "ramp:2100080:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +105% year over year (10 employees)",
        "date": "2026-06-30",
-       "points": 24.9,
+       "points": 24.7,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       },
       {
@@ -782,14 +793,14 @@
      "company": "Amrize",
      "state": "MN",
      "county": "Dakota",
-     "score": 28.2,
+     "score": 28.0,
      "reasons": [
       {
        "id": "ramp:2101702:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +107% year over year (30 employees)",
        "date": "2026-06-30",
-       "points": 24.9,
+       "points": 24.7,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       },
       {
@@ -812,14 +823,14 @@
      "company": "Amrize",
      "state": "MN",
      "county": "Washington",
-     "score": 25.4,
+     "score": 25.2,
      "reasons": [
       {
        "id": "ramp:2100535:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +66% year over year (11 employees)",
        "date": "2026-06-30",
-       "points": 22.1,
+       "points": 21.9,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       },
       {
@@ -842,14 +853,14 @@
      "company": "Amrize",
      "state": "FL",
      "county": "Citrus",
-     "score": 24.8,
+     "score": 24.5,
      "reasons": [
       {
        "id": "ramp:801110:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +98% year over year (16 employees)",
        "date": "2026-06-30",
-       "points": 24.8,
+       "points": 24.5,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -863,14 +874,14 @@
      "company": "Amrize",
      "state": "AZ",
      "county": "Maricopa",
-     "score": 22.2,
+     "score": 21.9,
      "reasons": [
       {
        "id": "ramp:203282:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +27% year over year (23 employees)",
        "date": "2026-06-30",
-       "points": 18.9,
+       "points": 18.6,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       },
       {
@@ -894,7 +905,7 @@
   },
   {
    "company": "Quikrete",
-   "score": 57.6,
+   "score": 57.4,
    "flagged_site_count": 1,
    "sites": [
     {
@@ -903,14 +914,14 @@
      "company": "Quikrete",
      "state": "SC",
      "county": "Dorchester",
-     "score": 20.3,
+     "score": 20.1,
      "reasons": [
       {
        "id": "ramp:3800305:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +44% year over year (131 employees)",
        "date": "2026-06-30",
-       "points": 20.3,
+       "points": 20.1,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -955,7 +966,7 @@
   },
   {
    "company": "Summit Materials",
-   "score": 49.2,
+   "score": 48.6,
    "flagged_site_count": 7,
    "sites": [
     {
@@ -964,14 +975,14 @@
      "company": "Summit Materials",
      "state": "UT",
      "county": "Utah",
-     "score": 24.2,
+     "score": 23.9,
      "reasons": [
       {
        "id": "ramp:4200941:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +91% year over year (12 employees)",
        "date": "2026-06-30",
-       "points": 24.2,
+       "points": 23.9,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -1018,14 +1029,14 @@
      "company": "Summit Materials",
      "state": "OK",
      "county": "Choctaw",
-     "score": 21.1,
+     "score": 20.9,
      "reasons": [
       {
        "id": "ramp:3401950:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +54% year over year (50 employees)",
        "date": "2026-06-30",
-       "points": 21.1,
+       "points": 20.9,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -1040,14 +1051,14 @@
      "company": "Summit Materials",
      "state": "TX",
      "county": "Liberty",
-     "score": 19.2,
+     "score": 19.0,
      "reasons": [
       {
        "id": "ramp:4104631:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +31% year over year (17 employees)",
        "date": "2026-06-30",
-       "points": 19.2,
+       "points": 19.0,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -1062,14 +1073,14 @@
      "company": "Summit Materials",
      "state": "KS",
      "county": "Sedgwick",
-     "score": 19.1,
+     "score": 18.8,
      "reasons": [
       {
        "id": "ramp:1400543:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +29% year over year (11 employees)",
        "date": "2026-06-30",
-       "points": 19.1,
+       "points": 18.8,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -1120,14 +1131,14 @@
      "company": "CalPortland",
      "state": "CA",
      "county": "San Bernardino",
-     "score": 19.4,
+     "score": 19.2,
      "reasons": [
       {
        "id": "ramp:405907:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +28% year over year (19 employees)",
        "date": "2026-06-30",
-       "points": 18.9,
+       "points": 18.7,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       },
       {
@@ -1176,7 +1187,7 @@
   },
   {
    "company": "Eagle Materials",
-   "score": 30.9,
+   "score": 30.6,
    "flagged_site_count": 2,
    "sites": [
     {
@@ -1185,14 +1196,14 @@
      "company": "Eagle Materials",
      "state": "CO",
      "county": "Weld",
-     "score": 24.9,
+     "score": 24.7,
      "reasons": [
       {
        "id": "ramp:505192:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +364% year over year (12 employees)",
        "date": "2026-06-30",
-       "points": 24.9,
+       "points": 24.7,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -1208,14 +1219,14 @@
      "company": "Eagle Materials",
      "state": "TX",
      "county": "Hays",
-     "score": 20.0,
+     "score": 19.7,
      "reasons": [
       {
        "id": "ramp:4102241:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +40% year over year (32 employees)",
        "date": "2026-06-30",
-       "points": 20.0,
+       "points": 19.7,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -1233,7 +1244,7 @@
   },
   {
    "company": "Titan America",
-   "score": 30.7,
+   "score": 30.5,
    "flagged_site_count": 2,
    "sites": [
     {
@@ -1242,14 +1253,14 @@
      "company": "Titan America",
      "state": "VA",
      "county": "Augusta",
-     "score": 24.9,
+     "score": 24.7,
      "reasons": [
       {
        "id": "ramp:4402385:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +190% year over year (10 employees)",
        "date": "2026-06-30",
-       "points": 24.9,
+       "points": 24.7,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -1265,14 +1276,14 @@
      "company": "Titan America",
      "state": "VA",
      "county": "Craig",
-     "score": 19.1,
+     "score": 18.9,
      "reasons": [
       {
        "id": "ramp:4402402:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +30% year over year (14 employees)",
        "date": "2026-06-30",
-       "points": 19.1,
+       "points": 18.9,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -1290,7 +1301,7 @@
   },
   {
    "company": "Carmeuse",
-   "score": 18.8,
+   "score": 18.6,
    "flagged_site_count": 1,
    "sites": [
     {
@@ -1299,14 +1310,14 @@
      "company": "Carmeuse",
      "state": "VA",
      "county": "Frederick",
-     "score": 18.8,
+     "score": 18.6,
      "reasons": [
       {
        "id": "ramp:4400049:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +26% year over year (27 employees)",
        "date": "2026-06-30",
-       "points": 18.8,
+       "points": 18.6,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -1404,14 +1415,14 @@
    "linkedin": "http://www.linkedin.com/in/brandon-lefevre-755976120",
    "sf_id": null,
    "linked_site": "1400068",
-   "score": 22.5,
+   "score": 22.4,
    "reasons": [
     {
      "id": "site:brandon.lefevre@na.crh.com:1400068",
      "type": "site_signal",
      "text": "Best-placed contact for Johnson County Aggregates (KS) - Hours up +57% year over year (36 employees)",
      "date": "2026-06-30",
-     "points": 22.5,
+     "points": 22.4,
      "first_flagged": "2026-10-07T01:55:19+00:00"
     }
    ],
@@ -1429,14 +1440,14 @@
    "linkedin": "http://www.linkedin.com/in/joelgalassini",
    "sf_id": null,
    "linked_site": "1400068",
-   "score": 22.5,
+   "score": 22.4,
    "reasons": [
     {
      "id": "site:joel.galassini@crh.com:1400068",
      "type": "site_signal",
      "text": "Best-placed contact for Johnson County Aggregates (KS) - Hours up +57% year over year (36 employees)",
      "date": "2026-06-30",
-     "points": 22.5,
+     "points": 22.4,
      "first_flagged": "2026-10-07T01:55:19+00:00"
     }
    ],
@@ -1454,14 +1465,14 @@
    "linkedin": "http://www.linkedin.com/in/frank-tedesco-1127352b5",
    "sf_id": null,
    "linked_site": "2800615",
-   "score": 20.7,
+   "score": 20.6,
    "reasons": [
     {
      "id": "site:frank.tedesco@lehighhanson.com:2800615",
      "type": "site_signal",
      "text": "Best-placed contact for Berlin Plant (NJ) - Winslow Township approves resource extraction permit renewals for Heidelberg's Berlin site",
      "date": "2026-10-13",
-     "points": 20.7,
+     "points": 20.6,
      "first_flagged": "2026-10-19T16:56:10+00:00"
     }
    ],
@@ -1529,14 +1540,14 @@
    "linkedin": "http://www.linkedin.com/in/allen-ramer-89359016",
    "sf_id": null,
    "linked_site": "4003605",
-   "score": 18.6,
+   "score": 18.4,
    "reasons": [
     {
      "id": "site:ramera@vmcmail.com:4003605",
      "type": "site_signal",
      "text": "Best-placed contact for Nickajack Quarry (TN) - Hours up +75% year over year (20 employees)",
      "date": "2026-06-30",
-     "points": 18.6,
+     "points": 18.4,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1554,14 +1565,14 @@
    "linkedin": "http://www.linkedin.com/in/jack-lambert-94a413a1",
    "sf_id": null,
    "linked_site": "4003605",
-   "score": 18.6,
+   "score": 18.4,
    "reasons": [
     {
      "id": "site:jack.lambert@vulcanmaterials.com:4003605",
      "type": "site_signal",
      "text": "Best-placed contact for Nickajack Quarry (TN) - Hours up +75% year over year (20 employees)",
      "date": "2026-06-30",
-     "points": 18.6,
+     "points": 18.4,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1579,14 +1590,14 @@
    "linkedin": "http://www.linkedin.com/in/jon-badgett-45189b89",
    "sf_id": null,
    "linked_site": "4003605",
-   "score": 18.6,
+   "score": 18.4,
    "reasons": [
     {
      "id": "site:badgettj@vmcmail.com:4003605",
      "type": "site_signal",
      "text": "Best-placed contact for Nickajack Quarry (TN) - Hours up +75% year over year (20 employees)",
      "date": "2026-06-30",
-     "points": 18.6,
+     "points": 18.4,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1679,14 +1690,14 @@
    "linkedin": "http://www.linkedin.com/in/jaimehill",
    "sf_id": null,
    "linked_site": "2100080",
-   "score": 14.1,
+   "score": 14.0,
    "reasons": [
     {
      "id": "site:jaime.hill@amrize.com:2100080",
      "type": "site_signal",
      "text": "Best-placed contact for Amrize Larson Plant (MN) - Hours up +105% year over year (10 employees)",
      "date": "2026-06-30",
-     "points": 14.1,
+     "points": 14.0,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1704,14 +1715,14 @@
    "linkedin": "http://www.linkedin.com/in/michael-welhouse-11043717",
    "sf_id": null,
    "linked_site": "2100080",
-   "score": 14.1,
+   "score": 14.0,
    "reasons": [
     {
      "id": "site:michael.welhouse@amrize.com:2100080",
      "type": "site_signal",
      "text": "Best-placed contact for Amrize Larson Plant (MN) - Hours up +105% year over year (10 employees)",
      "date": "2026-06-30",
-     "points": 14.1,
+     "points": 14.0,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1729,14 +1740,14 @@
    "linkedin": "http://www.linkedin.com/sales/lead/ACwAAADJqEABIw5NpzR471UP5E2NDu6ENnQIPUQ",
    "sf_id": null,
    "linked_site": "4400081",
-   "score": 13.7,
+   "score": 13.6,
    "reasons": [
     {
      "id": "site:nick.dibartolo@rogersgroupinc.com:4400081",
      "type": "site_signal",
      "text": "Best-placed contact for Flatrock Quarry (VA) - Hours up +56% year over year (15 employees)",
      "date": "2026-06-30",
-     "points": 13.7,
+     "points": 13.6,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1754,14 +1765,14 @@
    "linkedin": "http://www.linkedin.com/in/atul-sabharwal-01bb318",
    "sf_id": null,
    "linked_site": "4105703",
-   "score": 12.4,
+   "score": 12.3,
    "reasons": [
     {
      "id": "site:sabharwala@vmcmail.com:4105703",
      "type": "site_signal",
      "text": "Best-placed contact for Cantrell Quarry (TX) - Hours up +386% year over year (14 employees)",
      "date": "2026-06-30",
-     "points": 12.4,
+     "points": 12.3,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1779,14 +1790,14 @@
    "linkedin": "http://www.linkedin.com/in/bart-mayer-16ba256",
    "sf_id": null,
    "linked_site": "405987",
-   "score": 12.4,
+   "score": 12.3,
    "reasons": [
     {
      "id": "site:mayerb@vmcmail.com:405987",
      "type": "site_signal",
      "text": "Best-placed contact for Cupertino Quarry (CA) - Hours up +286% year over year (14 employees)",
      "date": "2026-06-30",
-     "points": 12.4,
+     "points": 12.3,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1804,14 +1815,14 @@
    "linkedin": "http://www.linkedin.com/in/benjamin-bufmack-09aa70101",
    "sf_id": null,
    "linked_site": "505192",
-   "score": 12.4,
+   "score": 12.3,
    "reasons": [
     {
      "id": "site:bbufmack@eaglematerials.com:505192",
      "type": "site_signal",
      "text": "Best-placed contact for Two Rivers (CO) - Hours up +364% year over year (12 employees)",
      "date": "2026-06-30",
-     "points": 12.4,
+     "points": 12.3,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1829,14 +1840,14 @@
    "linkedin": "http://www.linkedin.com/in/brian-bailey-b88493191",
    "sf_id": null,
    "linked_site": "4105703",
-   "score": 12.4,
+   "score": 12.3,
    "reasons": [
     {
      "id": "site:brian.bailey@vulcanmaterials.com:4105703",
      "type": "site_signal",
      "text": "Best-placed contact for Cantrell Quarry (TX) - Hours up +386% year over year (14 employees)",
      "date": "2026-06-30",
-     "points": 12.4,
+     "points": 12.3,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1854,14 +1865,14 @@
    "linkedin": "http://www.linkedin.com/in/dwayne-boyd-54765656",
    "sf_id": null,
    "linked_site": "300437",
-   "score": 12.4,
+   "score": 12.3,
    "reasons": [
     {
      "id": "site:dwayne.boyd@na.crh.com:300437",
      "type": "site_signal",
      "text": "Best-placed contact for Avoca Quarry & Plant (AR) - Hours up +105% year over year (12 employees)",
      "date": "2026-06-30",
-     "points": 12.4,
+     "points": 12.3,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1879,14 +1890,14 @@
    "linkedin": "http://www.linkedin.com/in/eric-l-weech-76545213b",
    "sf_id": null,
    "linked_site": "505192",
-   "score": 12.4,
+   "score": 12.3,
    "reasons": [
     {
      "id": "site:eweech@eaglematerials.com:505192",
      "type": "site_signal",
      "text": "Best-placed contact for Two Rivers (CO) - Hours up +364% year over year (12 employees)",
      "date": "2026-06-30",
-     "points": 12.4,
+     "points": 12.3,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1904,14 +1915,14 @@
    "linkedin": "http://www.linkedin.com/in/greg-wilkerson-22421138",
    "sf_id": null,
    "linked_site": "405987",
-   "score": 12.4,
+   "score": 12.3,
    "reasons": [
     {
      "id": "site:wilkersong@vmcmail.com:405987",
      "type": "site_signal",
      "text": "Best-placed contact for Cupertino Quarry (CA) - Hours up +286% year over year (14 employees)",
      "date": "2026-06-30",
-     "points": 12.4,
+     "points": 12.3,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1929,14 +1940,14 @@
    "linkedin": "http://www.linkedin.com/in/karl-spiewak-770534111",
    "sf_id": null,
    "linked_site": "505192",
-   "score": 12.4,
+   "score": 12.3,
    "reasons": [
     {
      "id": "site:kspiewak@eaglematerials.com:505192",
      "type": "site_signal",
      "text": "Best-placed contact for Two Rivers (CO) - Hours up +364% year over year (12 employees)",
      "date": "2026-06-30",
-     "points": 12.4,
+     "points": 12.3,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1954,14 +1965,14 @@
    "linkedin": "http://www.linkedin.com/in/kevin-black-2945a7383",
    "sf_id": null,
    "linked_site": "4402385",
-   "score": 12.4,
+   "score": 12.3,
    "reasons": [
     {
      "id": "site:kblack@titanamerica.com:4402385",
      "type": "site_signal",
      "text": "Best-placed contact for D M Conner Sand Co (VA) - Hours up +190% year over year (10 employees)",
      "date": "2026-06-30",
-     "points": 12.4,
+     "points": 12.3,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -1979,14 +1990,14 @@
    "linkedin": "http://www.linkedin.com/in/patrick-mccrady-p-e-sme-r-52908b46",
    "sf_id": null,
    "linked_site": "4402385",
-   "score": 12.4,
+   "score": 12.3,
    "reasons": [
     {
      "id": "site:pmccrady@titanamerica.com:4402385",
      "type": "site_signal",
      "text": "Best-placed contact for D M Conner Sand Co (VA) - Hours up +190% year over year (10 employees)",
      "date": "2026-06-30",
-     "points": 12.4,
+     "points": 12.3,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -2004,39 +2015,14 @@
    "linkedin": "http://www.linkedin.com/in/peter-finie-062a0135",
    "sf_id": null,
    "linked_site": "405987",
-   "score": 12.4,
+   "score": 12.3,
    "reasons": [
     {
      "id": "site:finiep@vmcmail.com:405987",
      "type": "site_signal",
      "text": "Best-placed contact for Cupertino Quarry (CA) - Hours up +286% year over year (14 employees)",
      "date": "2026-06-30",
-     "points": 12.4,
-     "first_flagged": "2026-10-05T14:13:10+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
-  },
-  {
-   "email": "thomas.apostolos@amrize.com",
-   "name": "Thomas Apostolos",
-   "title": "Vice President Operations",
-   "company": "Amrize",
-   "tier": "Tier 1",
-   "state": "TN",
-   "linkedin": "http://www.linkedin.com/in/thomasapostolos",
-   "sf_id": null,
-   "linked_site": "801110",
-   "score": 12.4,
-   "reasons": [
-    {
-     "id": "site:thomas.apostolos@amrize.com:801110",
-     "type": "site_signal",
-     "text": "Best-placed contact for Amrize Crystal River Quarry (FL) - Hours up +98% year over year (16 employees)",
-     "date": "2026-06-30",
-     "points": 12.4,
+     "points": 12.3,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -2054,14 +2040,14 @@
    "linkedin": "http://www.linkedin.com/sales/lead/ACwAAAEIk7UB1WZSEVeDT_BnSS85KO5bHcg_Ifk",
    "sf_id": null,
    "linked_site": "103596",
-   "score": 12.4,
+   "score": 12.3,
    "reasons": [
     {
      "id": "site:tim.gorman@rogersgroupinc.com:103596",
      "type": "site_signal",
      "text": "Best-placed contact for RED BAY QUARRY (AL) - Hours up +176% year over year (20 employees)",
      "date": "2026-06-30",
-     "points": 12.4,
+     "points": 12.3,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -2079,14 +2065,39 @@
    "linkedin": "http://www.linkedin.com/in/tracy-burke-13399616",
    "sf_id": null,
    "linked_site": "4402385",
-   "score": 12.4,
+   "score": 12.3,
    "reasons": [
     {
      "id": "site:tburke@titanamerica.com:4402385",
      "type": "site_signal",
      "text": "Best-placed contact for D M Conner Sand Co (VA) - Hours up +190% year over year (10 employees)",
      "date": "2026-06-30",
-     "points": 12.4,
+     "points": 12.3,
+     "first_flagged": "2026-10-05T14:13:10+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-05T14:13:10+00:00",
+   "latest_signal_at": "2026-10-05T14:13:10+00:00",
+   "is_new": false
+  },
+  {
+   "email": "thomas.apostolos@amrize.com",
+   "name": "Thomas Apostolos",
+   "title": "Vice President Operations",
+   "company": "Amrize",
+   "tier": "Tier 1",
+   "state": "TN",
+   "linkedin": "http://www.linkedin.com/in/thomasapostolos",
+   "sf_id": null,
+   "linked_site": "801110",
+   "score": 12.2,
+   "reasons": [
+    {
+     "id": "site:thomas.apostolos@amrize.com:801110",
+     "type": "site_signal",
+     "text": "Best-placed contact for Amrize Crystal River Quarry (FL) - Hours up +98% year over year (16 employees)",
+     "date": "2026-06-30",
+     "points": 12.2,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -2104,14 +2115,14 @@
    "linkedin": "http://www.linkedin.com/in/toby-knott-14697b5",
    "sf_id": null,
    "linked_site": "1500031",
-   "score": 12.2,
+   "score": 12.1,
    "reasons": [
     {
      "id": "site:toby.knott@heidelbergmaterials.com:1500031",
      "type": "site_signal",
      "text": "Best-placed contact for FLEMINGSBURG QUARRY (KY) - Hours up +94% year over year (10 employees)",
      "date": "2026-06-30",
-     "points": 12.2,
+     "points": 12.1,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -2129,14 +2140,14 @@
    "linkedin": "http://www.linkedin.com/in/charlie-sedlock-98930a25",
    "sf_id": null,
    "linked_site": "4200941",
-   "score": 12.1,
+   "score": 11.9,
    "reasons": [
     {
      "id": "site:charlie.sedlock@summit-materials.com:4200941",
      "type": "site_signal",
      "text": "Best-placed contact for HIGHLAND PIT (UT) - Hours up +91% year over year (12 employees)",
      "date": "2026-06-30",
-     "points": 12.1,
+     "points": 11.9,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -2154,14 +2165,14 @@
    "linkedin": "http://www.linkedin.com/in/michael-connelly-1b250964",
    "sf_id": null,
    "linked_site": "4104465",
-   "score": 11.9,
+   "score": 11.8,
    "reasons": [
     {
      "id": "site:mike.connelly@rogersgroupinc.com:4104465",
      "type": "site_signal",
      "text": "Best-placed contact for Box Canyon Sand & Gravel (TX) - Hours up +87% year over year (15 employees)",
      "date": "2026-06-30",
-     "points": 11.9,
+     "points": 11.8,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -2220,56 +2231,6 @@
    "is_new": false
   },
   {
-   "email": "gilberto.gonzalezg@cemex.com",
-   "name": "Gilberto Gonzalez",
-   "title": "Vice President Strategic Planning - Aggregates",
-   "company": "Cemex",
-   "tier": "Tier 1",
-   "state": "FL",
-   "linkedin": "http://www.linkedin.com/in/gilberto-gonzalez-68576615",
-   "sf_id": null,
-   "linked_site": "801436",
-   "score": 11.6,
-   "reasons": [
-    {
-     "id": "site:gilberto.gonzalezg@cemex.com:801436",
-     "type": "site_signal",
-     "text": "Best-placed contact for Immokalee Sand Mine (FL) - Hours up +79% year over year (22 employees)",
-     "date": "2026-06-30",
-     "points": 11.6,
-     "first_flagged": "2026-10-05T14:13:10+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
-  },
-  {
-   "email": "chad.hustedde@cemex.com",
-   "name": "Hustedde Chad",
-   "title": "Vice President General Manager - East",
-   "company": "Cemex",
-   "tier": "Tier 1",
-   "state": "FL",
-   "linkedin": "http://www.linkedin.com/in/hustedde-chad-7a5baa4",
-   "sf_id": null,
-   "linked_site": "801436",
-   "score": 11.6,
-   "reasons": [
-    {
-     "id": "site:chad.hustedde@cemex.com:801436",
-     "type": "site_signal",
-     "text": "Best-placed contact for Immokalee Sand Mine (FL) - Hours up +79% year over year (22 employees)",
-     "date": "2026-06-30",
-     "points": 11.6,
-     "first_flagged": "2026-10-05T14:13:10+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-10-05T14:13:10+00:00",
-   "is_new": false
-  },
-  {
    "email": "garrettt@vmcmail.com",
    "name": "Tim Garrett",
    "title": "Vice President General Manager",
@@ -2295,6 +2256,56 @@
    "is_new": false
   },
   {
+   "email": "gilberto.gonzalezg@cemex.com",
+   "name": "Gilberto Gonzalez",
+   "title": "Vice President Strategic Planning - Aggregates",
+   "company": "Cemex",
+   "tier": "Tier 1",
+   "state": "FL",
+   "linkedin": "http://www.linkedin.com/in/gilberto-gonzalez-68576615",
+   "sf_id": null,
+   "linked_site": "801436",
+   "score": 11.4,
+   "reasons": [
+    {
+     "id": "site:gilberto.gonzalezg@cemex.com:801436",
+     "type": "site_signal",
+     "text": "Best-placed contact for Immokalee Sand Mine (FL) - Hours up +79% year over year (22 employees)",
+     "date": "2026-06-30",
+     "points": 11.4,
+     "first_flagged": "2026-10-05T14:13:10+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-05T14:13:10+00:00",
+   "latest_signal_at": "2026-10-05T14:13:10+00:00",
+   "is_new": false
+  },
+  {
+   "email": "chad.hustedde@cemex.com",
+   "name": "Hustedde Chad",
+   "title": "Vice President General Manager - East",
+   "company": "Cemex",
+   "tier": "Tier 1",
+   "state": "FL",
+   "linkedin": "http://www.linkedin.com/in/hustedde-chad-7a5baa4",
+   "sf_id": null,
+   "linked_site": "801436",
+   "score": 11.4,
+   "reasons": [
+    {
+     "id": "site:chad.hustedde@cemex.com:801436",
+     "type": "site_signal",
+     "text": "Best-placed contact for Immokalee Sand Mine (FL) - Hours up +79% year over year (22 employees)",
+     "date": "2026-06-30",
+     "points": 11.4,
+     "first_flagged": "2026-10-05T14:13:10+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-05T14:13:10+00:00",
+   "latest_signal_at": "2026-10-05T14:13:10+00:00",
+   "is_new": false
+  },
+  {
    "email": "peter.sanguineti@amrize.com",
    "name": "Peter Sanguineti",
    "title": "Regional President, Central and Mountain ACM Region",
@@ -2304,14 +2315,14 @@
    "linkedin": "http://www.linkedin.com/in/peter-sanguineti-0352534",
    "sf_id": null,
    "linked_site": "203282",
-   "score": 11.1,
+   "score": 10.9,
    "reasons": [
     {
      "id": "site:peter.sanguineti@amrize.com:203282",
      "type": "site_signal",
      "text": "Best-placed contact for Amrize Hassayampa Wash Plant (AZ) - Hours up +27% year over year (23 employees)",
      "date": "2026-06-30",
-     "points": 11.1,
+     "points": 10.9,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
@@ -2329,14 +2340,14 @@
    "linkedin": "http://www.linkedin.com/sales/lead/ACwAAAFmUEUB5nkQieNyZ3GMfg-ZHLPb3NnFY34",
    "sf_id": null,
    "linked_site": "4400164",
-   "score": 10.9,
+   "score": 10.8,
    "reasons": [
     {
      "id": "site:crystal.mistretta@crh.com:4400164",
      "type": "site_signal",
      "text": "Best-placed contact for Glade Stone Plant (VA) - Hours up +63% year over year (26 employees)",
      "date": "2026-06-30",
-     "points": 10.9,
+     "points": 10.8,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],

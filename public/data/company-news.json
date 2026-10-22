@@ -1,6 +1,20 @@
 {
  "CRH/Oldcastle": [
   {
+   "headline": "NJ Attorney General requires CRH to divest asphalt plants under settlement",
+   "date": "2026-10-22",
+   "summary": "The New Jersey Attorney General announced an antitrust settlement requiring the divestiture of specific asphalt plants in New Jersey as part of the proposed CRH-Arcosa transaction. The consent judgment is designed to preserve local market competition and protect public procurement costs.",
+   "sales_angle": "Connect with CRH Northeast asset management and regional leadership as they execute court-mandated divestitures and adjust regional operational footprints.",
+   "signal_type": "divestiture",
+   "strength": 2,
+   "verified": false,
+   "needs_source_check": false,
+   "source": "https://www.insidernj.com/press-releases/ag-davenport-takes-action-to-move-to-protect-taxpayers-and-preserve-competition-in-proposed-crh-arcosa-merger",
+   "publisher": "Insider NJ",
+   "found_by": "news",
+   "first_seen": "2026-10-22T15:52:57+00:00"
+  },
+  {
    "headline": "$8.5B acquisition of Arcosa announced",
    "date": "2026",
    "summary": "CRH announced an $8.5B acquisition of Arcosa, a major construction-materials and infrastructure products company, expanding CRH's aggregates and infrastructure footprint significantly."
