@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T15:44:20+00:00",
+ "generated_at": "2026-10-23T18:49:31+00:00",
  "accounts": [
   {
    "company": "CRH/Oldcastle",
@@ -185,11 +185,11 @@
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-23T15:44:20+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Rogers Group",
-   "score": 99.4,
+   "score": 99.1,
    "flagged_site_count": 8,
    "sites": [
     {
@@ -198,14 +198,14 @@
      "company": "Rogers Group",
      "state": "TN",
      "county": "Loudon",
-     "score": 46.8,
+     "score": 46.5,
      "reasons": [
       {
        "id": "ramp:4003609:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +149% year over year (16 employees)",
        "date": "2026-06-30",
-       "points": 26.1,
+       "points": 25.8,
        "first_flagged": "2026-10-10T16:52:32+00:00"
       },
       {
@@ -506,7 +506,7 @@
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-23T15:44:20+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Cemex",
@@ -1385,14 +1385,14 @@
    "linkedin": "http://www.linkedin.com/in/derek-roberts-53323b16",
    "sf_id": null,
    "linked_site": "4003609",
-   "score": 23.4,
+   "score": 23.2,
    "reasons": [
     {
      "id": "site:derek.roberts@rogersgroupinc.com:4003609",
      "type": "site_signal",
      "text": "Best-placed contact for Blount-Loudon Quarry (TN) - Hours up +149% year over year (16 employees)",
      "date": "2026-06-30",
-     "points": 23.4,
+     "points": 23.2,
      "first_flagged": "2026-10-10T16:52:32+00:00"
     }
    ],
@@ -1410,14 +1410,14 @@
    "linkedin": "http://www.linkedin.com/in/john-ross-harvell-aa7894166",
    "sf_id": null,
    "linked_site": "4003609",
-   "score": 23.4,
+   "score": 23.2,
    "reasons": [
     {
      "id": "site:jharvell@rogersgroupinc.com:4003609",
      "type": "site_signal",
      "text": "Best-placed contact for Blount-Loudon Quarry (TN) - Hours up +149% year over year (16 employees)",
      "date": "2026-06-30",
-     "points": 23.4,
+     "points": 23.2,
      "first_flagged": "2026-10-10T16:52:32+00:00"
     }
    ],
