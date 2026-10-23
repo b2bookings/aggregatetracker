@@ -1,6 +1,42 @@
 {
  "CRH/Oldcastle": [
   {
+   "headline": "CRH Completes $8.5 Billion Acquisition of Arcosa",
+   "date": "2026-10-23",
+   "summary": "CRH has closed its approximately $8.5 billion acquisition of Arcosa Inc., significantly expanding its U.S. aggregates network and critical infrastructure materials portfolio.",
+   "sales_angle": "Reach out to CRH integration leadership to offer contract mining, overburden removal, and contract crushing across newly acquired Arcosa aggregate sites.",
+   "signal_type": "acquisition",
+   "strength": 5,
+   "verified": true,
+   "needs_source_check": false,
+   "source": "https://www.citybiz.co/article/923489/crh-completes-8-5-billion-acquisition-of-arcosa-expanding-u-s-aggregates-and-infrastructure-business/",
+   "publisher": "citybiz",
+   "found_by": "news",
+   "first_seen": "2026-10-23T15:43:24+00:00",
+   "also_reported_by": [
+    {
+     "url": "https://www.pitandquarry.com/crh-completes-8-5-billion-arcosa-acquisition/",
+     "publisher": "Pit & Quarry"
+    },
+    {
+     "url": "https://www.agg-net.com/news/crh-complete-us85-billion-acquisition-of-arcosa",
+     "publisher": "Agg-Net"
+    },
+    {
+     "url": "https://www.businesswire.com/news/home/20261022078096/en/CRH-completes-%248.5B-acquisition-of-Arcosa",
+     "publisher": "Business Wire"
+    },
+    {
+     "url": "https://www.stocktitan.net/sec-filings/CRH/8-k-crh-public-ltd-co-reports-material-event-2f0a7b55d3c9.html",
+     "publisher": "Stock Titan"
+    },
+    {
+     "url": "https://in.investing.com/news/stock-market-news/arcosa-acquired-by-crh-americas-in-75-billion-merger-delists-from-nyse-93CH-5651549",
+     "publisher": "Investing.com India"
+    }
+   ]
+  },
+  {
    "headline": "NJ Attorney General requires CRH to divest asphalt plants under settlement",
    "date": "2026-10-22",
    "summary": "The New Jersey Attorney General announced an antitrust settlement requiring the divestiture of specific asphalt plants in New Jersey as part of the proposed CRH-Arcosa transaction. The consent judgment is designed to preserve local market competition and protect public procurement costs.",
@@ -21,6 +57,20 @@
   }
  ],
  "Vulcan Materials": [
+  {
+   "headline": "Vulcan Materials Operations Support and Procurement SVP David Clement to Retire",
+   "date": "2026-10-23",
+   "summary": "Vulcan Materials disclosed in a regulatory filing that David P. Clement, Senior Vice President of Operations Support and Procurement, plans to retire.",
+   "sales_angle": "Reach out to Vulcan's operations leadership to maintain contact and introduce outsourced mining services as procurement and operational support leadership transitions.",
+   "signal_type": "leadership_change",
+   "strength": 2,
+   "verified": false,
+   "needs_source_check": false,
+   "source": "https://www.gurufocus.com/news/9138308/vulcan-materials-vmc-announces-retirement-of-senior-vp-david-p-clement",
+   "publisher": "GuruFocus",
+   "found_by": "news",
+   "first_seen": "2026-10-23T15:43:24+00:00"
+  },
   {
    "headline": "Vulcan Materials acquires Butler Quarry in Pendleton County, Kentucky",
    "date": "2026-09-30",
