@@ -3082,5 +3082,61 @@
   "mine_id": "4103410",
   "name": "Eastland Quarry #2",
   "state": "TX"
+ },
+ "status:504593:Active:2026-10-15": {
+  "id": "status:504593:Active:2026-10-15",
+  "first_seen": "2026-10-24T15:18:23+00:00",
+  "type": "status_change",
+  "status": "Active",
+  "date": "2026-10-15",
+  "company": "Summit Materials",
+  "mine_id": "504593",
+  "name": "Crusher 3",
+  "state": "UT"
+ },
+ "controller:1500030:2026-09-25": {
+  "id": "controller:1500030:2026-09-25",
+  "first_seen": "2026-10-24T15:18:23+00:00",
+  "type": "controller_change",
+  "controller": "Vulcan Materials Company",
+  "date": "2026-09-25",
+  "company": "Vulcan Materials",
+  "mine_id": "1500030",
+  "name": "Butler Quarry",
+  "state": "KY"
+ },
+ "status:2003423:Active:2026-10-19": {
+  "id": "status:2003423:Active:2026-10-19",
+  "first_seen": "2026-10-24T15:18:23+00:00",
+  "type": "status_change",
+  "status": "Active",
+  "date": "2026-10-19",
+  "company": "Amrize",
+  "mine_id": "2003423",
+  "name": "Amrize Manchester Sand and Gravel",
+  "state": "MI"
+ },
+ "ramp:4103410:2026Q2": {
+  "id": "ramp:4103410:2026Q2",
+  "first_seen": "2026-10-24T15:18:23+00:00",
+  "type": "ramp_up",
+  "trend": 32.8,
+  "employees": 13,
+  "date": "2026-06-30",
+  "company": "Vulcan Materials",
+  "mine_id": "4103410",
+  "name": "Eastland Quarry #2",
+  "state": "TX"
+ },
+ "controller:4500611:2026-08-17": {
+  "id": "controller:4500611:2026-08-17",
+  "first_seen": "2026-10-24T15:18:23+00:00",
+  "type": "controller_change",
+  "controller": "Amrize Ltd",
+  "date": "2026-08-17",
+  "company": "Amrize",
+  "mine_id": "4500611",
+  "name": "Amrize Apex",
+  "state": "WA"
  }
 }
