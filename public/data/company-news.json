@@ -49,6 +49,10 @@
     {
      "url": "https://www.investing.com/news/sec-filings/arcosa-acquired-by-crh-americas-in-75-billion-merger-delists-from-nyse-93CH-4969644",
      "publisher": "Investing.com"
+    },
+    {
+     "url": "https://www.crh.com/media/press-releases/2026/crh-completes-8-5b-acquisition-of-arcosa/",
+     "publisher": "CRH"
     }
    ]
   },
@@ -64,7 +68,13 @@
    "source": "https://www.insidernj.com/press-releases/ag-davenport-takes-action-to-move-to-protect-taxpayers-and-preserve-competition-in-proposed-crh-arcosa-merger",
    "publisher": "Insider NJ",
    "found_by": "news",
-   "first_seen": "2026-10-22T15:52:57+00:00"
+   "first_seen": "2026-10-22T15:52:57+00:00",
+   "also_reported_by": [
+    {
+     "url": "https://www.njoag.gov/ag-davenport-takes-action-to-move-to-protect-taxpayers-and-preserve-competition-in-proposed-crh-arcosa-merger/",
+     "publisher": "New Jersey Office of Attorney General"
+    }
+   ]
   },
   {
    "headline": "$8.5B acquisition of Arcosa announced",
@@ -280,6 +290,22 @@
      "publisher": "IndexBox"
     }
    ]
+  }
+ ],
+ "Eagle Materials": [
+  {
+   "headline": "Nevada Cement advances EIR for Stockton distribution terminal expansion in California",
+   "date": "2026-10-22",
+   "summary": "The Port of Stockton held a public meeting on the Draft EIR for Nevada Cement's terminal modernization, which will expand its leased site from 4.92 to 10.98 acres. Upgrades include a new ship unloader, storage dome, and rail and truck loading enhancements.",
+   "sales_angle": "Check in with Nevada Cement management to see if higher terminal distribution capacity will drive increased kiln feed mining and contract quarrying requirements at their production sites.",
+   "signal_type": "capital_investment",
+   "strength": 1,
+   "verified": false,
+   "needs_source_check": true,
+   "source": "https://www.portofstockton.com/white-papers/",
+   "publisher": "Port of Stockton",
+   "found_by": "research",
+   "first_seen": "2026-10-26T16:31:37+00:00"
   }
  ]
 }
