@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T16:33:44+00:00",
+ "generated_at": "2026-10-26T17:16:42+00:00",
  "accounts": [
   {
    "company": "CRH/Oldcastle",
@@ -189,7 +189,7 @@
   },
   {
    "company": "Rogers Group",
-   "score": 95.5,
+   "score": 95.2,
    "flagged_site_count": 8,
    "sites": [
     {
@@ -198,14 +198,14 @@
      "company": "Rogers Group",
      "state": "TN",
      "county": "Loudon",
-     "score": 45.2,
+     "score": 44.9,
      "reasons": [
       {
        "id": "ramp:4003609:2026Q2",
        "type": "ramp_up",
        "text": "Hours up +149% year over year (16 employees)",
        "date": "2026-06-30",
-       "points": 25.2,
+       "points": 24.9,
        "first_flagged": "2026-10-10T16:52:32+00:00"
       },
       {
@@ -816,7 +816,7 @@
    "company_news": [],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-26T16:33:44+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Heidelberg Materials",
@@ -1204,7 +1204,7 @@
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-10-26T16:33:44+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "CalPortland",
@@ -1432,7 +1432,7 @@
    ],
    "first_flagged": "2026-10-26T16:33:44+00:00",
    "latest_signal_at": "2026-10-26T16:33:44+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "email": "michael.welhouse@amrize.com",
@@ -1457,7 +1457,7 @@
    ],
    "first_flagged": "2026-10-26T16:33:44+00:00",
    "latest_signal_at": "2026-10-26T16:33:44+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "email": "derek.roberts@rogersgroupinc.com",
@@ -1469,14 +1469,14 @@
    "linkedin": "http://www.linkedin.com/in/derek-roberts-53323b16",
    "sf_id": null,
    "linked_site": "4003609",
-   "score": 22.6,
+   "score": 22.4,
    "reasons": [
     {
      "id": "site:derek.roberts@rogersgroupinc.com:4003609",
      "type": "site_signal",
      "text": "Best-placed contact for Blount-Loudon Quarry (TN) - Hours up +149% year over year (16 employees)",
      "date": "2026-06-30",
-     "points": 22.6,
+     "points": 22.4,
      "first_flagged": "2026-10-10T16:52:32+00:00"
     }
    ],
@@ -1494,14 +1494,14 @@
    "linkedin": "http://www.linkedin.com/in/john-ross-harvell-aa7894166",
    "sf_id": null,
    "linked_site": "4003609",
-   "score": 22.6,
+   "score": 22.4,
    "reasons": [
     {
      "id": "site:jharvell@rogersgroupinc.com:4003609",
      "type": "site_signal",
      "text": "Best-placed contact for Blount-Loudon Quarry (TN) - Hours up +149% year over year (16 employees)",
      "date": "2026-06-30",
-     "points": 22.6,
+     "points": 22.4,
      "first_flagged": "2026-10-10T16:52:32+00:00"
     }
    ],
@@ -2357,7 +2357,7 @@
    ],
    "first_flagged": "2026-10-26T16:33:44+00:00",
    "latest_signal_at": "2026-10-26T16:33:44+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "email": "peter.sanguineti@amrize.com",
