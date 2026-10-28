@@ -65,6 +65,10 @@
     {
      "url": "https://www.cdrecycler.com/news/crh-completes-8-billion-dollar-arcosa-acquisition/",
      "publisher": "Construction & Demolition Recycling"
+    },
+    {
+     "url": "https://www.financialcontent.com/article/bizwire-2026-10-23-crh-completes-85b-acquisition-of-arcosa",
+     "publisher": "FinancialContent"
     }
    ]
   },
@@ -143,6 +147,20 @@
   }
  ],
  "Amrize": [
+  {
+   "headline": "Amrize invests $10.2M to expand Memphis cement distribution terminal",
+   "date": "2026-10-27",
+   "summary": "Amrize is investing $10.2 million to expand its cement terminal on Presidents Island in Memphis, Tennessee, boosting storage and loading throughput.",
+   "sales_angle": "Touch base with Amrize regional operations to support upstream cement plants and raw material quarries that will feed increased throughput at the Memphis terminal.",
+   "signal_type": "capital_investment",
+   "strength": 1,
+   "verified": true,
+   "needs_source_check": true,
+   "source": "https://www.bizjournals.com/memphis/news/2026/10/27/amrizes-10m-cement-expansion-presidents-island.html",
+   "publisher": "The Business Journals",
+   "found_by": "news",
+   "first_seen": "2026-10-28T01:52:41+00:00"
+  },
   {
    "headline": "$900M 2026 capex program; PB Materials and Rapid Redi-Mix acquisitions",
    "date": "2026",
