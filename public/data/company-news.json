@@ -204,6 +204,20 @@
  ],
  "Quikrete": [
   {
+   "headline": "Quikrete temporarily idles Silverthorne plant due to regional gas pipeline disruption",
+   "date": "2026-10-29",
+   "summary": "Quikrete's asphalt and materials plant in Silverthorne, Colorado temporarily halted operations after distant flooding damaged a critical natural gas supply line. The shutdown has temporarily interrupted supply for local paving and infrastructure projects in Summit County.",
+   "sales_angle": "Check in with regional Colorado operations management on plant restart timing and assess if temporary contract load and haul support will be needed to catch up on production backlogs.",
+   "signal_type": "closure_or_idling",
+   "strength": 1,
+   "verified": false,
+   "needs_source_check": false,
+   "source": "https://www.summitdaily.com/news/silverthorne-quikcrete-asphalt-plant-temporarily-shuts-down-after-historic-flooding-in-pagosa-springs-disrupting-local-construction-projects/",
+   "publisher": "SummitDaily.com",
+   "found_by": "news",
+   "first_seen": "2026-10-29T02:01:04+00:00"
+  },
+  {
    "headline": "Summit County approves 7-year conditional permit for Quikrete's Silverthorne gravel pit",
    "date": "2026-10-13",
    "summary": "Summit County commissioners approved a 7-year conditional-use permit for Quikrete's sand and gravel mine and asphalt plant north of Silverthorne, down from the 10-year term previously recommended. The compromise allows continued extraction while the county and operator begin planning for future aggregate sources once this deposit is depleted.",
