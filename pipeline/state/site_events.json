@@ -3138,5 +3138,148 @@
   "mine_id": "4500611",
   "name": "Amrize Apex",
   "state": "WA"
+ },
+ "status:504999:Active:2026-10-20": {
+  "id": "status:504999:Active:2026-10-20",
+  "first_seen": "2026-10-31T16:44:12+00:00",
+  "type": "status_change",
+  "status": "Active",
+  "date": "2026-10-20",
+  "company": "CRH/Oldcastle",
+  "mine_id": "504999",
+  "name": "Wash Plant 2",
+  "state": "CO"
+ },
+ "controller:2200777:2026-10-06": {
+  "id": "controller:2200777:2026-10-06",
+  "first_seen": "2026-10-31T16:44:12+00:00",
+  "type": "controller_change",
+  "controller": "CRH PLC",
+  "date": "2026-10-06",
+  "company": "CRH/Oldcastle",
+  "mine_id": "2200777",
+  "name": "NICHOLS PIT",
+  "state": "MS"
+ },
+ "controller:2200831:2026-10-06": {
+  "id": "controller:2200831:2026-10-06",
+  "first_seen": "2026-10-31T16:44:12+00:00",
+  "type": "controller_change",
+  "controller": "CRH PLC",
+  "date": "2026-10-06",
+  "company": "CRH/Oldcastle",
+  "mine_id": "2200831",
+  "name": "Dunn Pit",
+  "state": "MS"
+ },
+ "controller:2200848:2026-10-06": {
+  "id": "controller:2200848:2026-10-06",
+  "first_seen": "2026-10-31T16:44:12+00:00",
+  "type": "controller_change",
+  "controller": "CRH PLC",
+  "date": "2026-10-06",
+  "company": "CRH/Oldcastle",
+  "mine_id": "2200848",
+  "name": "Three Sisters",
+  "state": "MS"
+ },
+ "status:2200863:Active:2026-07-30": {
+  "id": "status:2200863:Active:2026-07-30",
+  "first_seen": "2026-10-31T16:44:12+00:00",
+  "type": "status_change",
+  "status": "Active",
+  "date": "2026-07-30",
+  "company": "CRH/Oldcastle",
+  "mine_id": "2200863",
+  "name": "Pioneer Crusher",
+  "state": "MS"
+ },
+ "controller:2200863:2026-10-06": {
+  "id": "controller:2200863:2026-10-06",
+  "first_seen": "2026-10-31T16:44:12+00:00",
+  "type": "controller_change",
+  "controller": "CRH PLC",
+  "date": "2026-10-06",
+  "company": "CRH/Oldcastle",
+  "mine_id": "2200863",
+  "name": "Pioneer Crusher",
+  "state": "MS"
+ },
+ "new:2200863": {
+  "id": "new:2200863",
+  "first_seen": "2026-10-31T16:44:12+00:00",
+  "type": "new_site",
+  "status": "Active",
+  "date": "2026-07-30",
+  "company": "CRH/Oldcastle",
+  "mine_id": "2200863",
+  "name": "Pioneer Crusher",
+  "state": "MS"
+ },
+ "controller:4001764:2026-10-06": {
+  "id": "controller:4001764:2026-10-06",
+  "first_seen": "2026-10-31T16:44:12+00:00",
+  "type": "controller_change",
+  "controller": "CRH PLC",
+  "date": "2026-10-06",
+  "company": "CRH/Oldcastle",
+  "mine_id": "4001764",
+  "name": "Frank Road Pit",
+  "state": "TN"
+ },
+ "status:4003105:NonProducing:2026-07-08": {
+  "id": "status:4003105:NonProducing:2026-07-08",
+  "first_seen": "2026-10-31T16:44:12+00:00",
+  "type": "status_change",
+  "status": "NonProducing",
+  "date": "2026-07-08",
+  "company": "CRH/Oldcastle",
+  "mine_id": "4003105",
+  "name": "DEADFALL PIT",
+  "state": "TN"
+ },
+ "controller:4003105:2026-10-06": {
+  "id": "controller:4003105:2026-10-06",
+  "first_seen": "2026-10-31T16:44:12+00:00",
+  "type": "controller_change",
+  "controller": "CRH PLC",
+  "date": "2026-10-06",
+  "company": "CRH/Oldcastle",
+  "mine_id": "4003105",
+  "name": "DEADFALL PIT",
+  "state": "TN"
+ },
+ "new:4003105": {
+  "id": "new:4003105",
+  "first_seen": "2026-10-31T16:44:12+00:00",
+  "type": "new_site",
+  "status": "NonProducing",
+  "date": "2026-07-08",
+  "company": "CRH/Oldcastle",
+  "mine_id": "4003105",
+  "name": "DEADFALL PIT",
+  "state": "TN"
+ },
+ "controller:4003113:2026-10-06": {
+  "id": "controller:4003113:2026-10-06",
+  "first_seen": "2026-10-31T16:44:12+00:00",
+  "type": "controller_change",
+  "controller": "CRH PLC",
+  "date": "2026-10-06",
+  "company": "CRH/Oldcastle",
+  "mine_id": "4003113",
+  "name": "MCNAIRY COUNTY PIT",
+  "state": "TN"
+ },
+ "controller:4003630:2026-10-06": {
+  "id": "controller:4003630:2026-10-06",
+  "first_seen": "2026-10-31T16:44:12+00:00",
+  "type": "controller_change",
+  "controller": "CRH PLC",
+  "date": "2026-10-06",
+  "company": "CRH/Oldcastle",
+  "mine_id": "4003630",
+  "name": "Stantonville Sand and Gravel",
+  "state": "TN"
  }
 }
