@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T20:45:10+00:00",
+ "generated_at": "2026-11-02T22:58:03+00:00",
  "accounts": [
   {
    "company": "CRH/Oldcastle",
@@ -502,7 +502,7 @@
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-11-02T20:45:10+00:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Rogers Group",
