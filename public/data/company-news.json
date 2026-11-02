@@ -89,6 +89,10 @@
     {
      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/crh-completes-arcosa-acquisition-as-crh-stock-costs-eur-75-77/70402925",
      "publisher": "ad-hoc-news.de"
+    },
+    {
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRHeJDVatOwxFFbywp2H6JeJyxgTJHPETqOSTNocxCz0zJrzCDlYSZhZd-7tJBqQWCZaT7p_NzNeXlsT5OAdIhNqoF9Tc30YZ1BEKk7S5mTLrJ1YnflwFzAVpQ-880b_LPXIoCyvddi3IwFw2PdtQn6cPZEz1RWC9zaICRC5zRGHek1sWEXAVydE3GqabdDR9F9Rx_YQ==",
+     "publisher": "Business Wire"
     }
    ]
   },
@@ -120,6 +124,20 @@
  ],
  "Vulcan Materials": [
   {
+   "headline": "Vulcan Materials completes bolt-on acquisitions in southern Ohio and Tennessee",
+   "date": "2026-10-29",
+   "summary": "In its Q3 2026 results, Vulcan Materials announced the completion of two bolt-on acquisitions during the third quarter to expand into southern Ohio and bolster its aggregates footprint in Tennessee. The company also invested $174 million in capital expenditures for maintenance and growth projects during the quarter.",
+   "sales_angle": "Reach out to Vulcan's regional operating leadership in Tennessee and Ohio to offer contract drilling, overburden removal, and load-and-haul support across the newly integrated aggregate sites.",
+   "signal_type": "acquisition",
+   "strength": 3,
+   "verified": true,
+   "needs_source_check": false,
+   "source": "https://www.prnewswire.com/news-releases/vulcan-reports-third-quarter-2026-results-302922797.html",
+   "publisher": "PR Newswire",
+   "found_by": "research",
+   "first_seen": "2026-11-02T20:02:15+00:00"
+  },
+  {
    "headline": "Vulcan Materials Operations Support and Procurement SVP David Clement to Retire",
    "date": "2026-10-23",
    "summary": "Vulcan Materials disclosed in a regulatory filing that David P. Clement, Senior Vice President of Operations Support and Procurement, plans to retire.",
@@ -131,7 +149,13 @@
    "source": "https://www.gurufocus.com/news/9138308/vulcan-materials-vmc-announces-retirement-of-senior-vp-david-p-clement",
    "publisher": "GuruFocus",
    "found_by": "news",
-   "first_seen": "2026-10-23T15:43:24+00:00"
+   "first_seen": "2026-10-23T15:43:24+00:00",
+   "also_reported_by": [
+    {
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTXdGW2196FQCloFRsv9wMnQFiVFWSG4XUUE4-Rssj5aId5lC6vp-pRHIsoaB63rzju2ankCEUBzNzfS6SkRcOsMUGPaIZXJDk4RvGelMc1axB9RyPSDDlHkX6LKGAoRgIDtXpdmPJoQQNyVQBRjTFIpOlls_ZoX2nxtgwwwz4dnk_ao8=",
+     "publisher": "ADVFN / U.S. Securities and Exchange Commission"
+    }
+   ]
   },
   {
    "headline": "Vulcan Materials acquires Butler Quarry in Pendleton County, Kentucky",
