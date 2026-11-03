@@ -1447,5 +1447,26 @@
    "serper": 0.055,
    "total": 0.0713
   }
+ },
+ {
+  "at": "2026-11-03T03:49:42+00:00",
+  "steps": "news,salesforce,priority,digest",
+  "models": {
+   "gemini-3.8-flash": {
+    "calls": 3,
+    "input_tokens": 45210,
+    "output_tokens": 6246,
+    "cost_usd": 0.0573
+   }
+  },
+  "gemini_searches": 0,
+  "gemini_searches_billable": 0,
+  "serper_queries": 55,
+  "cost_usd": {
+   "models": 0.0573,
+   "gemini_search": 0.0,
+   "serper": 0.055,
+   "total": 0.1123
+  }
  }
 ]
