@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-13T18:29:17+00:00",
+ "generated_at": "2026-11-13T21:07:08+00:00",
  "accounts": [
   {
    "company": "CRH/Oldcastle",
-   "score": 153.1,
+   "score": 174.1,
    "flagged_site_count": 41,
    "sites": [
     {
@@ -192,6 +192,16 @@
    ],
    "company_news": [
     {
+     "id": "cnews:https://finance.yahoo.com/real-estate/articles/crh-americas-materials-expands-aggregates-210300488.html",
+     "type": "company_news",
+     "text": "CRH Americas Materials acquires Western Rock Resources and Columbia Northwest Recycling",
+     "date": "2026-11-09",
+     "points": 21.0,
+     "source": "https://finance.yahoo.com/real-estate/articles/crh-americas-materials-expands-aggregates-210300488.html",
+     "sales_angle": "Reach out to CRH's Pacific Northwest leadership to pitch contract mining, mobile crushing, and pit development across the newly acquired quarry operations.",
+     "first_flagged": "2026-11-13T21:07:08+00:00"
+    },
+    {
      "id": "cnews:https://www.citybiz.co/article/923489/crh-completes-8-5-billion-acquisition-of-arcosa-expanding-u-s-aggregates-and-infrastructure-business/",
      "type": "company_news",
      "text": "CRH Completes $8.5 Billion Acquisition of Arcosa",
@@ -213,8 +223,8 @@
     }
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-11-07T17:20:41+00:00",
-   "is_new": false
+   "latest_signal_at": "2026-11-13T21:07:08+00:00",
+   "is_new": true
   },
   {
    "company": "Vulcan Materials",
@@ -423,7 +433,7 @@
   {
    "company": "Rogers Group",
    "score": 132.3,
-   "flagged_site_count": 15,
+   "flagged_site_count": 16,
    "sites": [
     {
      "mine_id": "4003609",
@@ -617,6 +627,200 @@
    "first_flagged": "2026-10-05T14:13:10+00:00",
    "latest_signal_at": "2026-11-07T17:20:41+00:00",
    "is_new": false
+  },
+  {
+   "company": "Cemex",
+   "score": 129.3,
+   "flagged_site_count": 4,
+   "sites": [
+    {
+     "mine_id": "401897",
+     "name": "Rockfield Plant",
+     "company": "Cemex",
+     "state": "CA",
+     "county": "Fresno",
+     "score": 88.3,
+     "reasons": [
+      {
+       "id": "news:https://www.kvpr.org/community/2026-11-12/ignoring-warning-of-catastrophic-risk-fresno-supervisors-greenlight-blast-mine-near-san-joaquin-river",
+       "type": "news",
+       "text": "Fresno County supervisors approve Cemex Rockfield Quarry blasting expansion",
+       "date": "2026-11-12",
+       "points": 48.4,
+       "source": "https://www.kvpr.org/community/2026-11-12/ignoring-warning-of-catastrophic-risk-fresno-supervisors-greenlight-blast-mine-near-san-joaquin-river",
+       "sales_angle": "Reach out to Cemex's Western region operations to offer contract drilling, blasting, and overburden removal services for the newly permitted deep-pit mining operation.",
+       "first_flagged": "2026-11-13T21:07:08+00:00"
+      },
+      {
+       "id": "news:https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCqMrcbB4ZV2EtNXQXJCIZ2gL-gi3BOZPeVR7s1y6eeVs7ot9YM-LnLzxIzOYP2sKu5w5LpALuvZskKrGXHKeva_cOR6o2AOV7tl3ZBnGUWonSZlygrrHfOsHQ3qevZvDYW3L8r-_QsaIKC1T7kcdXPVzpvvOHH0t_Zqfn-CHuMpXzINQSyyG--ggXvI8i7bn3",
+       "type": "news",
+       "text": "Fresno County sets November appeal hearing for Cemex Rockfield Quarry deep-mining permit",
+       "date": "2026-10-16",
+       "points": 11.9,
+       "source": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCqMrcbB4ZV2EtNXQXJCIZ2gL-gi3BOZPeVR7s1y6eeVs7ot9YM-LnLzxIzOYP2sKu5w5LpALuvZskKrGXHKeva_cOR6o2AOV7tl3ZBnGUWonSZlygrrHfOsHQ3qevZvDYW3L8r-_QsaIKC1T7kcdXPVzpvvOHH0t_Zqfn-CHuMpXzINQSyyG--ggXvI8i7bn3",
+       "sales_angle": "Engage Cemex Western region operations leaders ahead of the November appeal hearing to position contract mining, drilling, blasting, and overburden stripping services tailored to the revised pit plan.",
+       "first_flagged": "2026-10-19T16:56:10+00:00"
+      },
+      {
+       "id": "news:https://www.yahoo.com/news/us/articles/fresno-county-supervisors-set-vote-071709371.html",
+       "type": "news",
+       "text": "Fresno County supervisors set to vote on Cemex Rockfield Quarry expansion",
+       "date": "2026-11-13",
+       "points": 10.0,
+       "source": "https://www.yahoo.com/news/us/articles/fresno-county-supervisors-set-vote-071709371.html",
+       "sales_angle": "Track the pending vote to engage Cemex leadership immediately upon approval for potential contract stripping and quarry development work.",
+       "first_flagged": "2026-11-13T21:07:08+00:00"
+      },
+      {
+       "id": "news:https://fresnoland.org/2026/10/08/san-joaquin-river-blast-mine/",
+       "type": "news",
+       "text": "Fresno County Planning Commission deadlocks on Cemex Rockfield Quarry blasting permit",
+       "date": "2026-10-08",
+       "points": 9.1,
+       "source": "https://fresnoland.org/2026/10/08/san-joaquin-river-blast-mine/",
+       "sales_angle": "Engage Cemex's Western regional management to offer contract mechanical ripping and overburden removal solutions should hard-rock blasting permits face continued regulatory delays.",
+       "first_flagged": "2026-10-09T17:26:30+00:00"
+      },
+      {
+       "id": "news:https://files.ceqanet.lci.ca.gov/262313-4/attachment/s7Y1DIoZWYubZpj6-owdEE86SFaWtW-PYEpOQmtR1LdE01jerIInErhHvKo0Uvb-Gf-XIZiGP_1Hpaw_0",
+       "type": "news",
+       "text": "Fresno County releases Final EIR for CEMEX Rockfield Quarry expansion",
+       "date": "2026-09-28",
+       "points": 8.8,
+       "source": "https://files.ceqanet.lci.ca.gov/262313-4/attachment/s7Y1DIoZWYubZpj6-owdEE86SFaWtW-PYEpOQmtR1LdE01jerIInErhHvKo0Uvb-Gf-XIZiGP_1Hpaw_0",
+       "sales_angle": "Reach out to CEMEX California leadership now, as transitioning to deep hard rock extraction will require drilling, blasting, and heavy earthmoving support once permits are approved.",
+       "first_flagged": "2026-10-05T15:14:01+00:00"
+      },
+      {
+       "id": "news:https://fresnochamber.com/news/planning-commission-gives-cemex-another-year/",
+       "type": "news",
+       "text": "Contested 100-year deep-rock expansion; permit extended amid legislative pushback",
+       "date": "2026-06-11",
+       "points": 0.1,
+       "source": "https://fresnochamber.com/news/planning-commission-gives-cemex-another-year/",
+       "sales_angle": "One of the most contested single-site fights in Cemex's whole portfolio — a state legislative bill was written specifically to stop this project. High visibility, high stakes, and the company has publicly signaled it's stretched trying to keep current operations running while fighting for the expansion.",
+       "first_flagged": "2026-10-05T15:14:01+00:00"
+      }
+     ],
+     "contacts": []
+    },
+    {
+     "mine_id": "500344",
+     "name": "Lyons Cement Plant Cemex Inc",
+     "company": "Cemex",
+     "state": "CO",
+     "county": "Boulder",
+     "score": 40.1,
+     "reasons": [
+      {
+       "id": "news:https://www.indexbox.io/blog/cemex-to-lay-off-at-least-70-workers-at-colorado-cement-plant-starting-november-2026/",
+       "type": "news",
+       "text": "Cemex to lay off over 70 workers at Lyons cement plant in Colorado",
+       "date": "2026-11-21",
+       "points": 40.0,
+       "source": "https://www.indexbox.io/blog/cemex-to-lay-off-at-least-70-workers-at-colorado-cement-plant-starting-november-2026/",
+       "sales_angle": "Reach out to Cemex regional operations management to offer contract quarrying, mobile crushing, and material handling support to bridge operational gaps caused by the workforce reduction.",
+       "first_flagged": "2026-10-09T17:26:30+00:00"
+      },
+      {
+       "id": "news:https://coloradosun.com/2026/05/21/boulder-county-reverses-allows-cemex-to-keep-operating-kiln/",
+       "type": "news",
+       "text": "County reverses shutdown order; plant's right to operate reinstated",
+       "date": "2026-05-19",
+       "points": 0.1,
+       "source": "https://coloradosun.com/2026/05/21/boulder-county-reverses-allows-cemex-to-keep-operating-kiln/",
+       "sales_angle": "A site that came within one appeal of being shut down entirely, now cleared to keep running under intensified community and regulatory scrutiny — exactly the kind of high-stakes operating environment where TMG's execution discipline matters most.",
+       "first_flagged": "2026-10-09T17:26:30+00:00"
+      }
+     ],
+     "contacts": []
+    },
+    {
+     "mine_id": "801216",
+     "name": "PALMDALE SAND MINE",
+     "company": "Cemex",
+     "state": "FL",
+     "county": "Glades",
+     "score": 18.6,
+     "reasons": [
+      {
+       "id": "slowdown:801216:2026Q3",
+       "type": "slowdown",
+       "text": "Hours down -96% year over year",
+       "date": "2026-09-30",
+       "points": 9.3,
+       "first_flagged": "2026-11-07T17:20:41+00:00"
+      },
+      {
+       "id": "slowdown:801216:2026Q2",
+       "type": "slowdown",
+       "text": "Hours down -98% year over year",
+       "date": "2026-06-30",
+       "points": 6.4,
+       "first_flagged": "2026-11-07T17:20:41+00:00"
+      },
+      {
+       "id": "status:801216:Active:2026-05-11",
+       "type": "status_change",
+       "text": "MSHA status changed to Active",
+       "date": "2026-05-11",
+       "points": 2.9,
+       "first_flagged": "2026-11-07T17:20:41+00:00"
+      }
+     ],
+     "contacts": [
+      "gilberto.gonzalezg@cemex.com",
+      "chad.hustedde@cemex.com"
+     ]
+    },
+    {
+     "mine_id": "801436",
+     "name": "Immokalee Sand Mine",
+     "company": "Cemex",
+     "state": "FL",
+     "county": "Collier",
+     "score": 17.8,
+     "reasons": [
+      {
+       "id": "ramp:801436:2026Q2",
+       "type": "ramp_up",
+       "text": "Hours up +79% year over year (22 employees)",
+       "date": "2026-06-30",
+       "points": 17.8,
+       "first_flagged": "2026-10-05T14:13:10+00:00"
+      }
+     ],
+     "contacts": [
+      "gilberto.gonzalezg@cemex.com",
+      "chad.hustedde@cemex.com"
+     ]
+    }
+   ],
+   "company_news": [
+    {
+     "id": "cnews:https://concreteproducts.com/index.php/2026/11/02/maschmeyer-takes-bold-georgia-market-leap-with-ready-mix-usa/",
+     "type": "company_news",
+     "text": "Maschmeyer Concrete acquires Georgia operations from Cemex unit Ready Mix USA",
+     "date": "2026-11-02",
+     "points": 11.1,
+     "source": "https://concreteproducts.com/index.php/2026/11/02/maschmeyer-takes-bold-georgia-market-leap-with-ready-mix-usa/",
+     "sales_angle": "Touch base with Cemex regional materials leadership to see if downstream divestitures in Georgia are altering quarry production schedules or opening contract hauling opportunities.",
+     "first_flagged": "2026-11-02T20:45:10+00:00"
+    },
+    {
+     "id": "cnews:https://www.businesswire.com/news/home/20261019658403/en/Cemex-Supplies-Concrete-for-Major-Los-Angeles-Metro-Expansion",
+     "type": "company_news",
+     "text": "Cemex supplies 300,000 cubic yards of concrete for LA Metro D Line extension",
+     "date": "2026-10-19",
+     "points": 7.0,
+     "source": "https://www.businesswire.com/news/home/20261019658403/en/Cemex-Supplies-Concrete-for-Major-Los-Angeles-Metro-Expansion",
+     "sales_angle": "High-volume infrastructure supply commitments in Southern California strain regional aggregate supply; reach out to regional ops to offer contract quarrying and hauling support.",
+     "first_flagged": "2026-10-20T01:22:07+00:00"
+    }
+   ],
+   "first_flagged": "2026-10-05T14:13:10+00:00",
+   "latest_signal_at": "2026-11-13T21:07:08+00:00",
+   "is_new": true
   },
   {
    "company": "Heidelberg Materials",
@@ -1098,180 +1302,6 @@
      "source": "https://www.bizjournals.com/memphis/news/2026/10/27/amrizes-10m-cement-expansion-presidents-island.html",
      "sales_angle": "Touch base with Amrize regional operations to support upstream cement plants and raw material quarries that will feed increased throughput at the Memphis terminal.",
      "first_flagged": "2026-10-28T01:53:15+00:00"
-    }
-   ],
-   "first_flagged": "2026-10-05T14:13:10+00:00",
-   "latest_signal_at": "2026-11-07T17:20:41+00:00",
-   "is_new": false
-  },
-  {
-   "company": "Cemex",
-   "score": 78.1,
-   "flagged_site_count": 4,
-   "sites": [
-    {
-     "mine_id": "500344",
-     "name": "Lyons Cement Plant Cemex Inc",
-     "company": "Cemex",
-     "state": "CO",
-     "county": "Boulder",
-     "score": 40.1,
-     "reasons": [
-      {
-       "id": "news:https://www.indexbox.io/blog/cemex-to-lay-off-at-least-70-workers-at-colorado-cement-plant-starting-november-2026/",
-       "type": "news",
-       "text": "Cemex to lay off over 70 workers at Lyons cement plant in Colorado",
-       "date": "2026-11-21",
-       "points": 40.0,
-       "source": "https://www.indexbox.io/blog/cemex-to-lay-off-at-least-70-workers-at-colorado-cement-plant-starting-november-2026/",
-       "sales_angle": "Reach out to Cemex regional operations management to offer contract quarrying, mobile crushing, and material handling support to bridge operational gaps caused by the workforce reduction.",
-       "first_flagged": "2026-10-09T17:26:30+00:00"
-      },
-      {
-       "id": "news:https://coloradosun.com/2026/05/21/boulder-county-reverses-allows-cemex-to-keep-operating-kiln/",
-       "type": "news",
-       "text": "County reverses shutdown order; plant's right to operate reinstated",
-       "date": "2026-05-19",
-       "points": 0.1,
-       "source": "https://coloradosun.com/2026/05/21/boulder-county-reverses-allows-cemex-to-keep-operating-kiln/",
-       "sales_angle": "A site that came within one appeal of being shut down entirely, now cleared to keep running under intensified community and regulatory scrutiny — exactly the kind of high-stakes operating environment where TMG's execution discipline matters most.",
-       "first_flagged": "2026-10-09T17:26:30+00:00"
-      }
-     ],
-     "contacts": []
-    },
-    {
-     "mine_id": "401897",
-     "name": "Rockfield Plant",
-     "company": "Cemex",
-     "state": "CA",
-     "county": "Fresno",
-     "score": 29.9,
-     "reasons": [
-      {
-       "id": "news:https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCqMrcbB4ZV2EtNXQXJCIZ2gL-gi3BOZPeVR7s1y6eeVs7ot9YM-LnLzxIzOYP2sKu5w5LpALuvZskKrGXHKeva_cOR6o2AOV7tl3ZBnGUWonSZlygrrHfOsHQ3qevZvDYW3L8r-_QsaIKC1T7kcdXPVzpvvOHH0t_Zqfn-CHuMpXzINQSyyG--ggXvI8i7bn3",
-       "type": "news",
-       "text": "Fresno County sets November appeal hearing for Cemex Rockfield Quarry deep-mining permit",
-       "date": "2026-10-16",
-       "points": 11.9,
-       "source": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCqMrcbB4ZV2EtNXQXJCIZ2gL-gi3BOZPeVR7s1y6eeVs7ot9YM-LnLzxIzOYP2sKu5w5LpALuvZskKrGXHKeva_cOR6o2AOV7tl3ZBnGUWonSZlygrrHfOsHQ3qevZvDYW3L8r-_QsaIKC1T7kcdXPVzpvvOHH0t_Zqfn-CHuMpXzINQSyyG--ggXvI8i7bn3",
-       "sales_angle": "Engage Cemex Western region operations leaders ahead of the November appeal hearing to position contract mining, drilling, blasting, and overburden stripping services tailored to the revised pit plan.",
-       "first_flagged": "2026-10-19T16:56:10+00:00"
-      },
-      {
-       "id": "news:https://fresnoland.org/2026/10/08/san-joaquin-river-blast-mine/",
-       "type": "news",
-       "text": "Fresno County Planning Commission deadlocks on Cemex Rockfield Quarry blasting permit",
-       "date": "2026-10-08",
-       "points": 9.1,
-       "source": "https://fresnoland.org/2026/10/08/san-joaquin-river-blast-mine/",
-       "sales_angle": "Engage Cemex's Western regional management to offer contract mechanical ripping and overburden removal solutions should hard-rock blasting permits face continued regulatory delays.",
-       "first_flagged": "2026-10-09T17:26:30+00:00"
-      },
-      {
-       "id": "news:https://files.ceqanet.lci.ca.gov/262313-4/attachment/s7Y1DIoZWYubZpj6-owdEE86SFaWtW-PYEpOQmtR1LdE01jerIInErhHvKo0Uvb-Gf-XIZiGP_1Hpaw_0",
-       "type": "news",
-       "text": "Fresno County releases Final EIR for CEMEX Rockfield Quarry expansion",
-       "date": "2026-09-28",
-       "points": 8.8,
-       "source": "https://files.ceqanet.lci.ca.gov/262313-4/attachment/s7Y1DIoZWYubZpj6-owdEE86SFaWtW-PYEpOQmtR1LdE01jerIInErhHvKo0Uvb-Gf-XIZiGP_1Hpaw_0",
-       "sales_angle": "Reach out to CEMEX California leadership now, as transitioning to deep hard rock extraction will require drilling, blasting, and heavy earthmoving support once permits are approved.",
-       "first_flagged": "2026-10-05T15:14:01+00:00"
-      },
-      {
-       "id": "news:https://fresnochamber.com/news/planning-commission-gives-cemex-another-year/",
-       "type": "news",
-       "text": "Contested 100-year deep-rock expansion; permit extended amid legislative pushback",
-       "date": "2026-06-11",
-       "points": 0.1,
-       "source": "https://fresnochamber.com/news/planning-commission-gives-cemex-another-year/",
-       "sales_angle": "One of the most contested single-site fights in Cemex's whole portfolio — a state legislative bill was written specifically to stop this project. High visibility, high stakes, and the company has publicly signaled it's stretched trying to keep current operations running while fighting for the expansion.",
-       "first_flagged": "2026-10-05T15:14:01+00:00"
-      }
-     ],
-     "contacts": []
-    },
-    {
-     "mine_id": "801216",
-     "name": "PALMDALE SAND MINE",
-     "company": "Cemex",
-     "state": "FL",
-     "county": "Glades",
-     "score": 18.6,
-     "reasons": [
-      {
-       "id": "slowdown:801216:2026Q3",
-       "type": "slowdown",
-       "text": "Hours down -96% year over year",
-       "date": "2026-09-30",
-       "points": 9.3,
-       "first_flagged": "2026-11-07T17:20:41+00:00"
-      },
-      {
-       "id": "slowdown:801216:2026Q2",
-       "type": "slowdown",
-       "text": "Hours down -98% year over year",
-       "date": "2026-06-30",
-       "points": 6.4,
-       "first_flagged": "2026-11-07T17:20:41+00:00"
-      },
-      {
-       "id": "status:801216:Active:2026-05-11",
-       "type": "status_change",
-       "text": "MSHA status changed to Active",
-       "date": "2026-05-11",
-       "points": 2.9,
-       "first_flagged": "2026-11-07T17:20:41+00:00"
-      }
-     ],
-     "contacts": [
-      "gilberto.gonzalezg@cemex.com",
-      "chad.hustedde@cemex.com"
-     ]
-    },
-    {
-     "mine_id": "801436",
-     "name": "Immokalee Sand Mine",
-     "company": "Cemex",
-     "state": "FL",
-     "county": "Collier",
-     "score": 17.8,
-     "reasons": [
-      {
-       "id": "ramp:801436:2026Q2",
-       "type": "ramp_up",
-       "text": "Hours up +79% year over year (22 employees)",
-       "date": "2026-06-30",
-       "points": 17.8,
-       "first_flagged": "2026-10-05T14:13:10+00:00"
-      }
-     ],
-     "contacts": [
-      "gilberto.gonzalezg@cemex.com",
-      "chad.hustedde@cemex.com"
-     ]
-    }
-   ],
-   "company_news": [
-    {
-     "id": "cnews:https://concreteproducts.com/index.php/2026/11/02/maschmeyer-takes-bold-georgia-market-leap-with-ready-mix-usa/",
-     "type": "company_news",
-     "text": "Maschmeyer Concrete acquires Georgia operations from Cemex unit Ready Mix USA",
-     "date": "2026-11-02",
-     "points": 11.1,
-     "source": "https://concreteproducts.com/index.php/2026/11/02/maschmeyer-takes-bold-georgia-market-leap-with-ready-mix-usa/",
-     "sales_angle": "Touch base with Cemex regional materials leadership to see if downstream divestitures in Georgia are altering quarry production schedules or opening contract hauling opportunities.",
-     "first_flagged": "2026-11-02T20:45:10+00:00"
-    },
-    {
-     "id": "cnews:https://www.businesswire.com/news/home/20261019658403/en/Cemex-Supplies-Concrete-for-Major-Los-Angeles-Metro-Expansion",
-     "type": "company_news",
-     "text": "Cemex supplies 300,000 cubic yards of concrete for LA Metro D Line extension",
-     "date": "2026-10-19",
-     "points": 7.0,
-     "source": "https://www.businesswire.com/news/home/20261019658403/en/Cemex-Supplies-Concrete-for-Major-Los-Angeles-Metro-Expansion",
-     "sales_angle": "High-volume infrastructure supply commitments in Southern California strain regional aggregate supply; reach out to regional ops to offer contract quarrying and hauling support.",
-     "first_flagged": "2026-10-20T01:22:07+00:00"
     }
    ],
    "first_flagged": "2026-10-05T14:13:10+00:00",

@@ -1,6 +1,38 @@
 {
  "CRH/Oldcastle": [
   {
+   "headline": "CRH Americas Materials acquires Western Rock Resources and Columbia Northwest Recycling",
+   "date": "2026-11-09",
+   "summary": "CRH Americas Materials expanded its Pacific Northwest presence by acquiring Oregon-based Western Rock Resources and Columbia Northwest Recycling, adding four quarries and recycling assets.",
+   "sales_angle": "Reach out to CRH's Pacific Northwest leadership to pitch contract mining, mobile crushing, and pit development across the newly acquired quarry operations.",
+   "signal_type": "acquisition",
+   "strength": 3,
+   "verified": true,
+   "needs_source_check": true,
+   "source": "https://finance.yahoo.com/real-estate/articles/crh-americas-materials-expands-aggregates-210300488.html",
+   "publisher": "Yahoo Finance",
+   "found_by": "news",
+   "first_seen": "2026-11-13T21:03:53+00:00",
+   "also_reported_by": [
+    {
+     "url": "https://www.pitandquarry.com/crh-expands-oregon-aggregates-footprint/",
+     "publisher": "Pit & Quarry"
+    },
+    {
+     "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_TUA2DTGYK:0-crh-americas-materials-expands-aggregates-footprint-in-pacific-northwest-with-acquisition-in-oregon/",
+     "publisher": "TradingView"
+    },
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/crhs-oregon-acquisition-boost-pacific-182900473.html",
+     "publisher": "Yahoo Finance"
+    },
+    {
+     "url": "https://in.investing.com/news/stock-market-news/crh-acquires-oregon-quarry-operators-for-pacific-northwest-expansion-93CH-5691720",
+     "publisher": "Investing.com India"
+    }
+   ]
+  },
+  {
    "headline": "CRH Completes $8.5 Billion Acquisition of Arcosa",
    "date": "2026-10-23",
    "summary": "CRH has closed its approximately $8.5 billion acquisition of Arcosa Inc., significantly expanding its U.S. aggregates network and critical infrastructure materials portfolio.",
