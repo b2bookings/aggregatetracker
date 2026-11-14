@@ -5185,5 +5185,71 @@
   "mine_id": "4801189",
   "name": "Evans Wash Plant",
   "state": "WY"
+ },
+ "controller:203395:2026-10-23": {
+  "id": "controller:203395:2026-10-23",
+  "first_seen": "2026-11-14T17:36:43+00:00",
+  "type": "controller_change",
+  "controller": "CRH PLC",
+  "date": "2026-10-23",
+  "company": "CRH/Oldcastle",
+  "mine_id": "203395",
+  "name": "1008 Higley Site",
+  "state": "AZ"
+ },
+ "controller:203402:2026-10-23": {
+  "id": "controller:203402:2026-10-23",
+  "first_seen": "2026-11-14T17:36:43+00:00",
+  "type": "controller_change",
+  "controller": "CRH PLC",
+  "date": "2026-10-23",
+  "company": "CRH/Oldcastle",
+  "mine_id": "203402",
+  "name": "1011 Queen Creek #2",
+  "state": "AZ"
+ },
+ "status:505041:Abandoned:2026-11-12": {
+  "id": "status:505041:Abandoned:2026-11-12",
+  "first_seen": "2026-11-14T17:36:43+00:00",
+  "type": "status_change",
+  "status": "Abandoned",
+  "date": "2026-11-12",
+  "company": "CRH/Oldcastle",
+  "mine_id": "505041",
+  "name": "Portable Crusher # 5",
+  "state": "CO"
+ },
+ "status:1701036:Temporarily Idled:2026-11-12": {
+  "id": "status:1701036:Temporarily Idled:2026-11-12",
+  "first_seen": "2026-11-14T17:36:43+00:00",
+  "type": "status_change",
+  "status": "Temporarily Idled",
+  "date": "2026-11-12",
+  "company": "CRH/Oldcastle",
+  "mine_id": "1701036",
+  "name": "Crusher C654",
+  "state": "ME"
+ },
+ "controller:2003512:2026-10-16": {
+  "id": "controller:2003512:2026-10-16",
+  "first_seen": "2026-11-14T17:36:43+00:00",
+  "type": "controller_change",
+  "controller": "Carmeuse Holding SA",
+  "date": "2026-10-16",
+  "company": "Carmeuse",
+  "mine_id": "2003512",
+  "name": "Carl Schlegel Inc Portland Pit",
+  "state": "MI"
+ },
+ "status:2200812:Abandoned:2026-10-08": {
+  "id": "status:2200812:Abandoned:2026-10-08",
+  "first_seen": "2026-11-14T17:36:43+00:00",
+  "type": "status_change",
+  "status": "Abandoned",
+  "date": "2026-10-08",
+  "company": "CRH/Oldcastle",
+  "mine_id": "2200812",
+  "name": "Plant 1348-Goss",
+  "state": "MS"
  }
 }
