@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T19:58:01+00:00",
+ "generated_at": "2026-11-16T20:54:32+00:00",
  "accounts": [
   {
    "company": "CRH/Oldcastle",
@@ -1706,8 +1706,8 @@
    "flagged_site_count": 0,
    "sites": [],
    "company_news": [],
-   "first_flagged": "2026-11-16T19:58:01+00:00",
-   "latest_signal_at": "2026-11-16T19:58:01+00:00",
+   "first_flagged": "2026-11-16T20:54:32+00:00",
+   "latest_signal_at": "2026-11-16T20:54:32+00:00",
    "is_new": false
   }
  ],
