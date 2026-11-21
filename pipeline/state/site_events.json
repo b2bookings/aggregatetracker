@@ -5251,5 +5251,127 @@
   "mine_id": "2200812",
   "name": "Plant 1348-Goss",
   "state": "MS"
+ },
+ "controller:202928:2026-10-23": {
+  "id": "controller:202928:2026-10-23",
+  "first_seen": "2026-11-21T18:38:31+00:00",
+  "type": "controller_change",
+  "controller": "CRH PLC",
+  "date": "2026-10-23",
+  "company": "CRH/Oldcastle",
+  "mine_id": "202928",
+  "name": "Kingman Pit",
+  "state": "AZ"
+ },
+ "controller:504672:2026-10-30": {
+  "id": "controller:504672:2026-10-30",
+  "first_seen": "2026-11-21T18:38:31+00:00",
+  "type": "controller_change",
+  "controller": "Summit Materials LLC",
+  "date": "2026-10-30",
+  "company": "Summit Materials",
+  "mine_id": "504672",
+  "name": "Parshall Pit",
+  "state": "CO"
+ },
+ "status:1500094:Abandoned:2026-10-29": {
+  "id": "status:1500094:Abandoned:2026-10-29",
+  "first_seen": "2026-11-21T18:38:31+00:00",
+  "type": "status_change",
+  "status": "Abandoned",
+  "date": "2026-10-29",
+  "company": "CRH/Oldcastle",
+  "mine_id": "1500094",
+  "name": "Somerset Stone Company",
+  "state": "KY"
+ },
+ "status:1700877:Temporarily Idled:2026-10-12": {
+  "id": "status:1700877:Temporarily Idled:2026-10-12",
+  "first_seen": "2026-11-21T18:38:31+00:00",
+  "type": "status_change",
+  "status": "Temporarily Idled",
+  "date": "2026-10-12",
+  "company": "CRH/Oldcastle",
+  "mine_id": "1700877",
+  "name": "New Vineyard",
+  "state": "ME"
+ },
+ "status:2700160:Temporarily Idled:2026-11-13": {
+  "id": "status:2700160:Temporarily Idled:2026-11-13",
+  "first_seen": "2026-11-21T18:38:31+00:00",
+  "type": "status_change",
+  "status": "Temporarily Idled",
+  "date": "2026-11-13",
+  "company": "CRH/Oldcastle",
+  "mine_id": "2700160",
+  "name": "Pike Hill Quarry",
+  "state": "NH"
+ },
+ "controller:3401619:2026-10-28": {
+  "id": "controller:3401619:2026-10-28",
+  "first_seen": "2026-11-21T18:38:31+00:00",
+  "type": "controller_change",
+  "controller": "CRH PLC",
+  "date": "2026-10-28",
+  "company": "CRH/Oldcastle",
+  "mine_id": "3401619",
+  "name": "Colbert #2038",
+  "state": "OK"
+ },
+ "controller:4104290:2026-10-03": {
+  "id": "controller:4104290:2026-10-03",
+  "first_seen": "2026-11-21T18:38:31+00:00",
+  "type": "controller_change",
+  "controller": "Vulcan Materials Company",
+  "date": "2026-10-03",
+  "company": "Vulcan Materials",
+  "mine_id": "4104290",
+  "name": "Abilene Quarry",
+  "state": "TX"
+ },
+ "ramp:4104290:2026Q3": {
+  "id": "ramp:4104290:2026Q3",
+  "first_seen": "2026-11-21T18:38:31+00:00",
+  "type": "ramp_up",
+  "trend": 53.3,
+  "employees": 15,
+  "date": "2026-09-30",
+  "company": "Vulcan Materials",
+  "mine_id": "4104290",
+  "name": "Abilene Quarry",
+  "state": "TX"
+ },
+ "status:4503242:Abandoned:2026-11-06": {
+  "id": "status:4503242:Abandoned:2026-11-06",
+  "first_seen": "2026-11-21T18:38:31+00:00",
+  "type": "status_change",
+  "status": "Abandoned",
+  "date": "2026-11-06",
+  "company": "CRH/Oldcastle",
+  "mine_id": "4503242",
+  "name": "Dawson Sand & Gravel",
+  "state": "WA"
+ },
+ "controller:4503363:2026-10-23": {
+  "id": "controller:4503363:2026-10-23",
+  "first_seen": "2026-11-21T18:38:31+00:00",
+  "type": "controller_change",
+  "controller": "CRH PLC",
+  "date": "2026-10-23",
+  "company": "CRH/Oldcastle",
+  "mine_id": "4503363",
+  "name": "Kitsap Plant 1872",
+  "state": "WA"
+ },
+ "status:4503550:Abandoned:2026-11-06": {
+  "id": "status:4503550:Abandoned:2026-11-06",
+  "first_seen": "2026-11-21T18:38:31+00:00",
+  "type": "status_change",
+  "status": "Abandoned",
+  "date": "2026-11-06",
+  "company": "CRH/Oldcastle",
+  "mine_id": "4503550",
+  "name": "Portable 1",
+  "state": "WA"
  }
 }
