@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-23T22:32:25+00:00",
+ "generated_at": "2026-11-24T01:57:42+00:00",
  "accounts": [
   {
    "company": "CRH/Oldcastle",
-   "score": 146.2,
+   "score": 144.2,
    "flagged_site_count": 33,
    "sites": [
     {
@@ -12,14 +12,14 @@
      "company": "CRH/Oldcastle",
      "state": "MO",
      "county": "Adair",
-     "score": 59.9,
+     "score": 59.2,
      "reasons": [
       {
        "id": "controller:2302619:2026-10-29",
        "type": "controller_change",
        "text": "Ownership changed - controller now CRH PLC",
        "date": "2026-10-29",
-       "points": 22.5,
+       "points": 22.2,
        "first_flagged": "2026-11-07T17:20:41+00:00"
       },
       {
@@ -27,7 +27,7 @@
        "type": "status_change",
        "text": "MSHA status changed to New Mine",
        "date": "2026-10-13",
-       "points": 18.7,
+       "points": 18.5,
        "first_flagged": "2026-11-07T17:20:41+00:00"
       },
       {
@@ -35,7 +35,7 @@
        "type": "new_site",
        "text": "New site on MSHA record (New Mine)",
        "date": "2026-10-13",
-       "points": 18.7,
+       "points": 18.5,
        "first_flagged": "2026-11-07T17:20:41+00:00"
       }
      ],
@@ -50,7 +50,7 @@
      "company": "CRH/Oldcastle",
      "state": "KS",
      "county": "Johnson",
-     "score": 45.2,
+     "score": 45.0,
      "reasons": [
       {
        "id": "ramp:1400068:2026Q3",
@@ -73,7 +73,7 @@
        "type": "news",
        "text": "Olathe City Council approves 109-acre expansion for CRH's Johnson County Aggregates quarry",
        "date": "2026-10-12",
-       "points": 5.0,
+       "points": 4.8,
        "source": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsJq8vxKJG5PJZWX56tbLEEpG9KZyUJzdRkcg37mikQZhLGHG3ao0lpBk_7oij_mGC_9CvHaD3XiMol36EgwMZLctDg2JTUJBY7ECZloom8BpqMWTpHW7egbNsspjA65sKGE31ktaiwDY0xUfX8mXJBFP1MzhSd3pM7ObsJw==",
        "sales_angle": "Reach out to CRH's local operations leadership to offer overburden removal and pit development support for the newly approved 109-acre extraction area.",
        "first_flagged": "2026-10-19T16:56:10+00:00"
@@ -196,7 +196,7 @@
      "type": "company_news",
      "text": "CRH Americas Materials acquires Western Rock Resources and Columbia Northwest Recycling",
      "date": "2026-11-09",
-     "points": 15.1,
+     "points": 14.6,
      "source": "https://finance.yahoo.com/real-estate/articles/crh-americas-materials-expands-aggregates-210300488.html",
      "sales_angle": "Reach out to CRH's Pacific Northwest leadership to pitch contract mining, mobile crushing, and pit development across the newly acquired quarry operations.",
      "first_flagged": "2026-11-13T21:07:08+00:00"
@@ -206,7 +206,7 @@
      "type": "company_news",
      "text": "CRH Completes $8.5 Billion Acquisition of Arcosa",
      "date": "2026-10-23",
-     "points": 14.4,
+     "points": 13.9,
      "source": "https://www.citybiz.co/article/923489/crh-completes-8-5-billion-acquisition-of-arcosa-expanding-u-s-aggregates-and-infrastructure-business/",
      "sales_angle": "Reach out to CRH integration leadership to offer contract mining, overburden removal, and contract crushing across newly acquired Arcosa aggregate sites.",
      "first_flagged": "2026-10-23T15:44:20+00:00"
@@ -216,7 +216,7 @@
      "type": "company_news",
      "text": "NJ Attorney General requires CRH to divest asphalt plants under settlement",
      "date": "2026-10-22",
-     "points": 5.6,
+     "points": 5.4,
      "source": "https://www.insidernj.com/press-releases/ag-davenport-takes-action-to-move-to-protect-taxpayers-and-preserve-competition-in-proposed-crh-arcosa-merger",
      "sales_angle": "Connect with CRH Northeast asset management and regional leadership as they execute court-mandated divestitures and adjust regional operational footprints.",
      "first_flagged": "2026-10-22T15:53:34+00:00"
@@ -228,7 +228,7 @@
   },
   {
    "company": "Rogers Group",
-   "score": 117.8,
+   "score": 117.4,
    "flagged_site_count": 13,
    "sites": [
     {
@@ -237,7 +237,7 @@
      "company": "Rogers Group",
      "state": "TN",
      "county": "Loudon",
-     "score": 56.8,
+     "score": 56.6,
      "reasons": [
       {
        "id": "ramp:4003609:2026Q3",
@@ -260,7 +260,7 @@
        "type": "controller_change",
        "text": "Ownership changed - controller now Rogers Group Inc",
        "date": "2026-09-21",
-       "points": 14.5,
+       "points": 14.3,
        "first_flagged": "2026-10-10T16:52:32+00:00"
       }
      ],
@@ -305,7 +305,7 @@
      "company": "Rogers Group",
      "state": "VA",
      "county": "Shenandoah",
-     "score": 39.5,
+     "score": 39.4,
      "reasons": [
       {
        "id": "ramp:4400081:2026Q3",
@@ -328,7 +328,7 @@
        "type": "controller_change",
        "text": "Ownership changed - controller now Rogers Group Inc",
        "date": "2026-06-05",
-       "points": 4.2,
+       "points": 4.1,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -414,7 +414,7 @@
      "type": "company_news",
      "text": "Rogers Group pursues rezoning and annexation for 542-acre mine in North Carolina",
      "date": "2026-10-06",
-     "points": 4.9,
+     "points": 4.8,
      "source": "https://www.newlondonnc.org/",
      "sales_angle": "Contact Rogers Group greenfield project managers to introduce Turner Mining Group for site development, initial overburden removal, and pioneering services.",
      "first_flagged": "2026-10-05T15:14:01+00:00"
@@ -426,7 +426,7 @@
   },
   {
    "company": "Vulcan Materials",
-   "score": 112.7,
+   "score": 111.9,
    "flagged_site_count": 22,
    "sites": [
     {
@@ -435,7 +435,7 @@
      "company": "Vulcan Materials",
      "state": "TN",
      "county": "Marion",
-     "score": 44.8,
+     "score": 44.7,
      "reasons": [
       {
        "id": "ramp:4003605:2026Q3",
@@ -458,7 +458,7 @@
        "type": "controller_change",
        "text": "Ownership changed - controller now Vulcan Materials Company",
        "date": "2026-08-19",
-       "points": 9.9,
+       "points": 9.8,
        "first_flagged": "2026-10-05T14:13:10+00:00"
       }
      ],
@@ -598,7 +598,7 @@
      "type": "company_news",
      "text": "Vulcan Materials completes bolt-on acquisitions in southern Ohio and Tennessee",
      "date": "2026-10-29",
-     "points": 10.5,
+     "points": 10.2,
      "source": "https://www.prnewswire.com/news-releases/vulcan-reports-third-quarter-2026-results-302922797.html",
      "sales_angle": "Reach out to Vulcan's regional operating leadership in Tennessee and Ohio to offer contract drilling, overburden removal, and load-and-haul support across the newly integrated aggregate sites.",
      "first_flagged": "2026-11-02T20:02:55+00:00"
@@ -608,7 +608,7 @@
      "type": "company_news",
      "text": "Vulcan Materials Operations Support and Procurement SVP David Clement to Retire",
      "date": "2026-10-23",
-     "points": 5.8,
+     "points": 5.6,
      "source": "https://www.gurufocus.com/news/9138308/vulcan-materials-vmc-announces-retirement-of-senior-vp-david-p-clement",
      "sales_angle": "Reach out to Vulcan's operations leadership to maintain contact and introduce outsourced mining services as procurement and operational support leadership transitions.",
      "first_flagged": "2026-10-23T15:44:20+00:00"
@@ -618,7 +618,7 @@
      "type": "company_news",
      "text": "Vulcan Materials acquires Butler Quarry in Pendleton County, Kentucky",
      "date": "2026-09-30",
-     "points": 5.4,
+     "points": 5.2,
      "source": "https://www.aggbusiness.com/vulcan-materials-acquires-kentucky-quarry-from-greystone-client-hilltop-stone/",
      "sales_angle": "Reach out to Vulcan's regional leadership to pitch contract mining, pit development, and overburden stripping support during their operational integration of the new site.",
      "first_flagged": "2026-10-05T15:14:01+00:00"
@@ -630,7 +630,7 @@
   },
   {
    "company": "Cemex",
-   "score": 97.6,
+   "score": 94.7,
    "flagged_site_count": 4,
    "sites": [
     {
@@ -639,14 +639,14 @@
      "company": "Cemex",
      "state": "CA",
      "county": "Fresno",
-     "score": 63.6,
+     "score": 61.5,
      "reasons": [
       {
        "id": "news:https://www.kvpr.org/community/2026-11-12/ignoring-warning-of-catastrophic-risk-fresno-supervisors-greenlight-blast-mine-near-san-joaquin-river",
        "type": "news",
        "text": "Fresno County supervisors approve Cemex Rockfield Quarry blasting expansion",
        "date": "2026-11-12",
-       "points": 34.8,
+       "points": 33.6,
        "source": "https://www.kvpr.org/community/2026-11-12/ignoring-warning-of-catastrophic-risk-fresno-supervisors-greenlight-blast-mine-near-san-joaquin-river",
        "sales_angle": "Reach out to Cemex's Western region operations to offer contract drilling, blasting, and overburden removal services for the newly permitted deep-pit mining operation.",
        "first_flagged": "2026-11-13T21:07:08+00:00"
@@ -656,7 +656,7 @@
        "type": "news",
        "text": "Fresno County sets November appeal hearing for Cemex Rockfield Quarry deep-mining permit",
        "date": "2026-10-16",
-       "points": 8.6,
+       "points": 8.3,
        "source": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCqMrcbB4ZV2EtNXQXJCIZ2gL-gi3BOZPeVR7s1y6eeVs7ot9YM-LnLzxIzOYP2sKu5w5LpALuvZskKrGXHKeva_cOR6o2AOV7tl3ZBnGUWonSZlygrrHfOsHQ3qevZvDYW3L8r-_QsaIKC1T7kcdXPVzpvvOHH0t_Zqfn-CHuMpXzINQSyyG--ggXvI8i7bn3",
        "sales_angle": "Engage Cemex Western region operations leaders ahead of the November appeal hearing to position contract mining, drilling, blasting, and overburden stripping services tailored to the revised pit plan.",
        "first_flagged": "2026-10-19T16:56:10+00:00"
@@ -666,7 +666,7 @@
        "type": "news",
        "text": "Fresno County supervisors set to vote on Cemex Rockfield Quarry expansion",
        "date": "2026-11-13",
-       "points": 7.2,
+       "points": 7.0,
        "source": "https://www.yahoo.com/news/us/articles/fresno-county-supervisors-set-vote-071709371.html",
        "sales_angle": "Track the pending vote to engage Cemex leadership immediately upon approval for potential contract stripping and quarry development work.",
        "first_flagged": "2026-11-13T21:07:08+00:00"
@@ -676,7 +676,7 @@
        "type": "news",
        "text": "Fresno County Planning Commission deadlocks on Cemex Rockfield Quarry blasting permit",
        "date": "2026-10-08",
-       "points": 6.6,
+       "points": 6.4,
        "source": "https://fresnoland.org/2026/10/08/san-joaquin-river-blast-mine/",
        "sales_angle": "Engage Cemex's Western regional management to offer contract mechanical ripping and overburden removal solutions should hard-rock blasting permits face continued regulatory delays.",
        "first_flagged": "2026-10-09T17:26:30+00:00"
@@ -686,7 +686,7 @@
        "type": "news",
        "text": "Fresno County releases Final EIR for CEMEX Rockfield Quarry expansion",
        "date": "2026-09-28",
-       "points": 6.3,
+       "points": 6.1,
        "source": "https://files.ceqanet.lci.ca.gov/262313-4/attachment/s7Y1DIoZWYubZpj6-owdEE86SFaWtW-PYEpOQmtR1LdE01jerIInErhHvKo0Uvb-Gf-XIZiGP_1Hpaw_0",
        "sales_angle": "Reach out to CEMEX California leadership now, as transitioning to deep hard rock extraction will require drilling, blasting, and heavy earthmoving support once permits are approved.",
        "first_flagged": "2026-10-05T15:14:01+00:00"
@@ -710,14 +710,14 @@
      "company": "Cemex",
      "state": "CO",
      "county": "Boulder",
-     "score": 37.5,
+     "score": 36.2,
      "reasons": [
       {
        "id": "news:https://www.indexbox.io/blog/cemex-to-lay-off-at-least-70-workers-at-colorado-cement-plant-starting-november-2026/",
        "type": "news",
        "text": "Cemex to lay off over 70 workers at Lyons cement plant in Colorado",
        "date": "2026-11-21",
-       "points": 37.4,
+       "points": 36.2,
        "source": "https://www.indexbox.io/blog/cemex-to-lay-off-at-least-70-workers-at-colorado-cement-plant-starting-november-2026/",
        "sales_angle": "Reach out to Cemex regional operations management to offer contract quarrying, mobile crushing, and material handling support to bridge operational gaps caused by the workforce reduction.",
        "first_flagged": "2026-10-09T17:26:30+00:00"
@@ -727,7 +727,7 @@
        "type": "news",
        "text": "County reverses shutdown order; plant's right to operate reinstated",
        "date": "2026-05-19",
-       "points": 0.1,
+       "points": 0.0,
        "source": "https://coloradosun.com/2026/05/21/boulder-county-reverses-allows-cemex-to-keep-operating-kiln/",
        "sales_angle": "A site that came within one appeal of being shut down entirely, now cleared to keep running under intensified community and regulatory scrutiny — exactly the kind of high-stakes operating environment where TMG's execution discipline matters most.",
        "first_flagged": "2026-10-09T17:26:30+00:00"
@@ -802,7 +802,7 @@
      "type": "company_news",
      "text": "Maschmeyer Concrete acquires Georgia operations from Cemex unit Ready Mix USA",
      "date": "2026-11-02",
-     "points": 8.0,
+     "points": 7.7,
      "source": "https://concreteproducts.com/index.php/2026/11/02/maschmeyer-takes-bold-georgia-market-leap-with-ready-mix-usa/",
      "sales_angle": "Touch base with Cemex regional materials leadership to see if downstream divestitures in Georgia are altering quarry production schedules or opening contract hauling opportunities.",
      "first_flagged": "2026-11-02T20:45:10+00:00"
@@ -812,7 +812,7 @@
      "type": "company_news",
      "text": "Cemex supplies 300,000 cubic yards of concrete for LA Metro D Line extension",
      "date": "2026-10-19",
-     "points": 5.0,
+     "points": 4.9,
      "source": "https://www.businesswire.com/news/home/20261019658403/en/Cemex-Supplies-Concrete-for-Major-Los-Angeles-Metro-Expansion",
      "sales_angle": "High-volume infrastructure supply commitments in Southern California strain regional aggregate supply; reach out to regional ops to offer contract quarrying and hauling support.",
      "first_flagged": "2026-10-20T01:22:07+00:00"
@@ -1132,7 +1132,7 @@
   },
   {
    "company": "Amrize",
-   "score": 72.1,
+   "score": 71.8,
    "flagged_site_count": 11,
    "sites": [
     {
@@ -1170,7 +1170,7 @@
      "company": "Amrize",
      "state": "MN",
      "county": "Washington",
-     "score": 27.2,
+     "score": 26.8,
      "reasons": [
       {
        "id": "ramp:2100535:2026Q2",
@@ -1185,7 +1185,7 @@
        "type": "news",
        "text": "Minnesota opens public comment on wastewater permit for Amrize Nelson Plant",
        "date": "2026-10-20",
-       "points": 9.8,
+       "points": 9.4,
        "source": "https://comment.pca.state.mn.us/amrize-nelson-plant-wastewater-permit",
        "sales_angle": "Touch base with Amrize's Midwest aggregate leadership to discuss contract dredging support, overburden stripping, and pit maintenance as the permit moves toward reissuance.",
        "first_flagged": "2026-10-26T16:33:44+00:00"
@@ -1210,14 +1210,14 @@
      "company": "Amrize",
      "state": "MI",
      "county": "Washtenaw",
-     "score": 23.7,
+     "score": 23.4,
      "reasons": [
       {
        "id": "status:2003423:Active:2026-10-19",
        "type": "status_change",
        "text": "MSHA status changed to Active",
        "date": "2026-10-19",
-       "points": 16.7,
+       "points": 16.5,
        "first_flagged": "2026-10-24T15:18:23+00:00"
       },
       {
@@ -1225,7 +1225,7 @@
        "type": "news",
        "text": "Amrize seeks special land use permit for 122-acre gravel expansion in Sharon Township",
        "date": "2026-09-28",
-       "points": 4.7,
+       "points": 4.6,
        "source": "https://themanchestermirror.com/2026/09/28/public-notice-sharon-township-17/",
        "sales_angle": "Contact Amrize's Michigan aggregate leadership to track the permit approval process and position contract overburden stripping and site development services.",
        "first_flagged": "2026-10-05T15:14:01+00:00"
@@ -1298,7 +1298,7 @@
      "type": "company_news",
      "text": "Amrize invests $10.2M to expand Memphis cement distribution terminal",
      "date": "2026-10-27",
-     "points": 3.3,
+     "points": 3.2,
      "source": "https://www.bizjournals.com/memphis/news/2026/10/27/amrizes-10m-cement-expansion-presidents-island.html",
      "sales_angle": "Touch base with Amrize regional operations to support upstream cement plants and raw material quarries that will feed increased throughput at the Memphis terminal.",
      "first_flagged": "2026-10-28T01:53:15+00:00"
@@ -1375,7 +1375,7 @@
   },
   {
    "company": "Carmeuse",
-   "score": 44.6,
+   "score": 44.4,
    "flagged_site_count": 3,
    "sites": [
     {
@@ -1414,14 +1414,14 @@
      "company": "Carmeuse",
      "state": "MI",
      "county": "Chippewa",
-     "score": 24.6,
+     "score": 23.8,
      "reasons": [
       {
        "id": "news:https://im-mining.com/2026/11/17/carmeuse-on-its-new-autonomous-cat-777-fleet-and-the-bigger-picture/",
        "type": "news",
        "text": "Carmeuse Deploys Autonomous Cat 777 Haul Fleet at Drummond Island Quarry",
        "date": "2026-11-17",
-       "points": 24.6,
+       "points": 23.8,
        "source": "https://im-mining.com/2026/11/17/carmeuse-on-its-new-autonomous-cat-777-fleet-and-the-bigger-picture/",
        "sales_angle": "Reach out to Drummond Island quarry management to offer contract overburden stripping and specialized pit support as site operations transition to autonomous production haulage.",
        "first_flagged": "2026-11-18T03:58:08+00:00"
@@ -1462,7 +1462,7 @@
   },
   {
    "company": "Quikrete",
-   "score": 42.1,
+   "score": 41.5,
    "flagged_site_count": 2,
    "sites": [
     {
@@ -1510,7 +1510,7 @@
      "type": "company_news",
      "text": "Summit County approves 7-year conditional permit for Quikrete's Silverthorne gravel pit",
      "date": "2026-10-13",
-     "points": 6.2,
+     "points": 6.0,
      "source": "https://krystal93.com/silverthorne-gravel-pit-safe-for-7-years-with-a-compromise-by-county-commissioners/",
      "sales_angle": "Contact Quikrete's Colorado operations team to discuss contract mining, load-and-haul, and pit optimization services to maximize production efficiency during the approved seven-year window.",
      "first_flagged": "2026-10-19T16:56:10+00:00"
@@ -1520,7 +1520,7 @@
      "type": "company_news",
      "text": "Quikrete 10-year permit extension appealed in Summit County, Colorado",
      "date": "2026-10-01",
-     "points": 4.2,
+     "points": 4.0,
      "source": "https://www.folbr.org/news/general-news/330-quikrete-10-year-conditional-use-permit-to-be-appealed",
      "sales_angle": "Monitor the permit outcome to engage Quikrete's Colorado operations on contracted pit support and compliance needs if operational constraints are imposed.",
      "first_flagged": "2026-10-12T19:41:24+00:00"
@@ -1530,7 +1530,7 @@
      "type": "company_news",
      "text": "Quikrete temporarily idles Silverthorne plant due to regional gas pipeline disruption",
      "date": "2026-10-29",
-     "points": 3.5,
+     "points": 3.4,
      "source": "https://www.summitdaily.com/news/silverthorne-quikcrete-asphalt-plant-temporarily-shuts-down-after-historic-flooding-in-pagosa-springs-disrupting-local-construction-projects/",
      "sales_angle": "Check in with regional Colorado operations management on plant restart timing and assess if temporary contract load and haul support will be needed to catch up on production backlogs.",
      "first_flagged": "2026-10-29T02:01:38+00:00"
@@ -1540,7 +1540,7 @@
      "type": "company_news",
      "text": "Missouri DNR issues open-pit limestone permit for Quikrete's Jasper Quarry #15",
      "date": "2026-09-29",
-     "points": 2.6,
+     "points": 2.5,
      "source": "https://gis-modnr.opendata.arcgis.com/datasets/modnr::permit-boundary/explore?showTable=true",
      "sales_angle": "Connect with Midwest Minerals and Quikrete operational leads to offer contract overburden removal, drilling, and blasting support under the newly active quarry permit.",
      "first_flagged": "2026-10-05T15:14:01+00:00"
@@ -1552,7 +1552,7 @@
   },
   {
    "company": "Eagle Materials",
-   "score": 30.8,
+   "score": 30.4,
    "flagged_site_count": 2,
    "sites": [
     {
@@ -1561,7 +1561,7 @@
      "company": "Eagle Materials",
      "state": "WY",
      "county": "Albany",
-     "score": 22.9,
+     "score": 22.6,
      "reasons": [
       {
        "id": "news:https://ir.eaglematerials.com/news-releases/news-release-details/eagle-materials-announces-plans-modernize-and-expand-its-cement",
@@ -1578,7 +1578,7 @@
        "type": "news",
        "text": "Fatal material handling accident at Eagle Materials' Mountain Cement plant",
        "date": "2026-10-22",
-       "points": 10.4,
+       "points": 10.1,
        "source": "https://www.msha.gov/data-reports/fatality-reports/2026/october-22-2026-fatality",
        "sales_angle": "Reach out to Mountain Cement plant operations and safety leadership to offer vetted, MSHA-compliant contract material handling and pit support during ongoing safety reviews and operational stand-downs.",
        "first_flagged": "2026-11-02T20:02:55+00:00"
@@ -1620,7 +1620,7 @@
      "type": "company_news",
      "text": "Nevada Cement advances EIR for Stockton distribution terminal expansion in California",
      "date": "2026-10-22",
-     "points": 2.8,
+     "points": 2.7,
      "source": "https://www.portofstockton.com/white-papers/",
      "sales_angle": "Check in with Nevada Cement management to see if higher terminal distribution capacity will drive increased kiln feed mining and contract quarrying requirements at their production sites.",
      "first_flagged": "2026-10-26T16:33:44+00:00"
@@ -1632,7 +1632,7 @@
   },
   {
    "company": "Buzzi Unicem",
-   "score": 5.0,
+   "score": 4.9,
    "flagged_site_count": 0,
    "sites": [],
    "company_news": [
@@ -1641,7 +1641,7 @@
      "type": "company_news",
      "text": "Buzzi subsidiary Alamo Concrete acquires Big Town Concrete in Dallas-Fort Worth",
      "date": "2026-10-19",
-     "points": 5.0,
+     "points": 4.9,
      "source": "https://www.buzziunicemusa.com/w/alamo-concrete-expands-its-operations-in-the-dallas/fort-worth-market",
      "sales_angle": "Connect with Buzzi Unicem and Alamo Concrete leadership to explore whether increased downstream ready-mix demand requires increased quarry production or contract overburden stripping at their Texas cement and aggregate operations.",
      "first_flagged": "2026-10-19T16:56:10+00:00"
@@ -1653,12 +1653,12 @@
   },
   {
    "company": "CalPortland",
-   "score": 0.5,
+   "score": 0.4,
    "flagged_site_count": 0,
    "sites": [],
    "company_news": [],
-   "first_flagged": "2026-11-23T22:32:25+00:00",
-   "latest_signal_at": "2026-11-23T22:32:25+00:00",
+   "first_flagged": "2026-11-24T01:57:42+00:00",
+   "latest_signal_at": "2026-11-24T01:57:42+00:00",
    "is_new": false
   }
  ],
@@ -1673,14 +1673,14 @@
    "linkedin": "http://www.linkedin.com/in/brandon-lefevre-755976120",
    "sf_id": null,
    "linked_site": "2302619",
-   "score": 29.9,
+   "score": 29.6,
    "reasons": [
     {
      "id": "site:brandon.lefevre@na.crh.com:2302619",
      "type": "site_signal",
      "text": "Best-placed contact for Bushwhacker Quarry (MO) - Ownership changed - controller now CRH PLC",
      "date": "2026-10-29",
-     "points": 29.9,
+     "points": 29.6,
      "first_flagged": "2026-11-07T17:20:41+00:00"
     }
    ],
@@ -1698,14 +1698,14 @@
    "linkedin": "http://www.linkedin.com/in/dwayne-boyd-54765656",
    "sf_id": null,
    "linked_site": "2302619",
-   "score": 29.9,
+   "score": 29.6,
    "reasons": [
     {
      "id": "site:dwayne.boyd@na.crh.com:2302619",
      "type": "site_signal",
      "text": "Best-placed contact for Bushwhacker Quarry (MO) - Ownership changed - controller now CRH PLC",
      "date": "2026-10-29",
-     "points": 29.9,
+     "points": 29.6,
      "first_flagged": "2026-11-07T17:20:41+00:00"
     }
    ],
@@ -1723,14 +1723,14 @@
    "linkedin": "http://www.linkedin.com/in/derek-roberts-53323b16",
    "sf_id": null,
    "linked_site": "4003609",
-   "score": 28.4,
+   "score": 28.3,
    "reasons": [
     {
      "id": "site:derek.roberts@rogersgroupinc.com:4003609",
      "type": "site_signal",
      "text": "Best-placed contact for Blount-Loudon Quarry (TN) - Hours up +92% year over year (15 employees)",
      "date": "2026-09-30",
-     "points": 28.4,
+     "points": 28.3,
      "first_flagged": "2026-10-10T16:52:32+00:00"
     }
    ],
@@ -1748,14 +1748,14 @@
    "linkedin": "http://www.linkedin.com/in/john-ross-harvell-aa7894166",
    "sf_id": null,
    "linked_site": "4003609",
-   "score": 28.4,
+   "score": 28.3,
    "reasons": [
     {
      "id": "site:jharvell@rogersgroupinc.com:4003609",
      "type": "site_signal",
      "text": "Best-placed contact for Blount-Loudon Quarry (TN) - Hours up +92% year over year (15 employees)",
      "date": "2026-09-30",
-     "points": 28.4,
+     "points": 28.3,
      "first_flagged": "2026-10-10T16:52:32+00:00"
     }
    ],
@@ -1773,14 +1773,14 @@
    "linkedin": "http://www.linkedin.com/in/joelgalassini",
    "sf_id": null,
    "linked_site": "1400068",
-   "score": 22.6,
+   "score": 22.5,
    "reasons": [
     {
      "id": "site:joel.galassini@crh.com:1400068",
      "type": "site_signal",
      "text": "Best-placed contact for Johnson County Aggregates (KS) - Hours up +58% year over year (33 employees)",
      "date": "2026-09-30",
-     "points": 22.6,
+     "points": 22.5,
      "first_flagged": "2026-10-07T01:55:19+00:00"
     }
    ],
@@ -2173,14 +2173,14 @@
    "linkedin": "http://www.linkedin.com/sales/lead/ACwAAADJqEABIw5NpzR471UP5E2NDu6ENnQIPUQ",
    "sf_id": null,
    "linked_site": "4400081",
-   "score": 19.8,
+   "score": 19.7,
    "reasons": [
     {
      "id": "site:nick.dibartolo@rogersgroupinc.com:4400081",
      "type": "site_signal",
      "text": "Best-placed contact for Flatrock Quarry (VA) - Hours up +51% year over year (13 employees)",
      "date": "2026-09-30",
-     "points": 19.8,
+     "points": 19.7,
      "first_flagged": "2026-10-05T14:13:10+00:00"
     }
    ],
